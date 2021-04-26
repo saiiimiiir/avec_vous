@@ -1,0 +1,87 @@
+@import './Setup.scss';
+
+#construction{
+    @include flexCenter(column);
+    margin: 50px;
+    width: 1000px;
+    height: 700px;
+    margin: auto auto;
+    .titre{
+        text-transform: uppercase;
+        color: $blue;
+        text-align: center;
+        @include typoExtraBold;
+        .yellowText{
+            color: $yellow;
+        }
+    }
+    .containerTitre{
+        background-color: $yellow;
+        width: 100%;
+        @include flexCenter(row);
+
+        .sousTitre{
+            letter-spacing: 2px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 45px;
+            letter-spacing: 2px;
+            line-height: 65px;
+            .whiteText{
+                @include typoExtraBold;
+                color: white;
+                text-transform: uppercase;
+            }
+            .bluetext{
+                @include typoExtraBold;
+                text-transform: uppercase;
+                color: $blue;
+            }
+        }
+    }
+    .imageContainer{
+        @include flexStart(row);
+        position: relative;
+        width: 100%;
+        #votezImg{
+            width : 20%;
+            position: absolute;
+            top: -30px;
+        }
+        #logoImg{
+            position: relative;
+            margin: 20px 0px;
+            left: 50%;
+            transform: translate(-50%);
+            width : 60%;
+            align-self: center;
+        }
+    }
+    .containerFooter{
+        background-color: $yellow;
+        width: 95%;
+        margin-left: auto;
+        position: relative;
+        @include flexCenter(row);
+        .footerText{
+            text-transform: uppercase;
+            color: white;
+            @include typoSemiBold;
+            text-align: center;
+            font-size: 35px;
+            vertical-align: middle;
+        }
+    }
+    .containerFooter:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    border-top: 40px solid white;
+    border-right: 60px solid $yellow;
+    width: 0;
+}
+}
+
+@media screen and (max-width: 800) {
+    
+}

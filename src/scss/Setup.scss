@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@600;800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 $blue : #004a8f;
 $yellow : #b5a26a;
 
 @mixin typoExtraBold(){
     font-family: 'Biryani', sans-serif;
-    font: 800;
+    font-weight: 800;
 }
 
 @mixin typoSemiBold(){
     font-family: 'Biryani', sans-serif;
-    font: 600;
+    font-weight: 600;
 }
 
 @mixin flexCenter($direction){
