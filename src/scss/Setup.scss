@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@600;800&display=swap');
+
+$blue : #004a8f;
+$yellow : #b5a26a;
+
+@mixin typoExtraBold(){
+    font-family: 'Biryani', sans-serif;
+    font: 800;
+}
+
+@mixin typoSemiBold(){
+    font-family: 'Biryani', sans-serif;
+    font: 600;
+}
+
+@mixin flexCenter($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexStart($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@mixin flexEnd($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

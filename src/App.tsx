@@ -9,18 +9,24 @@ import {
 } from "react-router-dom";
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
+import Construction from './Pages/Construction';
 
 function App() {
   return (
   <Router>
       <Switch>
         <Route path="/">
-          <Home/>
+          <Construction/>
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/home">
+          <Home />
         </Route>
       </Switch>
       <Switch>
         <Route path="/role">
-
+          
         </Route>
       </Switch>
       <Switch>
