@@ -8,13 +8,14 @@ import {
   Link
 } from "react-router-dom";
 import Footer from './Components/Footer';
+import Home from './Pages/Home';
 
 function App() {
   return (
   <Router>
       <Switch>
         <Route path="/">
-
+          <Home/>
         </Route>
       </Switch>
       <Switch>
