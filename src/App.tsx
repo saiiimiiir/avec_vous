@@ -11,6 +11,7 @@ import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import Construction from './Pages/Construction';
 import Canton from './Pages/Canton';
+import Roles from './Pages/Roles';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/role">
-          
+          <Roles/>
         </Route>
       </Switch>
       <Switch>

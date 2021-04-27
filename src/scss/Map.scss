@@ -2,14 +2,29 @@
 
 .cls-1 {
     fill: #bda663;
+    cursor : pointer;
 }
 
 .cls-2 {
     fill: #cebc6a;
+    cursor : pointer;
 }
 
 .cls-3 {
     fill: #d4c59a;
+    cursor : pointer;
+}
+
+.cls-1:hover {
+    fill: $blue;
+}
+
+.cls-2:hover {
+    fill: $blue;
+}
+
+.cls-3:hover {
+    fill: $blue;
 }
 
 .cls-4 {
