@@ -39,3 +39,18 @@ $yellow : #b5a26a;
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+.whiteText{
+    @include typoExtraBold;
+    color: white;
+    text-transform: uppercase;
+}
+.bluetext{
+    @include typoExtraBold;
+    text-transform: uppercase;
+    color: $blue;
+}
+
+.yellowText{
+    color : $yellow;
+}

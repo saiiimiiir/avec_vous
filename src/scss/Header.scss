@@ -1,0 +1,91 @@
+@import './Setup.scss';
+
+#header{
+    @include flexCenter(column);
+    margin: 50px;
+    width: 1000px;
+    height: 700px;
+    margin: auto auto;
+    .titre{
+        text-transform: uppercase;
+        color: $blue;
+        text-align: center;
+        @include typoExtraBold;
+        span{
+            color: $yellow;
+        }
+    }
+    .containerTitre{
+        background-color: $yellow;
+        width: 100%;
+        @include flexCenter(row);
+
+        .sousTitre{
+            letter-spacing: 2px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 45px;
+            letter-spacing: 2px;
+            line-height: 65px;
+            
+        }
+    }
+    .imageContainer{
+        @include flexStart(row);
+        position: relative;
+        width: 100%;
+        #trinagle{
+            height: 200%;
+            left: 0;
+            top: 50%;
+            transform: translate(0,-50%);
+            position: absolute;
+            z-index: 5;
+        }
+        #logoImg{
+            position: relative;
+            margin: 20px 0px;
+            left: 50%;
+            transform: translate(-50%);
+            width : 60%;
+            align-self: center;
+        }
+        .nav{
+            margin: auto 0px 15px auto;
+            li{
+                list-style: none;
+                text-align: right;
+                @include typoSemiBold;
+                font-size: 1rem;
+                line-height: 110%;
+                a{
+                    text-decoration: none;
+                    color: $blue;
+                }
+                a:visited{
+                    color: $blue;
+                }
+            }
+        }
+    }
+    .containerFooter{
+        background-color: $yellow;
+        width: 100%;
+        height: 60px;
+        @include flexCenter(row);
+        .footerText{
+            text-transform: uppercase;
+            color: white;
+            @include typoSemiBold;
+            text-align: center;
+            font-size: 30px;
+            vertical-align: middle;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 800) {
+    
+}

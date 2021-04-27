@@ -7,7 +7,7 @@ export default class Home extends Component {
         return (
             <div>
                 <Header/>
-                Acceuil
+                
                 <Footer/>
             </div>
         )

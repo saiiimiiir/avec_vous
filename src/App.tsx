@@ -15,27 +15,27 @@ function App() {
   return (
   <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Construction/>
         </Route>
       </Switch>
       <Switch>
-        <Route path="/home">
+        <Route exact path="/home">
           <Home />
         </Route>
       </Switch>
       <Switch>
-        <Route path="/role">
+        <Route exact path="/role">
           
         </Route>
       </Switch>
       <Switch>
-        <Route path="/actions">
+        <Route exact path="/actions">
 
         </Route>
       </Switch>
       <Switch>
-        <Route path="/pour-le-canton">
+        <Route exact path="/pour-le-canton">
 
         </Route>
       </Switch>
