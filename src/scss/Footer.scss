@@ -1,0 +1,24 @@
+@import './Setup.scss';
+
+#footer{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $yellow;
+    .logoFooter{
+        width : 50%;
+        @include flexCenter(row);
+        img{
+            width: 88px;
+            height: 88px;
+        }
+    }
+    .contact{
+        i{
+            color : $blue;
+        }
+    }
+}
