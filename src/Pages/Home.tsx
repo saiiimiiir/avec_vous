@@ -5,7 +5,16 @@ import triangle from '../asset/acceuil/traingle_titre.png'
 import Map from '../Components/Map'
 import '../scss/Home.scss'
 
-export default class Home extends Component {
+interface HomeState{
+    idCantonSelected : number,
+}
+export default class Home extends Component<{},HomeState> {
+    constructor(props : {}){
+        super(props)
+        this.state={
+            idCantonSelected : 0
+        }
+    }
     render() {
         return (
             <div id="home">
@@ -17,13 +26,69 @@ export default class Home extends Component {
                     </div>
                     <div className="listeCantons">
                         <div>
-                            <span className="cantonText">1 . beaugency</span>
-                            <span className="cantonText">2 . châlette-sur-loing</span>
-                            <span className="cantonText">3 . châteauneuf-sur-loire</span>
-                            <span className="cantonText">4 . courtenay</span>
-                            <span className="cantonText">5 . la ferté-saint-aubin</span>
-                            <span className="cantonText">6 . fleury-les-aubrais</span>
-                            <span className="cantonText">7 . gien</span>
+                            <span className="cantonText" 
+                            onMouseOver={(e : any)=>{
+                                this.setState({
+                                    idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
+                                })
+                                console.log(this.state.idCantonSelected)
+                            }}
+                            onMouseLeave={()=>this.setState({idCantonSelected : 0})}
+                            >1 . beaugency</span>
+                            <span className="cantonText" 
+                            onMouseOver={(e : any)=>{
+                                this.setState({
+                                    idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
+                                })
+                                console.log(this.state.idCantonSelected)
+                            }}
+                            onMouseLeave={()=>this.setState({idCantonSelected : 0})}
+                            >2 . châlette-sur-loing</span>
+                            <span className="cantonText" 
+                            onMouseOver={(e : any)=>{
+                                this.setState({
+                                    idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
+                                })
+                                console.log(this.state.idCantonSelected)
+                            }}
+                            onMouseLeave={()=>this.setState({idCantonSelected : 0})}
+                            >3 . châteauneuf-sur-loire</span>
+                            <span className="cantonText" 
+                            onMouseOver={(e : any)=>{
+                                this.setState({
+                                    idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
+                                })
+                                console.log(this.state.idCantonSelected)
+                            }}
+                            onMouseLeave={()=>this.setState({idCantonSelected : 0})}
+                            >4 . courtenay</span>
+                            <span className="cantonText" 
+                            onMouseOver={(e : any)=>{
+                                this.setState({
+                                    idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
+                                })
+                                console.log(this.state.idCantonSelected)
+                            }}
+                            onMouseLeave={()=>this.setState({idCantonSelected : 0})}
+                            >5 . la ferté-saint-aubin</span>
+                            <span className="cantonText" 
+                            onMouseOver={(e : any)=>{
+                                this.setState({
+                                    idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
+                                })
+                                console.log(this.state.idCantonSelected)
+                            }}
+                            onMouseLeave={()=>this.setState({idCantonSelected : 0})}
+                            >6 . fleury-les-aubrais</span>
+                            <span className="cantonText" 
+                            onMouseOver={(e : any)=>{
+                                this.setState({
+                                    idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
+                                })
+                                console.log(this.state.idCantonSelected)
+                            }}
+                            onMouseLeave={()=>this.setState({idCantonSelected : 0})}
+                            >7 . gien</span>
                         </div>
                         <div>
                             <span className="cantonText">8 . lorris</span>
@@ -45,7 +110,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <Map idSelected={2}/>
+                <Map idSelected={this.state.idCantonSelected != 0 ? this.state.idCantonSelected : 0}/>
                 <Footer/>
             </div>
         )

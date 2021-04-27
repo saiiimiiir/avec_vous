@@ -20,7 +20,12 @@
             justify-content: space-between;
             align-items: flex-start;
             div{
-                @include flexStart(column)
+                @include flexStart(column);
+                .cantonText{
+                    color : $blue;
+                    @include typoSemiBold;
+                    line-height: 130%;
+                }
             }
         }
     }
