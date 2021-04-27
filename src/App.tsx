@@ -10,6 +10,7 @@ import {
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import Construction from './Pages/Construction';
+import Canton from './Pages/Canton';
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/pour-le-canton">
-
+          <Canton/>
         </Route>
       </Switch>
     </Router>

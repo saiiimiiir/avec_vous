@@ -10,6 +10,11 @@
                 color : $blue;
                 @include typoSemiBold;
                 font-size: 40px;
+                text-transform: uppercase;
+            }
+            .strong{
+                font-size: 55px;
+                font-weight: bolder;
             }
         }
         .listeCantons{
@@ -27,6 +32,14 @@
                     line-height: 130%;
                 }
             }
+        }
+    }
+    .infoMap{
+        margin: 15px 0px;
+        background-color: $yellow;
+        @include flexCenter(row);
+        span{
+            text-align: center;
         }
     }
 }

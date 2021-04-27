@@ -22,7 +22,7 @@ export default class Home extends Component<{},HomeState> {
                 <div className="cantons">
                     <div className="titreCantons">
                         <img src={triangle}/>
-                        <h3>pour nos 21 cantons</h3>
+                        <h3>pour nos <span className="strong">21</span> cantons</h3>
                     </div>
                     <div className="listeCantons">
                         <div>
@@ -221,6 +221,11 @@ export default class Home extends Component<{},HomeState> {
                             >21 . sully-sur-loire</span>
                         </div>
                     </div>
+                </div>
+                <div className="infoMap">
+                    <span className="whiteText">
+                        cliquez sur <span className="bluetext">votre canton</span> pour tout savoir de vos prétendants officiels et de leur programme.
+                    </span>
                 </div>
                 <Map idSelected={this.state.idCantonSelected != 0 ? this.state.idCantonSelected : 0}/>
                 <Footer/>

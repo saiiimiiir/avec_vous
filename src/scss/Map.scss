@@ -35,6 +35,18 @@
 }
 
 #map{
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
+    position: relative;
+    @include flexCenter(column);
+    #svgMap{
+        width: 70%;
+        margin: 0px auto;
+    }
+    #votez{
+        position: absolute;
+        left: 0;
+        top : 0;
+        width: 20%;
+    }
 }
