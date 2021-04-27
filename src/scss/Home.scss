@@ -1,0 +1,27 @@
+@import './Setup.scss';
+
+#home{
+    width: 80%;
+    margin: 0 auto;
+    .cantons{
+        .titreCantons{
+        @include flexCenter(row);
+            h3{
+                color : $blue;
+                @include typoSemiBold;
+                font-size: 40px;
+            }
+        }
+        .listeCantons{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            div{
+                @include flexStart(column)
+            }
+        }
+    }
+}

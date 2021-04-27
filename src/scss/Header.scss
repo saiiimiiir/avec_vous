@@ -2,10 +2,8 @@
 
 #header{
     @include flexCenter(column);
-    margin: 50px;
-    width: 1000px;
-    height: 700px;
-    margin: auto auto;
+    width: 100%;
+    margin: 15px auto;
     .titre{
         text-transform: uppercase;
         color: $blue;
