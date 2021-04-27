@@ -1,0 +1,40 @@
+@import './Setup.scss';
+
+.cls-1 {
+    fill: #bda663;
+}
+
+.cls-2 {
+    fill: #cebc6a;
+}
+
+.cls-3 {
+    fill: #d4c59a;
+}
+
+.cls-4 {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+}
+
+.cls-5 {
+    fill: #fff;
+}
+
+.cls-6 {
+    font-size: 10.69px;
+    font-family: Arial-BoldMT, Arial;
+    font-weight: 700;
+}
+
+.hovered{
+    fill : $hoverBlue;
+}
+
+#map{
+    width: 80%;
+    margin: 10px auto;
+}
