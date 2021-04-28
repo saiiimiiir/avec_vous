@@ -10,6 +10,7 @@
     border-top: 1px solid $yellow;
     .logoFooter{
         @include flexCenter(row);
+        line-height: 110%;
         .lightWeight{
             font-weight: 200;
             font-size: 12px;

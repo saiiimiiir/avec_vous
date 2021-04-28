@@ -4,6 +4,25 @@
     @include flexCenter(column);
     width: 100%;
     margin: 15px auto;
+    .ancre{
+        position: fixed;
+        top : 80vh;
+        right: 5px;
+        cursor: pointer;
+        padding: 5px;
+        @include flexCenter(column);
+        background-color: rgba(0, 0, 0, 0.027);
+        border-radius: 10px;
+        i{
+            color : $yellow;
+        }
+        span{
+            font-family: 'Biryani', sans-serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            margin: 0px 5px;
+        }
+    }
     .titre{
         text-transform: uppercase;
         color: $blue;
@@ -11,6 +30,11 @@
         @include typoExtraBold;
         span{
             color: $yellow;
+        }
+        .strong{
+            font-size: 40px;
+            color : $blue;
+            font-weight: bolder;
         }
     }
     .containerTitre{
@@ -233,6 +257,9 @@
         @include flexCenter(column);
         width: 100%;
         margin: 15px auto;
+        .ancre{
+            display: none;
+        }
         .titre{
             width: 100%;
             text-transform: uppercase;
@@ -264,12 +291,14 @@
                 }
             }
             .menuMobile{
+                width: 100%;
                 @include flexStart(column);
                 position: absolute;
                 z-index: 10;
                 top: 100%;
                 left: -100%;
-                background-color: white;
+                background-color: rgba(255, 255, 255, 0.562);
+                backdrop-filter : blur(15px);
                 padding: 10px;
                 transition: left 0.5s ease;
             }

@@ -5,8 +5,10 @@
     min-width: 380px;
     .cantons{
         .titreCantons{
+            margin-bottom: 20px;
         @include flexCenter(row);
             h3{
+                margin-left: 10px;
                 color : $blue;
                 @include typoSemiBold;
                 font-size: 40px;

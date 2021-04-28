@@ -5,10 +5,134 @@
     .titreRole{
         @include flexCenter(row);
         i{
-        color : $blue;
-        font-size: 40px;
-        vertical-align: center;
+            color : $blue;
+            font-size: 40px;
+            vertical-align: center;
+            margin-right: 30px;
+        }
+        span{
+            text-transform: uppercase;
+            font-size: 28px;
+            margin: 20px 0px;
+        }
     }
+    .textRole{
+        margin: 10px auto;
+        p{
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: 'Biryani', sans-serif;
+            margin-bottom: 50px;
+            word-spacing: 5px;
+            .floatImage{
+                @include flexStart(column);
+                float: left;
+                margin: 10px 50px 40px 0px;
+                span{
+                    font-family: 'Biryani', sans-serif;
+                    font-size: 12px;
+                    margin: 5px;
+                }
+            }
+        }
     }
     
+}
+
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+
+@media screen and (min-width: 800px) and (max-width : 1400px){
+    #roles{
+        @include pannelCenter();
+        .titreRole{
+            @include flexCenter(row);
+            i{
+                color : $blue;
+                font-size: 40px;
+                vertical-align: center;
+                margin-right: 30px;
+            }
+            span{
+                text-transform: uppercase;
+                font-size: 28px;
+                margin: 20px 0px;
+            }
+        }
+        .textRole{
+            margin: 10px auto;
+            p{
+                font-size: 14px;
+                text-transform: uppercase;
+                font-family: 'Biryani', sans-serif;
+                margin-bottom: 50px;
+                word-spacing: 5px;
+                .floatImage{
+                    @include flexStart(column);
+                    float: left;
+                    margin: 10px 50px 40px 0px;
+                    span{
+                        font-family: 'Biryani', sans-serif;
+                        font-size: 12px;
+                        margin: 5px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+/*-----------------------------*/
+/*-----------MOBILE----------*/
+/*-----------------------------*/
+
+@media screen and (max-width: 800px){
+    #header{
+        .logoLong{
+            width: 60% !important;
+        }
+    }
+    #roles{
+        width: 100%;
+        .titreRole{
+            @include flexCenter(row);
+            i{
+                display: none;
+            }
+            span{
+                text-transform: uppercase;
+                font-size: 28px;
+                margin: 20px 0px;
+                text-align: center;
+            }
+        }
+        .textRole{
+            margin: 10px auto;
+            p{
+                font-size: 14px;
+                text-transform: uppercase;
+                font-family: 'Biryani', sans-serif;
+                margin-bottom: 50px;
+                word-spacing: 5px;
+                padding: 15px;
+                .floatImage{
+                    @include flexStart(column);
+                    float: none;
+                    margin: 10px auto;
+                    img{
+                        width: 100%;
+                    }
+                    span{
+                        font-family: 'Biryani', sans-serif;
+                        font-size: 12px;
+                        margin: 5px;
+                    }
+                }
+            }
+        }
+        
+    }
 }

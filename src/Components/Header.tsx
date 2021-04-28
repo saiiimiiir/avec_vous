@@ -10,14 +10,20 @@ export default class Header extends Component {
         var menuOpen = false;
         return (
             <div id="header">
+                <div className="ancre" onClick={()=>{
+                    window.location.href = "#header"
+                }}>
+                    <i className="fas fa-chevron-up"></i>
+                    <span>haut de page</span>
+                </div>
                 <div className="titre">
                     <h1 className="titreText">
                         <span>LOIRET</span> éLECTIONS DéPARTEMENTALES<br/>
-                        des 20 et 27 JUIN 2021
+                        des <span className="strong">20</span> et <span className="strong">27 JUIN 2021</span>
                     </h1>
                 </div>
                 <div className="containerTitre">
-                    
+
                     {/*-----hamburger menu icon-----*/}
                     <div className="burgerIcon displayOnMobile" onClick={()=>{
                         if(menuOpen == false){
@@ -61,7 +67,7 @@ export default class Header extends Component {
                         <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> mentions légales</span>
                     </div>
                     {/*-----hamburger menu pannel-----*/}
-                    <div className="textMajorite"><h2 className="whiteText">majorité</h2><h2 className="bluetext">départementale</h2></div>
+                    <div className="textMajorite"><h2 ><span className="whiteText">majorité</span> <span className="bluetext">départementale</span> </h2></div>
                 </div>
                 <div className="imageContainer">
                     <div className="socialIcon">
