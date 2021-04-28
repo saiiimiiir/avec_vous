@@ -17,7 +17,7 @@
             }
         }
         .listeCantons{
-            width: 80%;
+            width:70%;
             margin: 0 auto;
             display: flex;
             flex-direction: row;
@@ -30,6 +30,10 @@
                     @include typoSemiBold;
                     line-height: 130%;
                     cursor: pointer;
+                    text-transform: uppercase;
+                }
+                .cantonText:hover{
+                    color: $yellow;
                 }
             }
         }

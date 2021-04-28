@@ -15,9 +15,7 @@ export default class Header extends Component {
                     </h1>
                 </div>
                 <div className="containerTitre">
-    
-                        <h2 className="whiteText">majorité</h2> <h2 className="bluetext">départementale</h2>
-                    
+                    <h2 className="whiteText">majorité</h2> <h2 className="bluetext">départementale</h2>
                 </div>
                 <div className="imageContainer">
                     <img id="logoImg" src={logo} alt="Logo avec vous !" />

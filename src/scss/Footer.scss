@@ -22,16 +22,20 @@
     .contact{
         a{
             text-decoration: none;
-            
         }
         i{
             color : $blue;
+        }
+        span:hover{
+            color : $yellow !important;
         }
     }
     .mention{
         a{
             text-decoration: none;
-            
+        }
+        span:hover{
+            color : $yellow;
         }
     }
     .socialIcon{
