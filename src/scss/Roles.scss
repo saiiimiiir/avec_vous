@@ -1,0 +1,14 @@
+@import './Setup.scss';
+
+#roles{
+    @include pannelCenter();
+    .titreRole{
+        @include flexCenter(row);
+        i{
+        color : $blue;
+        font-size: 40px;
+        vertical-align: center;
+    }
+    }
+    
+}

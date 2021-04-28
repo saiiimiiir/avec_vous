@@ -34,7 +34,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >1 . beaugency</span>
+                            >1 . Beaugency</span>
                             <span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -43,7 +43,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >2 . châlette-sur-loing</span>
+                            >2 . Châlette-sur-loing</span>
                             <span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -52,7 +52,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >3 . châteauneuf-sur-loire</span>
+                            >3 . Châteauneuf-sur-loire</span>
                             <span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -61,7 +61,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >4 . courtenay</span>
+                            >4 . Courtenay</span>
                             <span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -70,7 +70,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >5 . la ferté-saint-aubin</span>
+                            >5 . La ferté-saint-aubin</span>
                             <span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -79,7 +79,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >6 . fleury-les-aubrais</span>
+                            >6 . Fleury-les-aubrais</span>
                             <span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -88,7 +88,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >7 . gien</span>
+                            >7 . Gien</span>
                         </div>
                         <div>
                             <span className="cantonText"
@@ -99,7 +99,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >8 . lorris</span>
+                            >8 . Lorris</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -108,7 +108,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >9 . malesherbes</span>
+                            >9 . Malesherbes</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -117,7 +117,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >10 . meung-sur-loire</span>
+                            >10 . Meung-sur-loire</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -126,7 +126,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >11 . montargis</span>
+                            >11 . Montargis</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -135,7 +135,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >12 . olivet</span>
+                            >12 . Olivet</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -144,7 +144,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >13 . orléans-1</span>
+                            >13 . Orléans-1</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -153,7 +153,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >14 . orléans-2</span>
+                            >14 . Orléans-2</span>
                         </div>
                         <div>
                             <span className="cantonText"
@@ -164,7 +164,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >15 . orléans-3</span>
+                            >15 . Orléans-3</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -173,7 +173,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >16 . orléans-4</span>
+                            >16 . Orléans-4</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -182,7 +182,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >17 . pithiviers</span>
+                            >17 . Pithiviers</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -191,7 +191,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >18 . saint-jean-de-braye</span>
+                            >18 . Saint-jean-de-braye</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -200,7 +200,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >19 . saint-jean-de-la-ruelle</span>
+                            >19 . Saint-jean-de-la-ruelle</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -209,7 +209,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >20 . saint-jean-le-blanc</span>
+                            >20 . Saint-jean-le-blanc</span>
                             <span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
@@ -218,7 +218,7 @@ export default class Home extends Component<{},HomeState> {
                                 console.log(this.state.idCantonSelected)
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
-                            >21 . sully-sur-loire</span>
+                            >21 . Sully-sur-loire</span>
                         </div>
                     </div>
                 </div>

@@ -15,6 +15,11 @@ $hoverBlue : #0076BD;
     font-weight: 800;
 }
 
+@mixin pannelCenter(){
+    width: 80%;
+    margin: 10px auto;
+}
+
 @mixin typoSemiBold(){
     font-family: 'Biryani', sans-serif;
     font-weight: 600;

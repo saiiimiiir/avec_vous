@@ -16,31 +16,37 @@ import Roles from './Pages/Roles';
 function App() {
   return (
   <Router>
+
       <Switch>
         <Route exact path="/">
           <Construction/>
         </Route>
       </Switch>
+
       <Switch>
         <Route exact path="/home">
           <Home />
         </Route>
       </Switch>
+
       <Switch>
         <Route exact path="/role">
           <Roles/>
         </Route>
       </Switch>
+
       <Switch>
         <Route exact path="/actions">
 
         </Route>
       </Switch>
+
       <Switch>
         <Route exact path="/pour-le-canton">
           <Canton/>
         </Route>
       </Switch>
+      
     </Router>
   );
 }

@@ -1,8 +1,7 @@
 @import './Setup.scss';
 
 #home{
-    width: 80%;
-    margin: 0 auto;
+    @include pannelCenter();
     .cantons{
         .titreCantons{
         @include flexCenter(row);
