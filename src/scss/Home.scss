@@ -47,3 +47,116 @@
         }
     }
 }
+
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+
+@media screen and (min-width: 800px) and (max-width : 1400px){
+
+    #home{
+        @include pannelCenter();
+        .cantons{
+            .titreCantons{
+            @include flexCenter(row);
+                h3{
+                    color : $blue;
+                    @include typoSemiBold;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                }
+                .strong{
+                    font-size: 45px;
+                    font-weight: bolder;
+                }
+            }
+            .listeCantons{
+                width:85%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                div{
+                    margin: 10px;
+                    @include flexStart(column);
+                    .cantonText{
+                        color : $blue;
+                        @include typoSemiBold;
+                        line-height: 130%;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                    .cantonText:hover{
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+        .infoMap{
+            margin: 15px 0px;
+            background-color: $yellow;
+            @include flexCenter(row);
+            span{
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*---------------------------*/
+/*-----------MOBILE----------*/
+/*---------------------------*/
+
+@media screen and (max-width: 800px) {
+
+    #home{
+        width: 100%;
+
+        .cantons{
+            display: none;
+            .titreCantons{
+
+                h3{
+                    color : $blue;
+                    @include typoSemiBold;
+                    font-size: 40px;
+                    text-transform: uppercase;
+                }
+                .strong{
+                    font-size: 55px;
+                    font-weight: bolder;
+                }
+            }
+            .listeCantons{
+                width:70%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                div{
+                    @include flexStart(column);
+                    .cantonText{
+                        color : $blue;
+                        @include typoSemiBold;
+                        line-height: 130%;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                    .cantonText:hover{
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+        .infoMap{
+            margin: 15px 0px;
+            background-color: $yellow;
+            display: none;
+            span{
+                text-align: center;
+            }
+        }
+    }
+}

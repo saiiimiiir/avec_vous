@@ -222,7 +222,7 @@ export default class Home extends Component<{},HomeState> {
                         </div>
                     </div>
                 </div>
-                <div className="infoMap">
+                <div className="infoMap ">
                     <span className="whiteText">
                         cliquez sur <span className="bluetext">votre canton</span> pour tout savoir de vos prétendants officiels et de leur programme.
                     </span>

@@ -60,3 +60,43 @@ $hoverBlue : #0076BD;
 .yellowText{
     color : $yellow;
 }
+
+@media screen and (max-width: 800px){
+    .displayOnMobile{
+        display: block;
+    }
+    .displayOnTablette{
+        display: none;
+    }
+    .displayOnPC{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 800px) and (max-width : 1400px){
+    .displayOnMobile{
+        display: none;
+    }
+    .displayOnTablette{
+        display: block;
+    }
+    .displayOnPC{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1400px){
+    .displayOnMobile{
+        display: none;
+    }
+    .displayOnTablette{
+        display: none;
+    }
+    .displayOnPC{
+        display: block;
+    }
+    
+    
+}

@@ -39,13 +39,141 @@
         }
     }
     .socialIcon{
+        i{
+            color : $blue;
+            margin: 10px;
+            font-size: 30px;
+        }
+        i:hover{
+            color : $yellow;
+        }
+    }
+}
+
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+
+@media screen and (min-width: 800px) and (max-width : 1400px){
+    #footer{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 1px solid $yellow;
+        .logoFooter{
+            @include flexCenter(row);
+            line-height: 110%;
+            .lightWeight{
+                font-weight: 200;
+                font-size: 12px;
+            }
+            img{
+                width: 88px;
+                height: 88px;
+            }
+        }
+        .contact{
+            a{
+                text-decoration: none;
+                span{
+                    font-size: 12px;
+                }
+            }
+            i{
+                color : $blue;
+                font-size: 12px;
+            }
+            span:hover{
+                color : $yellow !important;
+            }
+        }
+        .mention{
+            a{
+                text-decoration: none;
+                span{
+                    font-size: 12px;
+                }
+            }
+            span:hover{
+                color : $yellow;
+            }
+        }
+        .socialIcon{
             i{
                 color : $blue;
                 margin: 10px;
-                font-size: 30px;
+                font-size: 20px;
             }
             i:hover{
                 color : $yellow;
             }
         }
+    }
+}
+
+/*-----------------------------*/
+/*-------------MOBILE----------*/
+/*-----------------------------*/
+
+@media screen and (max-width: 800px){
+    #footer{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 1px solid $yellow;
+        .logoFooter{
+            @include flexCenter(row);
+            line-height: 110%;
+            .lightWeight{
+                font-weight: 200;
+                font-size: 12px;
+            }
+            img{
+                width: 88px;
+                height: 88px;
+            }
+        }
+        .contact{
+            a{
+                text-decoration: none;
+                span{
+                    font-size: 12px;
+                }
+            }
+            i{
+                color : $blue;
+                font-size: 12px;
+            }
+            span:hover{
+                color : $yellow !important;
+            }
+        }
+        .mention{
+            a{
+                text-decoration: none;
+                span{
+                    font-size: 12px;
+                }
+            }
+            span:hover{
+                color : $yellow;
+            }
+        }
+        .socialIcon{
+            i{
+                color : $blue;
+                margin: 10px;
+                font-size: 20px;
+            }
+            i:hover{
+                color : $yellow;
+            }
+        }
+    }
 }

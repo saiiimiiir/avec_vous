@@ -17,7 +17,7 @@ class Map extends Component<MapProps,MapState> {
     }
     render() {
         return (
-            <div id="map">
+            <div id="map" className="displayOnPc displayOnTablette">
                 <img id="votez" src={votez} alt="votez"/>
                 <svg id="svgMap" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 985.7 787">
                     <g id="Nom_cantons" data-name="Nom cantons">

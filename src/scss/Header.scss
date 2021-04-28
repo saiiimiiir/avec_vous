@@ -102,9 +102,235 @@
         }
     }
 }
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+@media screen and (min-width: 800px) and (max-width : 1400px){
+    #header{
+        @include flexCenter(column);
+        width: 100%;
+        margin: 15px auto;
+        .titre{
+            text-transform: uppercase;
+            color: $blue;
+            text-align: center;
+            @include typoExtraBold;
+            span{
+                color: $yellow;
+            }
+            .titreText{
+                font-size: larger;
+            }
+        }
+        .containerTitre{
+            background-color: $yellow;
+            width: 100%;
+            height: 50px;
+            @include flexCenter(row);
 
+            h2{
+                letter-spacing: 2px;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 25px;
+                line-height: 100%;
+                
+            }
+        }
+        .imageContainer{
+            @include flexStart(row);
+            position: relative;
+            width: 100%;
+            #trinagle{
+                height: 190%;
+                left: -1px;
+                top: 50%;
+                transform: translate(0,-50%);
+                position: absolute;
+                z-index: 5;
+            }
+            #logoImg{
+                display: block;
+                position: relative;
+                margin: 20px 0px;
+                left: 50%;
+                transform: translate(-50%);
+                width : 40%;
+                align-self: center;
+            }
+            .socialIcon{
+                position: absolute;
+                right: 0;
+                top : 5px;
+                a{
+                    text-decoration: none;
+                    color : $blue;
+                    i{
+                        margin: 10px;
+                        font-size: 20px;
+                    }
+                    i:hover{
+                        color : $yellow;
+                    }
+                }
+            }
+            .nav{
+                display: block;
+                margin: auto 0px 0px auto;
+                li{
+                    list-style: none;
+                    text-align: right;
+                    @include typoSemiBold;
+                    font-size: 0.9rem;
+                    line-height: 110%;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                    a{
+                        text-decoration: none;
+                        color: $blue;
+                    }
+                    a:visited{
+                        color: $blue;
+                    }
+                    .textMenu:hover{
+                        color : $yellow;
+                    }
+                }
+            }
+        }
+        .containerFooter{
+            background-color: $yellow;
+            width: 100%;
+            height: 50px;
+            @include flexCenter(row);
+            .footerText{
+                text-transform: uppercase;
+                color: white;
+                @include typoSemiBold;
+                text-align: center;
+                font-size: 20px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
 
+/*---------------------------*/
+/*-----------MOBILE----------*/
+/*---------------------------*/
 
-@media screen and (max-width: 800) {
-    
+@media screen and (max-width: 800px) {
+    #header{
+        @include flexCenter(column);
+        width: 100%;
+        margin: 15px auto;
+        .titre{
+            width: 100%;
+            text-transform: uppercase;
+            color: $blue;
+            text-align: center;
+            @include typoExtraBold;
+            span{
+                color: $yellow;
+            }
+            .titreText{
+                font-size: medium;
+            }
+        }
+        .containerTitre{
+            background-color: $yellow;
+            width: 100%;
+            height: 50px;
+            @include flexCenter(row);
+
+            h2{
+                letter-spacing: 2px;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 14px;
+                line-height: 100%;
+                
+            }
+        }
+        .imageContainer{
+            @include flexCenter(column);
+            position: relative;
+            width: 100%;
+            #trinagle{
+                display: none;
+                height: 190%;
+                left: -1px;
+                top: 50%;
+                transform: translate(0,-50%);
+                position: absolute;
+                z-index: 5;
+            }
+            .logoLong{
+                width: 100%;
+                margin: 10px;
+            }
+            #logoImg{
+                display: none;
+                position: relative;
+                margin: 20px 0px;
+                left: 50%;
+                transform: translate(-50%);
+                width : 40%;
+                align-self: center;
+            }
+            .socialIcon{
+                position: relative;
+
+                a{
+                    text-decoration: none;
+                    color : $blue;
+                    i{
+                        margin: 10px;
+                        font-size: 20px;
+                    }
+                    i:hover{
+                        color : $yellow;
+                    }
+                }
+            }
+            .nav{
+                display: none;
+                margin: auto 0px 0px auto;
+                li{
+                    list-style: none;
+                    text-align: right;
+                    @include typoSemiBold;
+                    font-size: 0.9rem;
+                    line-height: 110%;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                    a{
+                        text-decoration: none;
+                        color: $blue;
+                    }
+                    a:visited{
+                        color: $blue;
+                    }
+                    .textMenu:hover{
+                        color : $yellow;
+                    }
+                }
+            }
+        }
+        .containerFooter{
+            background-color: $yellow;
+            width: 100%;
+            height: 50px;
+            @include flexCenter(row);
+            .footerText{
+                text-transform: uppercase;
+                color: white;
+                @include typoSemiBold;
+                text-align: center;
+                font-size: 18px;
+                vertical-align: middle;
+                line-height: 120%;
+            }
+        }
+    }
 }
