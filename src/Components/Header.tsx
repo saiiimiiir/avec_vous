@@ -9,9 +9,6 @@ export default class Header extends Component {
     render() {
         return (
             <div id="header">
-                <div className="menuMobile">
-                    
-                </div>
                 <div className="titre">
                     <h1 className="titreText">
                         <span>LOIRET</span> éLECTIONS DéPARTEMENTALES<br/>
@@ -19,8 +16,39 @@ export default class Header extends Component {
                     </h1>
                 </div>
                 <div className="containerTitre">
-                    
-                    <h2 className="whiteText">majorité</h2> <h2 className="bluetext">départementale</h2>
+                    <div className="burgerIcon displayOnMobile" onClick={()=>{
+                        console.log(document.querySelector('.menuMobile'))
+                    }}>
+                        <i className="fas fa-bars"></i>
+                    </div>
+                    <div className="menuMobile displayOnMobile">
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> les rôles du conseil départemental</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nos principales actions</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de beaugency</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de châlettes-sur-loing</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de chateauneuf-sur-loire</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de courtenay</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de la-ferté-saint-aubin</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de fleury-les-aubrais</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de gien</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de lorris</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de malesherbes</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de meung-sur-loire</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de montargis</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de olivet</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 1</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans2</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 3</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 4</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de pithiviers</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-braye</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-la-ruelle</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-le-blanc</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de sully-sur-loire</span>
+                        <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nous contacter</span>
+                        <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> mentions légales</span>
+                    </div>
+                    <div className="textMajorite"><h2 className="whiteText">majorité</h2><h2 className="bluetext">départementale</h2></div>
                 </div>
                 <div className="imageContainer">
                     <div className="socialIcon">
