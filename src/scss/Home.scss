@@ -2,6 +2,7 @@
 
 #home{
     @include pannelCenter();
+    min-width: 380px;
     .cantons{
         .titreCantons{
         @include flexCenter(row);

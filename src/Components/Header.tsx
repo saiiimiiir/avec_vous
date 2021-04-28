@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default class Header extends Component {
     render() {
+        var menuOpen = false;
         return (
             <div id="header">
                 <div className="titre">
@@ -16,11 +17,22 @@ export default class Header extends Component {
                     </h1>
                 </div>
                 <div className="containerTitre">
+                    
+                    {/*-----hamburger menu icon-----*/}
                     <div className="burgerIcon displayOnMobile" onClick={()=>{
-                        console.log(document.querySelector('.menuMobile'))
+                        if(menuOpen == false){
+                            (document.querySelector('.menuMobile') as any).style.left = "0";
+                            menuOpen = true;
+                        } else {
+                            (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                        }
                     }}>
                         <i className="fas fa-bars"></i>
                     </div>
+                    {/*-----hamburger menu icon-----*/}
+
+                    {/*-----hamburger menu pannel-----*/}
                     <div className="menuMobile displayOnMobile">
                         <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> les rôles du conseil départemental</span>
                         <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nos principales actions</span>
@@ -48,6 +60,7 @@ export default class Header extends Component {
                         <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nous contacter</span>
                         <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> mentions légales</span>
                     </div>
+                    {/*-----hamburger menu pannel-----*/}
                     <div className="textMajorite"><h2 className="whiteText">majorité</h2><h2 className="bluetext">départementale</h2></div>
                 </div>
                 <div className="imageContainer">
