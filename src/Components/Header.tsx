@@ -76,8 +76,12 @@ export default class Header extends Component {
                         <a href="twitter.com"><i className="fab fa-twitter"></i></a>
                         <a href="instagram.com"><i className="fab fa-instagram"></i></a>
                     </div>
-                    <img id="logoImg" src={logo} alt="Logo avec vous !"/>
-                    <img src={logo_long} alt="logo loiret avec vous" className="displayOnMobile logoLong"/>
+                    <Link to="/home">
+                        <img id="logoImg" src={logo} alt="Logo avec vous !" />
+                    </Link>
+                    <Link to="/home">
+                        <img src={logo_long} alt="logo loiret avec vous" className="displayOnMobile logoLong" />
+                    </Link>
                     <img src={triangle} id="trinagle"/>
                     
                     <div className="nav">

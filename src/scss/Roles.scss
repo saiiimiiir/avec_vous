@@ -90,12 +90,13 @@
 /*-----------------------------*/
 
 @media screen and (max-width: 800px){
-    #header{
-        .logoLong{
-            width: 60% !important;
-        }
-    }
+    
     #roles{
+        #header{
+            .logoLong{
+                width: 60% !important;
+            }
+        }
         width: 100%;
         .titreRole{
             @include flexCenter(row);

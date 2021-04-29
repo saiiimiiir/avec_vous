@@ -57,7 +57,7 @@
             }
     }
     .imageContainer{
-        @include flexStart(row);
+        @include flexCenter(row);
         position: relative;
         width: 100%;
         #trinagle{
@@ -68,13 +68,15 @@
             position: absolute;
             z-index: 5;
         }
-        #logoImg{
+        a{
+            #logoImg{
             position: relative;
             margin: 20px 0px;
             left: 50%;
             transform: translate(-50%);
             width : 60%;
             align-self: center;
+        }
         }
         .socialIcon{
             position: absolute;
@@ -93,21 +95,26 @@
             }
         }
         .nav{
-            margin: auto 0px 15px auto;
+            position: absolute;
+            right : 0px;
+            bottom : 15px;
             li{
                 list-style: none;
                 text-align: right;
                 @include typoSemiBold;
                 font-size: 1.1rem;
-                line-height: 110%;
+                line-height: 100%;
                 text-transform: uppercase;
-                margin-bottom: 10px;
+                margin-bottom: 5px;
                 a{
                     text-decoration: none;
                     color: $blue;
                 }
                 a:visited{
                     color: $blue;
+                }
+                .textMenu{
+                    font-size: 16px;
                 }
                 .textMenu:hover{
                     color : $yellow;
@@ -171,7 +178,7 @@
         }
         
         .imageContainer{
-            @include flexStart(row);
+            @include flexCenter(row);
             position: relative;
             width: 100%;
             #trinagle{
@@ -209,7 +216,9 @@
             }
             .nav{
                 display: block;
-                margin: auto 0px 0px auto;
+                position: absolute;
+                right : 0px;
+                bottom : 10px;
                 li{
                     list-style: none;
                     text-align: right;
@@ -217,13 +226,16 @@
                     font-size: 0.9rem;
                     line-height: 110%;
                     text-transform: uppercase;
-                    margin-bottom: 10px;
+                    margin-bottom: 5px;
                     a{
                         text-decoration: none;
                         color: $blue;
                     }
                     a:visited{
                         color: $blue;
+                    }
+                    .textMenu{
+                        font-size: 12px;
                     }
                     .textMenu:hover{
                         color : $yellow;
@@ -327,9 +339,12 @@
                 position: absolute;
                 z-index: 5;
             }
-            .logoLong{
-                width: 100%;
-                margin: 10px;
+            a{
+                .logoLong{
+                    width: 100%;
+                    margin: 10px;
+                    margin: auto auto;
+                }
             }
             #logoImg{
                 display: none;
@@ -342,7 +357,7 @@
             }
             .socialIcon{
                 position: relative;
-
+                top : 10px;
                 a{
                     text-decoration: none;
                     color : $blue;
