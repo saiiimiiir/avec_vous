@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default class Header extends Component {
     render() {
+        console.log(process.env.REACT_APP_HOME_ROUTE);
         var menuOpen = false;
         return (
             <div id="header">
