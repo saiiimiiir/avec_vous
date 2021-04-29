@@ -9,6 +9,7 @@
             font-size: 40px;
             vertical-align: center;
             margin-right: 30px;
+            
         }
         span{
             text-transform: uppercase;
@@ -28,10 +29,22 @@
                 @include flexStart(column);
                 float: left;
                 margin: 10px 50px 40px 0px;
-                span{
+                span.desc{
                     font-family: 'Biryani', sans-serif;
                     font-size: 12px;
                     margin: 5px;
+                    span{
+                        font-size: 10px;
+                    }
+                }
+            }
+            .strong{
+                font-weight: 800;
+            }
+            ul{
+                li{
+                    margin: 10px;
+                    line-height: 150%;
                 }
             }
         }
@@ -72,7 +85,7 @@
                     @include flexStart(column);
                     float: left;
                     margin: 10px 50px 40px 0px;
-                    span{
+                    span.desc{
                         font-family: 'Biryani', sans-serif;
                         font-size: 12px;
                         margin: 5px;
@@ -126,10 +139,12 @@
                     img{
                         width: 100%;
                     }
-                    span{
+                    span.desc{
                         font-family: 'Biryani', sans-serif;
                         font-size: 12px;
-                        margin: 5px;
+                        span{
+                            font-size: 12px;
+                        }
                     }
                 }
             }

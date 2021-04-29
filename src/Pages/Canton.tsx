@@ -30,10 +30,16 @@ export default class Canton extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
+                            <a href="mailto:test@loiretavecvous.fr"><i className="fas fa-envelope"></i></a>
                             <a href="facebook.com"><i className="fab fa-facebook-f"></i></a>
                             <a href="twitter.com"><i className="fab fa-twitter"></i></a>
                             <a href="instagram.com"><i className="fab fa-instagram"></i></a>
                         </div>
+                    </div>
+                    <div className="programLink">
+                        <span>
+                            VOIR ET TÉLÉCHARGER LE PROGRAMME
+                        </span>
                     </div>
                 </div>
             </div>

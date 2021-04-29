@@ -15,7 +15,7 @@
         }
     }
     .carteCanton{
-        width: 50%;
+        width: 40%;
         img{
             width: 100%;
         }
@@ -24,19 +24,31 @@
 
     }
     .contact{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         .contactIcon{
+            @include flexCenter(row);
             span{
-
+                @include typoExtraBold();
+                color: $blue;
             }
             .socialIcon{
                 a{
-                    margin: ;
+                    margin: 10px ;
                     text-decoration: none;
+                    color: $blue;
                     i{
-                        font-size: 40px;
-                        color : $blue;
+                        font-size: 30px;
                     }
                 }
+            }
+        }
+        .programLink{
+            span{
+                @include typoExtraBold();
+                color: $blue;
             }
         }
     }

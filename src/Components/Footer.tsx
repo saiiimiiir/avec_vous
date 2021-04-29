@@ -12,7 +12,7 @@ export default class Footer extends Component {
                     <span className="bluetext">© 2021 <span className="lightWeight">majorité départementale<br />loiret avec vous</span></span>
                 </div>
                 <div className="contact">
-                    <a href="mailer:text@loiretavecvous.com">
+                    <a href="mailto:test@loiretavecvous.fr">
                         <i className="fas fa-envelope"></i> <span className="bluetext">Nous contacter</span>
                     </a>
                 </div>
