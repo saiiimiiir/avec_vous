@@ -28,7 +28,18 @@
             color : $blue;
         }
         span:hover{
-            color : $yellow !important;
+            color : $blue;
+        }
+    }
+    .contact:hover{
+        a{
+            text-decoration: none;
+        }
+        i{
+            color : $yellow;
+        }
+        span:hover{
+            color : $yellow;
         }
     }
     .mention{

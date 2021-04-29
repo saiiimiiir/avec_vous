@@ -337,10 +337,12 @@
                 z-index: 10;
                 top: 100%;
                 left: -100%;
-                background-color: rgba(255, 255, 255, 0.562);
-                backdrop-filter : blur(15px);
+                background-color: white;
                 padding: 10px;
                 transition: left 0.5s ease;
+                a{
+                    text-decoration: none;
+                }
             }
             .textMajorite{
                 @include flexCenter(row);
