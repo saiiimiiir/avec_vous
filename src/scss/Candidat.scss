@@ -1,0 +1,29 @@
+@import './Setup.scss';
+
+#presentationCandidat{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .titulaire{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .c1{
+            
+        }
+        .c2{
+
+        }
+    }
+    .supleant{
+        .s1{
+            
+        }
+        .s2{
+
+        }
+    }
+}

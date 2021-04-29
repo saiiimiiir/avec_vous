@@ -24,7 +24,10 @@
 
     }
     .contact{
-        width: 80%;
+        border-top: #b5a269 1px solid;
+        border-bottom: #b5a269 1px solid;
+        padding: 30px;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -35,6 +38,11 @@
                 color: $blue;
             }
             .socialIcon{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-left: 15px;
                 a{
                     margin: 10px ;
                     text-decoration: none;
@@ -46,12 +54,53 @@
             }
         }
         .programLink{
-            span{
-                @include typoExtraBold();
-                color: $blue;
+            @include flexCenter(row);
+            svg{
+                width: 30px;
+                margin-right: 15px;
+                .cls-1 {
+                    fill: #b5a269;
+                }
+
+                .cls-2 {
+                    fill: #004a8f;
+                }
+            }
+            a{
+                text-decoration: none;
+                span{
+                    @include typoExtraBold();
+                    color: $yellow;
+                }
             }
         }
     }
+    .dons{
+        width: 80%;
+        margin-bottom : 100px;
+        .titreDons{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            i{
+                font-size: 40px;
+                margin: 20px;
+                color: $blue;
+            }
+            span.yellowText{
+                font-size: 35px;
+            }
+        }
+        p{
+            margin: 0px 20px 20px 20px;
+            color: $yellow;
+        }
+    }
+}
+.constrain{
+    width: 80%;
+    margin: 0px auto;
 }
 
 /*-----------------------------*/
