@@ -26,7 +26,7 @@ export default class Home extends Component<{},HomeState> {
                     </div>
                     <div className="listeCantons">
                         <div>
-                            <a href="/pour-le-canton"><span className="cantonText" 
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -35,7 +35,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >1 . Beaugency</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText" 
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -44,7 +44,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >2 . Châlette-sur-loing</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText" 
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -53,7 +53,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >3 . Châteauneuf-sur-loire</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText" 
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -62,7 +62,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >4 . Courtenay</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText" 
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -71,7 +71,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >5 . La ferté-saint-aubin</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText" 
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -80,7 +80,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >6 . Fleury-les-aubrais</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText" 
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText" 
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -91,7 +91,7 @@ export default class Home extends Component<{},HomeState> {
                             >7 . Gien</span></a>
                         </div>
                         <div>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -100,7 +100,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >8 . Lorris</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -109,7 +109,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >9 . Malesherbes</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -118,7 +118,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >10 . Meung-sur-loire</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -127,7 +127,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >11 . Montargis</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -136,7 +136,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >12 . Olivet</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -145,7 +145,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >13 . Orléans-1</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -156,7 +156,7 @@ export default class Home extends Component<{},HomeState> {
                             >14 . Orléans-2</span></a>
                         </div>
                         <div>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -165,7 +165,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >15 . Orléans-3</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -174,7 +174,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >16 . Orléans-4</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -183,7 +183,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >17 . Pithiviers</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -192,7 +192,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >18 . Saint-jean-de-braye</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -201,7 +201,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >19 . Saint-jean-de-la-ruelle</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])
@@ -210,7 +210,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >20 . Saint-jean-le-blanc</span></a>
-                            <a href="/pour-le-canton"><span className="cantonText"
+                            <a href="/pour-le-canton/Beaugency"><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])

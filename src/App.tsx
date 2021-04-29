@@ -42,9 +42,7 @@ function App() {
       </Switch>
 
       <Switch>
-        <Route exact path="/pour-le-canton">
-          <Canton />
-        </Route>
+        <Route exact path="/pour-le-canton/:canton" children={<Canton />}/>
       </Switch>
       
     </Router>

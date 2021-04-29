@@ -47,73 +47,73 @@ export default class Header extends Component {
                         <Link to="#">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nos principales actions</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de beaugency</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de châlettes-sur-loing</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de chateauneuf-sur-loire</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de courtenay</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de la-ferté-saint-aubin</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de fleury-les-aubrais</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de gien</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de lorris</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de malesherbes</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de meung-sur-loire</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de montargis</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de olivet</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 1</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans2</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 3</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 4</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de pithiviers</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-braye</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-la-ruelle</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-le-blanc</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de sully-sur-loire</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nous contacter</span>
                         </Link>
-                        <Link to="/canton">
+                        <Link to="/pour-le-canton/Beaugency">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> mentions légales</span>
                         </Link>
                     </div>
