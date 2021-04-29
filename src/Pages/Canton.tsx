@@ -21,6 +21,21 @@ export default class Canton extends Component {
                 <div className="carteCanton">
                     <img src={process.env.PUBLIC_URL + '/carte_canton/'+canton+'.jpg'} alt={"carte "+canton}/>
                 </div>
+                <div className="candidats">
+
+                </div>
+                <div className="contact">
+                    <div className="contactIcon">
+                        <span>
+                            NOUS CONTACTER
+                        </span>
+                        <div className="socialIcon">
+                            <a href="facebook.com"><i className="fab fa-facebook-f"></i></a>
+                            <a href="twitter.com"><i className="fab fa-twitter"></i></a>
+                            <a href="instagram.com"><i className="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -20,6 +20,26 @@
             width: 100%;
         }
     }
+    .candidats{
+
+    }
+    .contact{
+        .contactIcon{
+            span{
+
+            }
+            .socialIcon{
+                a{
+                    margin: ;
+                    text-decoration: none;
+                    i{
+                        font-size: 40px;
+                        color : $blue;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /*-----------------------------*/
@@ -42,9 +62,9 @@
             }
         }
         .carteCanton{
-            width: 50%;
+            width: 60%;
             img{
-                width: 100%;
+                width: 90%;
             }
         }
     }
