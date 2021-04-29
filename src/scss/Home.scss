@@ -28,12 +28,15 @@
             align-items: flex-start;
             div{
                 @include flexStart(column);
-                .cantonText{
-                    color : $blue;
-                    @include typoSemiBold;
-                    line-height: 130%;
-                    cursor: pointer;
-                    text-transform: uppercase;
+                a{
+                    text-decoration: none;
+                    .cantonText{
+                        color : $blue;
+                        @include typoSemiBold;
+                        line-height: 130%;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
                 }
                 .cantonText:hover{
                     color: $yellow;

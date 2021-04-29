@@ -1,1 +1,79 @@
-@import './Setup.scss'
+@import './Setup.scss';
+
+#canton{
+    @include pannelCenter();
+    @include flexCenter(column);
+    .titreCanton{
+        margin-bottom: 20px;
+        @include flexCenter(row);
+        h3{
+            margin-left: 10px;
+            color : $blue;
+            @include typoSemiBold;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+    }
+    .carteCanton{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+
+@media screen and (min-width: 800px) and (max-width : 1400px){
+    #canton{
+        @include pannelCenter();
+        @include flexCenter(column);
+        .titreCanton{
+            margin-bottom: 20px;
+            @include flexCenter(row);
+            h3{
+                margin-left: 10px;
+                color : $blue;
+                @include typoSemiBold;
+                font-size: 40px;
+                text-transform: uppercase;
+            }
+        }
+        .carteCanton{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+
+@media screen and (max-width: 800px){
+    #canton{
+        @include pannelCenter();
+        @include flexCenter(column);
+        .titreCanton{
+            margin-bottom: 20px;
+            @include flexCenter(row);
+            h3{
+                margin-left: 10px;
+                color : $blue;
+                @include typoSemiBold;
+                font-size: 40px;
+                text-transform: uppercase;
+            }
+        }
+        .carteCanton{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

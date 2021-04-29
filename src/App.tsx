@@ -43,7 +43,7 @@ function App() {
 
       <Switch>
         <Route exact path="/pour-le-canton">
-          <Canton/>
+          <Canton />
         </Route>
       </Switch>
       
