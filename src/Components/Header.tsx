@@ -53,7 +53,7 @@ export default class Header extends Component {
                             menuOpen = false;
                             }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nos principales actions</span>
                         </Link>
-                        <Link  to="/pour-le-canton/Beaugency">
+                        <Link  to="/pour-le-canton/beaugency">
                             <span onClick={()=>{
                                 (document.querySelector('.menuMobile') as any).style.left = "-100%";
                             menuOpen = false;
