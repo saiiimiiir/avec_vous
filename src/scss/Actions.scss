@@ -1,1 +1,58 @@
-@import './Setup.scss'
+@import "./Setup.scss";
+
+#actions {
+    @include pannelCenter();
+    @include flexCenter(column);
+    .headerAction {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        div{
+            position: relative;
+            margin-left: 20%;
+            @include flexCenter(row);
+            i {
+                position: relative;
+                top: -3px;
+                color: $blue;
+                font-size: 40px;
+                vertical-align: center;
+                margin-right: 30px;
+            }
+            span {
+                text-transform: uppercase;
+                font-size: 28px;
+                margin: 20px 0px;
+            }
+        }
+    }
+    .rubriques {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        table {
+            margin-left: 26%;
+            td{
+                padding: 0px;
+                i {
+                    font-family: "Wingdings 3";
+                    color: $blue;
+                    margin-right: 30px;
+                }
+                .text {
+                    font-family: 'Biryani', sans-serif;
+                    text-transform: uppercase;
+                }
+                .textSelected{
+                    font-family: 'Biryani', sans-serif;
+                    text-transform: uppercase;
+                    color : $yellow;
+                }
+            }
+        }
+    }
+}
