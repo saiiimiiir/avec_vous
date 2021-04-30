@@ -92,7 +92,7 @@ export default function Actions() {
                     <br/>
                     <ul>
                         <span className="strong">dans le Loiret, c’est fait !</span>
-                        <br/>
+                        <br/><br/>
                         <li><span className="strong">sécurité routière</span> : zéro point noir routier </li>
                         <li><span className="strong">deux ponts restaurés</span>, deux déviations, une passerelle piétons vélos </li>
                         <li>construction de <span className="strong">trois collèges</span> </li>
@@ -107,8 +107,9 @@ export default function Actions() {
                         <li>lancement d’une <span className="strong">cop interne</span> pour définir une stratégie bas carbone…</li>
                     </ul>
                     <ul>
-                        <span className="strong">COVID, engagés pour vous protéger !</span>
                         <br/>
+                        <span className="strong">COVID, engagés pour vous protéger !</span>
+                        <br/><br/>
                         <li>opération 1 masque pour chaque Loirétain</li>
                         <li>distribution de deux masques par collégien</li>
                         <li>soutien de la filière horticole et des petites entreprises</li>
@@ -123,7 +124,7 @@ export default function Actions() {
                     
                     <ul>
                         <span className="strong">ACCÉLÉRONS NOTRE DÉMARCHE DE TRANSITION ENVIRONNEMENTALE</span>
-                        <br/>
+                        <br/><br/>
                         <li><span className="strong">réduire nos émissions de gaz à effet de serre</span> de 25% d’ici 2030 </li>
                         <li>développer de nouvelles énergies vertes et des <span className="strong">filières d’emplois « durables »</span> (hydrogène, bois, paille, …) </li>
                         <li>restaurer et préserver <span className="strong">la qualité des cours d’eau</span> </li>
@@ -135,7 +136,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">DONNONS À NOS JEUNES UN AVENIR SEREIN</span>
-                        <br/>
+                        <br/><br/>
                         <li>poursuivre la rénovation et la construction de <span className="strong">nouveaux collèges</span> </li>
                         <li>soutenir à hauteur de 20 M€ <span className="strong">la création du campus madeleine</span> au Coeur d’Orléans afin de conforter son statut de ville Universitaire </li>
                         <li>redévelopper la <span className="strong">prévention spécialisée</span> sur les territoires </li>
@@ -145,8 +146,8 @@ export default function Actions() {
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">RESPECTONS NOS AINES</span>
-                        <br/>
+                        <span className="strong">RESPECTONS NOS AINéS</span>
+                        <br/><br/>
                         <li>poursuivre les réhabilitations ou reconstructions des <span className="strong">ehpad</span> </li>
                         <li>privilégier le <span className="strong">maintien « à la maison »</span> chaque fois que c’est possible et soutenir les premières lignes comme les services d’aide à domicile </li>
                         <li>développer les petites <span className="strong">unités de vie et pensions de famille</span> </li>
@@ -155,7 +156,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">SOYONS FIERS D’ETRE SOLIDAIRES</span>
-                        <br/>
+                        <br/><br/>
                         <li><span className="strong">réorganiser l’action sociale</span> en territoire afin de faciliter le parcours de l’usager </li>
                         <li>améliorer l’aide sociale à l’enfance par des <span className="strong">recrutements d’agents spécialisés</span> </li>
                         <li>ouvrir <span className="strong">une seconde maison de l’enfance</span> et intensifier les places d’accueil sous forme de petites unités sur plusieurs communes </li>
@@ -169,7 +170,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">DEFENDONS L’ACCES AUX SOINS POUR TOUS</span>
-                        <br/>
+                        <br/><br/>
                         <li>poursuivre les aides à l’installation de <span className="strong">personnels médicaux</span> </li>
                         <li>aider au déploiement de la <span className="strong">télé-médecine</span> </li>
                         <li>soutenir la mise en place d’un <span className="strong">centre médical itinérant</span> …</li>
@@ -177,7 +178,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">STRUCTURONS NOS MOYENS DE COMMUNICATION</span>
-                        <br/>
+                        <br/><br/>
                         <li>finaliser le déploiement total de la <span className="strong">fibre à l’abonné</span> pour 2023 </li>
                         <li><span className="strong">téléphonie mobile</span> : identifier les zones blanches et agir auprès des opérateurs pour une meilleure couverture </li>
                         <li>soutenir les communes et intercommunalités dans leurs <span className="strong">projets numériques</span> via l’agence loiret numérique …</li>
@@ -185,7 +186,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">SOUTENONS LES PROJETS SPORTIFS, CULTURELS ET ASSOCIATIFS</span>
-                        <br/>
+                        <br/><br/>
                         <li>donner les moyens au <span className="strong">monde associatif</span> de faire vivre nos territoires </li>
                         <li>accompagner le <span className="strong">mouvement sportif</span>, en valorisant le label « terres de jeux 2024 » </li>
                         <li>poursuivre nos efforts pour une vraie <span className="strong">politique culturelle locale</span> …</li>
@@ -193,7 +194,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">VALORISONS NOS CANTONS</span>
-                        <br/>
+                        <br/><br/>
                         <li>continuer à soutenir les communes et intercommunalités sur leurs projets d’investissements et au quotidien avec <span className="strong">cap loiret</span> </li>
                         <li>amplifier le soutien aux projets patrimoniaux bâtis ou naturels visant à <span className="strong">sauvegarder l’identité de notre territoire </span></li>
                         <li>accompagner les actions des intercommunalités dans leurs <span className="strong">projets de développement économique</span> </li>
@@ -204,7 +205,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">AMENAGEONS NOS TERRITOIRES</span>
-                        <br/>
+                        <br/><br/>
                         <li><span className="strong">améliorer le cadre de vie des loirétains</span> grâce à des aménagements et infrastructures performants en participant à la relance de l’économie locale </li>
                         <li><span className="strong">maintenir un réseau routier départemental sécurisé</span>, de qualité et adapté </li>
                         <li><span className="strong">investir dans des revêtements routiers</span> acoustiques en préservant notre environnement </li>
@@ -214,7 +215,7 @@ export default function Actions() {
                     <br/><br/>
                     <ul>
                         <span className="strong">ENCOURAGEONS NOS SAPEURS POMPIERS</span>
-                        <br/>
+                        <br/><br/>
                         <li><span className="strong">veiller à la qualité</span> de l’exercice de leur activité au service de la population </li>
                         <li><span className="strong">les soutenir dans leurs missions</span>, qu’ils soient professionnels ou volontaires ainsi que les personnels administratifs et techniques …</li>
                     </ul>
