@@ -110,10 +110,10 @@ export default class Header extends Component {
                         <Link to="/pour-le-canton/sully-sur-loire">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de sully-sur-loire</span>
                         </Link>
-                        <Link to="/pour-le-canton/Beaugency">
+                        <Link to="mailto:test@loiretavecvous.fr">
                             <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nous contacter</span>
                         </Link>
-                        <Link to="/pour-le-canton/Beaugency">
+                        <Link to="/mentions">
                             <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> mentions légales</span>
                         </Link>
                     </div>
