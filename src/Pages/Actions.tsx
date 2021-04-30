@@ -4,6 +4,8 @@ import Header from '../Components/Header'
 import '../scss/Actions.scss'
 
 export default function Actions() {
+
+    const [action, setAction] = useState("null")
     
     return (
         <div id="actions">
@@ -152,7 +154,8 @@ export default function Actions() {
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">SOYONS FIERS D’ETRE SOLIDAIRES</span> <br/>
+                        <span className="strong">SOYONS FIERS D’ETRE SOLIDAIRES</span>
+                        <br/>
                         <li><span className="strong">réorganiser l’action sociale</span> en territoire afin de faciliter le parcours de l’usager </li>
                         <li>améliorer l’aide sociale à l’enfance par des <span className="strong">recrutements d’agents spécialisés</span> </li>
                         <li>ouvrir <span className="strong">une seconde maison de l’enfance</span> et intensifier les places d’accueil sous forme de petites unités sur plusieurs communes </li>
@@ -165,28 +168,32 @@ export default function Actions() {
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">DEFENDONS L’ACCES AUX SOINS POUR TOUS</span> <br/>
+                        <span className="strong">DEFENDONS L’ACCES AUX SOINS POUR TOUS</span>
+                        <br/>
                         <li>poursuivre les aides à l’installation de <span className="strong">personnels médicaux</span> </li>
                         <li>aider au déploiement de la <span className="strong">télé-médecine</span> </li>
                         <li>soutenir la mise en place d’un <span className="strong">centre médical itinérant</span> …</li>
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">STRUCTURONS NOS MOYENS DE COMMUNICATION</span> <br/>
+                        <span className="strong">STRUCTURONS NOS MOYENS DE COMMUNICATION</span>
+                        <br/>
                         <li>finaliser le déploiement total de la <span className="strong">fibre à l’abonné</span> pour 2023 </li>
                         <li><span className="strong">téléphonie mobile</span> : identifier les zones blanches et agir auprès des opérateurs pour une meilleure couverture </li>
                         <li>soutenir les communes et intercommunalités dans leurs <span className="strong">projets numériques</span> via l’agence loiret numérique …</li>
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">SOUTENONS LES PROJETS SPORTIFS, CULTURELS ET ASSOCIATIFS</span> <br/>
+                        <span className="strong">SOUTENONS LES PROJETS SPORTIFS, CULTURELS ET ASSOCIATIFS</span>
+                        <br/>
                         <li>donner les moyens au <span className="strong">monde associatif</span> de faire vivre nos territoires </li>
                         <li>accompagner le <span className="strong">mouvement sportif</span>, en valorisant le label « terres de jeux 2024 » </li>
                         <li>poursuivre nos efforts pour une vraie <span className="strong">politique culturelle locale</span> …</li>
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">VALORISONS NOS CANTONS</span> <br/>
+                        <span className="strong">VALORISONS NOS CANTONS</span>
+                        <br/>
                         <li>continuer à soutenir les communes et intercommunalités sur leurs projets d’investissements et au quotidien avec <span className="strong">cap loiret</span> </li>
                         <li>amplifier le soutien aux projets patrimoniaux bâtis ou naturels visant à <span className="strong">sauvegarder l’identité de notre territoire </span></li>
                         <li>accompagner les actions des intercommunalités dans leurs <span className="strong">projets de développement économique</span> </li>
@@ -196,7 +203,8 @@ export default function Actions() {
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">AMENAGEONS NOS TERRITOIRES</span><br/>
+                        <span className="strong">AMENAGEONS NOS TERRITOIRES</span>
+                        <br/>
                         <li><span className="strong">améliorer le cadre de vie des loirétains</span> grâce à des aménagements et infrastructures performants en participant à la relance de l’économie locale </li>
                         <li><span className="strong">maintenir un réseau routier départemental sécurisé</span>, de qualité et adapté </li>
                         <li><span className="strong">investir dans des revêtements routiers</span> acoustiques en préservant notre environnement </li>
@@ -205,7 +213,8 @@ export default function Actions() {
                     </ul>
                     <br/><br/>
                     <ul>
-                        <span className="strong">ENCOURAGEONS NOS SAPEURS POMPIERS</span> <br/>
+                        <span className="strong">ENCOURAGEONS NOS SAPEURS POMPIERS</span>
+                        <br/>
                         <li><span className="strong">veiller à la qualité</span> de l’exercice de leur activité au service de la population </li>
                         <li><span className="strong">les soutenir dans leurs missions</span>, qu’ils soient professionnels ou volontaires ainsi que les personnels administratifs et techniques …</li>
                     </ul>
