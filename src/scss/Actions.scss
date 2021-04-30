@@ -86,3 +86,204 @@
         }
     }
 }
+
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+@media screen and (min-width: 800px) and (max-width : 1400px){
+    #actions {
+        @include pannelCenter();
+        @include flexCenter(column);
+        .headerAction {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            div{
+                position: relative;
+                margin-left: 20%;
+                @include flexCenter(row);
+                i {
+                    position: relative;
+                    top: -3px;
+                    color: $blue;
+                    font-size: 40px;
+                    vertical-align: center;
+                    margin-right: 30px;
+                }
+                span {
+                    text-transform: uppercase;
+                    font-size: 28px;
+                    margin: 20px 0px;
+                }
+            }
+        }
+        .rubriques {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            table {
+                margin-left: 26%;
+                td{
+                    padding: 0px;
+                    i {
+                        font-family: "Wingdings 3";
+                        color: $blue;
+                        margin-right: 30px;
+                    }
+                    .text {
+                        font-family: 'Biryani', sans-serif;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+                    .text:hover {
+                        font-family: 'Biryani', sans-serif;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        color: $yellow;
+                    }
+                    .textSelected{
+                        font-family: 'Biryani', sans-serif;
+                        text-transform: uppercase;
+                        color : $yellow;
+                    }
+                }
+            }
+        }
+        .textAction{
+            border-top: 1px solid $yellow;
+            margin: 30px auto;
+            padding-top: 30px;
+            .center{
+                    text-align: center;
+                }
+            p{
+                width: 80%;
+                word-spacing: 4px;
+                margin: 0px auto;
+                .strong{
+                    font-weight: 800;
+                }
+                text-transform: uppercase;
+                ul{
+                    li{
+                        margin: 5px auto;
+                        list-style-position: outside;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*-----------------------------*/
+/*-----------MOBILE------------*/
+/*-----------------------------*/
+@media screen and (max-width: 800px){
+    #actions {
+        #header{
+            .imageContainer{
+                display: none;
+            }
+            .containerFooter{
+                display: none;
+            }
+        }
+        width: 100%;
+        @include flexCenter(column);
+        .headerAction {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            div{
+                @include flexCenter(row);
+                width: 100%;
+                margin-left: 0px;
+                i {
+                    display: none;
+                    position: relative;
+                    top: -3px;
+                    color: $blue;
+                    font-size: 40px;
+                    vertical-align: center;
+                    margin-right: 30px;
+                }
+                span {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    margin: 0px 0px;
+                }
+            }
+        }
+        .rubriques {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            table {
+                margin: 20px;
+                td{
+                    border-bottom: 1px $yellow solid ;
+                    padding: 0px;
+                    i {
+                        font-family: "Wingdings 3";
+                        color: $blue;
+                        margin-right: 30px;
+                    }
+                    .text {
+                        font-family: 'Biryani', sans-serif;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        font-size: 14px;
+                    }
+                    .text:hover {
+                        font-family: 'Biryani', sans-serif;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        color: $yellow;
+                    }
+                    .textSelected{
+                        font-family: 'Biryani', sans-serif;
+                        text-transform: uppercase;
+                        color : $yellow;
+                    }
+                }
+            }
+        }
+        .textAction{
+            border-top: none;
+            margin: 0px auto;
+            padding-top: 30px;
+            width: 90%;
+            .center{
+                width: 100%;
+                    text-align: center;
+                    font-weight: 800;
+                }
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                width: 100%;
+                word-spacing: 4px;
+                margin: 0px auto;
+                .strong{
+                    font-weight: 800;
+                }
+                text-transform: uppercase;
+                ul{
+                    li{
+                        margin: 5px auto;
+                        list-style-position: inside;
+                    }
+                }
+            }
+        }
+    } 
+}

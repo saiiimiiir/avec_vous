@@ -65,11 +65,14 @@ $taillerCarte : 50%;
     .titreCanton{
         margin-bottom: 20px;
         @include flexCenter(row);
+        img{
+            width: 30px;
+        }
         h3{
             margin-left: 10px;
             color : $blue;
             @include typoSemiBold;
-            font-size: 40px;
+            font-size: 30px;
             text-transform: uppercase;
         }
     }
@@ -92,12 +95,12 @@ $taillerCarte : 50%;
             justify-content: flex-start;
             align-items: center;
             i{
-                font-size: 40px;
+                font-size: 35px;
                 margin: 20px;
                 color: $blue;
             }
             span.yellowText{
-                font-size: 35px;
+                font-size: 25px;
             }
         }
         p{

@@ -170,7 +170,7 @@
     #header{
         @include flexCenter(column);
         width: 100%;
-        margin: 15px auto;
+        margin: 0px auto 15px auto;
         .titre{
             text-transform: uppercase;
             color: $blue;
