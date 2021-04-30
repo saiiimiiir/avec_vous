@@ -46,11 +46,34 @@
                 .text {
                     font-family: 'Biryani', sans-serif;
                     text-transform: uppercase;
+                    cursor: pointer;
+                }
+                .text:hover {
+                    font-family: 'Biryani', sans-serif;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    color: $yellow;
                 }
                 .textSelected{
                     font-family: 'Biryani', sans-serif;
                     text-transform: uppercase;
                     color : $yellow;
+                }
+            }
+        }
+    }
+    .textAction{
+        border-top: 1px solid $yellow;
+        margin: 30px auto;
+        padding-top: 30px;
+        p{
+            .strong{
+                font-weight: 800;
+            }
+            text-transform: uppercase;
+            ul{
+                li{
+                    margin-left: 20px;
                 }
             }
         }
