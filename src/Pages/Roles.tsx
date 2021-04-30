@@ -28,16 +28,16 @@ export default class Roles extends Component {
                             <br />
                             <ul>
                                 <li className="listeRole"><span className="strong">L’action sociale</span> en faveur des personnes âgées, des personnes handicapées, de l’enfance, de la famille et des personnes en difficulté :</li>
-                                <li className="listeRole"><span className="strong">L’insertion</span> par la gestion du RSA ;</li>
-                                <li className="listeRole"><span className="strong">La voirie</span> : entretien et construction des routes départementales ;</li>
-                                <li className="listeRole">La lutte contre la <span className="strong">désertification médicale</span> ;</li>
-                                <li className="listeRole"><span className="strong">L’éducation</span> : La construction, l’entretien et le fonctionnement des collèges publics, la restauration et l’aide à la cantine, l’équipement informatique ;</li>
-                                <li className="listeRole"><span className="strong">Les pompiers</span> : Le financement du service départemental d’incendie et de secours ;</li>
-                                <li className="listeRole">La protection de <span className="strong">l’environnement</span> ;</li>
-                                <li className="listeRole"><span className="strong">L’aide aux associations</span> culturelles, sportives, et sociales ;</li>
-                                <li className="listeRole"><span className="strong">Le tourisme</span> : la Loire à vélo, les châteaux, l’aide aux professionnels ;</li>
-                                <li className="listeRole"><span className="strong">Le soutien</span> aux communes ;</li>
-                                <li className="listeRole">Le déploiement de <span className="strong">l’internet haut débit</span> ;</li>
+                                <li className="listeRole"><span className="strong">L’insertion</span> par la gestion du RSA </li>
+                                <li className="listeRole"><span className="strong">La voirie</span> : entretien et construction des routes départementales </li>
+                                <li className="listeRole">La lutte contre la <span className="strong">désertification médicale</span> </li>
+                                <li className="listeRole"><span className="strong">L’éducation</span> : La construction, l’entretien et le fonctionnement des collèges publics, la restauration et l’aide à la cantine, l’équipement informatique </li>
+                                <li className="listeRole"><span className="strong">Les pompiers</span> : Le financement du service départemental d’incendie et de secours </li>
+                                <li className="listeRole">La protection de <span className="strong">l’environnement</span> </li>
+                                <li className="listeRole"><span className="strong">L’aide aux associations</span> culturelles, sportives, et sociales </li>
+                                <li className="listeRole"><span className="strong">Le tourisme</span> : la Loire à vélo, les châteaux, l’aide aux professionnels </li>
+                                <li className="listeRole"><span className="strong">Le soutien</span> aux communes </li>
+                                <li className="listeRole">Le déploiement de <span className="strong">l’internet haut débit</span> </li>
                                 <li className="listeRole">Le financement de <span className="strong">projets agricoles</span> …</li>
                             </ul>
                             <ul>

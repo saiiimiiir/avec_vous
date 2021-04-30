@@ -107,9 +107,9 @@ export default class MeungSurLoire extends Component {
                         </span>
                         <div className="socialIcon">
                             <a href="mailto:pauline.thierry@loiretavecvous.fr"><i className="fas fa-envelope"></i></a>
-                            <a href="https://www.facebook.com/MARTINBRACQUEMOND2021"><i className="fab fa-facebook-f"></i></a>
-                            <a href="twitter.com"><i className="fab fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/martinbracquemond2021/"><i className="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/MARTINBRACQUEMOND2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="twitter.com" target="_blank"><i className="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/martinbracquemond2021/" target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
 
@@ -129,7 +129,7 @@ export default class MeungSurLoire extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="https://fr.calameo.com/read/001161664ea8b1ae9b4cc?authid=jnlYjrRNh7bR"><span >
+                        <a href="https://fr.calameo.com/read/001161664ea8b1ae9b4cc?authid=jnlYjrRNh7bR" target="_blank"><span >
                             VOIR ET TÉLÉCHARGER LE PROGRAMME
                         </span></a>
                     </div>
