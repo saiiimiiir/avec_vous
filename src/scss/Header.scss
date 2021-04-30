@@ -94,6 +94,12 @@
                     fill: #bda563;
                 }
             }
+            .logoLong{
+                width: 300px;
+                margin: 10px;
+                margin: auto auto;
+                display: none;
+            }
         }
         .socialIcon{
             position: absolute;
@@ -232,6 +238,12 @@
 
                     .cls-2 {
                         fill: #bda563;
+                    }
+                    .logoLong{
+                        width: 300px;
+                        margin: 10px;
+                        margin: auto auto;
+                        display: none;
                     }
                 }
             }
@@ -390,8 +402,15 @@
                 z-index: 5;
             }
             a{
+                width: 100%;
                 svg{
                     display: none;
+                    position: relative;
+                    margin: 20px 0px;
+                    left: 0;
+                    transform: translate(0);
+                    width : 100%;
+                    align-self: center;
                     .cls-1 {
                         fill: #004388;
                     }
@@ -401,9 +420,9 @@
                     }
                 }
                 .logoLong{
-                    width: 100%;
-                    margin: 10px;
-                    margin: auto auto;
+                    width: 80%;
+                    margin: 10px auto;
+                    display: block;
                 }
             }
             .socialIcon{
