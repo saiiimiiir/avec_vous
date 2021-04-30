@@ -15,67 +15,67 @@ const Canton = () => {
     // AFICHAGE DE LA FICHE CANDIDAT EN FONCTION DU CANTON
 
     if(canton == "chalette-sur-loing"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "courtenay"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "montargis"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "gien"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "malesherbes"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "fleury-les-aubrais"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "orleans-4"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "orleans-3"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "orleans-1"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "orleans-2"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "saint-jean-de-la-ruelle"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "oliet"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "meung-sur-loire"){
         ficheCandidat = <MeungSurLoire />
     }
     if(canton == "beaugency"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "lorris"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "saint-jean-de-braye"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "chateauneuf-sur-loire"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "saint-jean-le-blanc"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "sully-sur-loire"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "la-ferte-saint-aubin"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     if(canton == "pithiviers"){
-        ficheCandidat = <MeungSurLoire />
+        ficheCandidat = null
     }
     console.log(canton)
     return (
