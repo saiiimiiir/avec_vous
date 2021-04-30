@@ -19,27 +19,19 @@ function App() {
   <Router>
 
       <Switch>
-        <Route exact path="/">
-          <Construction/>
-        </Route>
+        <Route exact path="/" children={<Construction />} />
       </Switch>
 
       <Switch>
-        <Route exact path="/home">
-          <Home />
-        </Route>
+        <Route exact path="/home" children={<Home />} />
       </Switch>
 
       <Switch>
-        <Route exact path="/role">
-          <Roles/>
-        </Route>
+        <Route exact path="/role" children={<Roles />} />
       </Switch>
 
       <Switch>
-        <Route exact path="/actions">
-          <Actions/>
-        </Route>
+        <Route exact path="/actions" children={<Actions />}/>
       </Switch>
 
       <Switch>
