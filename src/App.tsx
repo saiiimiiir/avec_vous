@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
+import Actions from './Pages/Actions'
 import Construction from './Pages/Construction';
 import Canton from './Pages/Canton';
 import Roles from './Pages/Roles';
@@ -37,7 +38,7 @@ function App() {
 
       <Switch>
         <Route exact path="/actions">
-
+          <Actions/>
         </Route>
       </Switch>
 

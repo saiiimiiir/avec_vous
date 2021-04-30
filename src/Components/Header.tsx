@@ -122,9 +122,9 @@ export default class Header extends Component {
                 </div>
                 <div className="imageContainer">
                     <div className="socialIcon">
-                        <a href="facebook.com"><i className="fab fa-facebook-f"></i></a>
-                        <a href="twitter.com"><i className="fab fa-twitter"></i></a>
-                        <a href="instagram.com"><i className="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i className="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
                     </div>
                     <Link to="/home">
                         {/*<img id="logoImg" src={logo} alt="Logo avec vous !" />*/}
