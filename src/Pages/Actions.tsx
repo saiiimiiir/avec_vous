@@ -84,8 +84,8 @@ export default function Actions() {
                 </table>
             </div>
             <div className="textAction">
+                <span className="center">ECOUTE, PROXIMITE, CONFIANCE, SIMPLIFICATION ET EFFICACITE</span>
                 <p>
-                    ECOUTE, PROXIMITE, CONFIANCE, SIMPLIFICATION ET EFFICACITE
                     <br/>
                     <br/>
                     <ul>
