@@ -79,8 +79,8 @@
             text-transform: uppercase;
             ul{
                 li{
-                    list-style: inside;
                     margin: 5px auto;
+                    list-style-position: outside;
                 }
             }
         }

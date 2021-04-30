@@ -371,6 +371,9 @@
                 transition: left 0.5s ease;
                 a{
                     text-decoration: none;
+                    li{
+                        list-style: none;
+                    }
                 }
             }
             .textMajorite{
