@@ -57,53 +57,114 @@
 /*-----------------------------*/
 
 @media screen and (min-width: 800px) and (max-width : 1400px){
-    #canton{
-        @include pannelCenter();
-        @include flexCenter(column);
-        .titreCanton{
-            margin-bottom: 20px;
-            @include flexCenter(row);
-            h3{
-                margin-left: 10px;
-                color : $blue;
-                @include typoSemiBold;
+#canton{
+    @include pannelCenter();
+    @include flexCenter(column);
+    .titreCanton{
+        margin-bottom: 20px;
+        @include flexCenter(row);
+        h3{
+            margin-left: 10px;
+            color : $blue;
+            @include typoSemiBold;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+    }
+    .carteCanton{
+        width: 40%;
+        img{
+            width: 100%;
+        }
+    }
+    .candidats{
+
+    }
+    
+    .dons{
+        width: 80%;
+        margin-bottom : 100px;
+        .titreDons{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            i{
                 font-size: 40px;
-                text-transform: uppercase;
+                margin: 20px;
+                color: $blue;
+            }
+            span.yellowText{
+                font-size: 35px;
             }
         }
-        .carteCanton{
-            width: 60%;
-            img{
-                width: 90%;
-            }
+        p{
+            margin: 0px 20px 20px 20px;
+            color: $yellow;
         }
     }
 }
+.constrain{
+    width: 80%;
+    margin: 0px auto;
+}
+}
 
 /*-----------------------------*/
-/*-----------TABLETTE----------*/
+/*-----------MOBILE------------*/
 /*-----------------------------*/
 
 @media screen and (max-width: 800px){
     #canton{
-        @include pannelCenter();
-        @include flexCenter(column);
-        .titreCanton{
-            margin-bottom: 20px;
-            @include flexCenter(row);
-            h3{
-                margin-left: 10px;
-                color : $blue;
-                @include typoSemiBold;
-                font-size: 40px;
-                text-transform: uppercase;
-            }
-        }
-        .carteCanton{
-            width: 50%;
-            img{
-                width: 100%;
-            }
+    width: 100%;
+    @include flexCenter(column);
+    .titreCanton{
+        margin-bottom: 20px;
+        @include flexCenter(row);
+        h3{
+            margin-left: 10px;
+            color : $blue;
+            @include typoSemiBold;
+            font-size: 40px;
+            text-transform: uppercase;
         }
     }
+    .carteCanton{
+        width: 40%;
+        img{
+            width: 100%;
+        }
+    }
+    .candidats{
+
+    }
+    
+    .dons{
+        width: 100%;
+        margin-bottom : 30px;
+        .titreDons{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            i{
+                font-size: 40px;
+                margin: 20px;
+                color: $blue;
+            }
+            span.yellowText{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        p{
+            margin: 0px 20px 20px 20px;
+            color: $yellow;
+        }
+    }
+}
+.constrain{
+    width: 80%;
+    margin: 0px auto;
+}
 }

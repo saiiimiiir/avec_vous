@@ -68,6 +68,7 @@
         @include flexCenter(row);
         position: relative;
         width: 100%;
+        
         #trinagle{
             height: 190%;
             left: -1px;
@@ -77,13 +78,21 @@
             z-index: 5;
         }
         a{
-            #logoImg{
+            width: 100%;
+            svg{
                 position: relative;
                 margin: 20px 0px;
-                left: 50%;
+                left: 100%;
                 transform: translate(-50%);
                 width : 100%;
                 align-self: center;
+                .cls-1 {
+                    fill: #004388;
+                }
+
+                .cls-2 {
+                    fill: #bda563;
+                }
             }
         }
         .socialIcon{
@@ -208,14 +217,22 @@
                 z-index: 5;
             }
             a{
-                #logoImg{
+                width: 60%;
+                svg{
                     display: block;
                     position: relative;
                     margin: 20px 0px;
-                    left: 50%;
+                    left: 100%;
                     transform: translate(-50%);
-                    width : 60%;
+                    width : 100%;
                     align-self: center;
+                    .cls-1 {
+                        fill: #004388;
+                    }
+
+                    .cls-2 {
+                        fill: #bda563;
+                    }
                 }
             }
             .socialIcon{
@@ -373,20 +390,21 @@
                 z-index: 5;
             }
             a{
+                svg{
+                    display: none;
+                    .cls-1 {
+                        fill: #004388;
+                    }
+
+                    .cls-2 {
+                        fill: #bda563;
+                    }
+                }
                 .logoLong{
                     width: 100%;
                     margin: 10px;
                     margin: auto auto;
                 }
-            }
-            #logoImg{
-                display: none;
-                position: relative;
-                margin: 20px 0px;
-                left: 50%;
-                transform: translate(-50%);
-                width : 40%;
-                align-self: center;
             }
             .socialIcon{
                 position: relative;
