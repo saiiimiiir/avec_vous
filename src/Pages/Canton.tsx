@@ -10,6 +10,73 @@ import '../scss/Canton.scss'
 const Canton = () => {
     var params = useParams()
     var canton = (params as any).canton;
+    var ficheCandidat;
+
+    // AFICHAGE DE LA FICHE CANDIDAT EN FONCTION DU CANTON
+
+    if(canton == "chalette-sur-loing"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "courtenay"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "montargis"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "gien"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "malesherbes"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "fleury-les-aubrais"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "orleans-4"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "orleans-3"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "orleans-1"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "orleans-2"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "saint-jean-de-la-ruelle"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "oliet"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "meung-sur-loire"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "beaugency"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "lorris"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "saint-jean-de-braye"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "chateauneuf-sur-loire"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "saint-jean-le-blanc"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "sully-sur-loire"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "la-ferte-saint-aubin"){
+        ficheCandidat = <MeungSurLoire />
+    }
+    if(canton == "pithiviers"){
+        ficheCandidat = <MeungSurLoire />
+    }
     console.log(canton)
     return (
         <>
@@ -25,8 +92,9 @@ const Canton = () => {
                 <div className="candidats">
 
                 </div>
-                <MeungSurLoire/>
-                
+
+                {ficheCandidat}
+    
                 <div className="dons">
                     <div className="titreDons">
                         <i className="fas fa-users"></i>

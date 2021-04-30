@@ -1,5 +1,7 @@
 @import './Setup.scss';
 
+$taillerCarte : 50%;
+
 #canton{
     @include pannelCenter();
     @include flexCenter(column);
@@ -15,7 +17,7 @@
         }
     }
     .carteCanton{
-        width: 40%;
+        width: $taillerCarte;
         img{
             width: 100%;
         }
@@ -72,7 +74,7 @@
         }
     }
     .carteCanton{
-        width: 40%;
+        width: $taillerCarte;
         img{
             width: 100%;
         }
@@ -130,7 +132,7 @@
         }
     }
     .carteCanton{
-        width: 40%;
+        width: $taillerCarte;
         img{
             width: 100%;
         }
