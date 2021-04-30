@@ -118,55 +118,67 @@ $taillerCarte : 50%;
 
 @media screen and (max-width: 800px){
     #canton{
-    width: 100%;
-    @include flexCenter(column);
-    .titreCanton{
-        margin-bottom: 20px;
-        @include flexCenter(row);
-        h3{
-            margin-left: 10px;
-            color : $blue;
-            @include typoSemiBold;
-            font-size: 40px;
-            text-transform: uppercase;
-        }
-    }
-    .carteCanton{
-        width: $taillerCarte;
-        img{
-            width: 100%;
-        }
-    }
-    .candidats{
-
-    }
-    
-    .dons{
         width: 100%;
-        margin-bottom : 30px;
-        .titreDons{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            i{
-                font-size: 40px;
-                margin: 20px;
-                color: $blue;
+        @include flexCenter(column);
+        #header{
+            .imageContainer{
+                display: none;
             }
-            span.yellowText{
+            .containerFooter{
+                display: none;
+            }
+        }
+        .titreCanton{
+            margin-bottom: 20px;
+            @include flexCenter(row);
+            img{
+                display: none;
+            }
+            h3{
+                margin-left: 10px;
+                color : $blue;
+                @include typoSemiBold;
                 font-size: 20px;
+                text-transform: uppercase;
                 text-align: center;
             }
         }
-        p{
-            margin: 0px 20px 20px 20px;
-            color: $yellow;
+        .carteCanton{
+            width: 90%;
+            img{
+                width: 100%;
+            }
+        }
+        .candidats{
+
+        }
+        
+        .dons{
+            width: 100%;
+            margin-bottom : 30px;
+            .titreDons{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i{
+                    font-size: 40px;
+                    margin: 20px;
+                    color: $blue;
+                }
+                span.yellowText{
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+            p{
+                margin: 0px 20px 20px 20px;
+                color: $yellow;
+            }
         }
     }
-}
-.constrain{
-    width: 80%;
-    margin: 0px auto;
-}
+    .constrain{
+        width: 80%;
+        margin: 0px auto;
+    }
 }

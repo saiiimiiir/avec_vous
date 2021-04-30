@@ -109,6 +109,12 @@
             .logoLong{
                 width: 60% !important;
             }
+            .imageContainer{
+                display: none;
+            }
+            .containerFooter{
+                display: none;
+            }
         }
         width: 100%;
         .titreRole{
@@ -119,12 +125,12 @@
             span{
                 text-transform: uppercase;
                 font-size: 28px;
-                margin: 20px 0px;
+                margin: 10px 0px;
                 text-align: center;
             }
         }
         .textRole{
-            margin: 10px auto;
+            margin: 0 auto;
             p{
                 font-size: 14px;
                 text-transform: uppercase;

@@ -41,80 +41,155 @@ export default class Header extends Component {
 
                     {/*-----hamburger menu pannel-----*/}
                     <div className="menuMobile displayOnMobile">
-                        <Link to="/role">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> les rôles du conseil départemental</span>
+                        <Link  to="/role">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> les rôles du conseil départemental</span>
                         </Link>
-                        <Link to="#">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nos principales actions</span>
+                        <Link  to="/actions">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nos principales actions</span>
                         </Link>
-                        <Link to="/pour-le-canton/Beaugency">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de beaugency</span>
+                        <Link  to="/pour-le-canton/Beaugency">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de beaugency</span>
                         </Link>
-                        <Link to="/pour-le-canton/chalette-sur-loing">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de châlettes-sur-loing</span>
+                        <Link  to="/pour-le-canton/chalette-sur-loing">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de châlettes-sur-loing</span>
                         </Link>
-                        <Link to="/pour-le-canton/chateauneuf-sur-loire">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de chateauneuf-sur-loire</span>
+                        <Link  to="/pour-le-canton/chateauneuf-sur-loire">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de chateauneuf-sur-loire</span>
                         </Link>
-                        <Link to="/pour-le-canton/courtenay">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de courtenay</span>
+                        <Link  to="/pour-le-canton/courtenay">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de courtenay</span>
                         </Link>
-                        <Link to="/pour-le-canton/la-ferte-saint-aubin">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de la-ferté-saint-aubin</span>
+                        <Link  to="/pour-le-canton/la-ferte-saint-aubin">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de la-ferté-saint-aubin</span>
                         </Link>
-                        <Link to="/pour-le-canton/fleury-les-aubrais">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de fleury-les-aubrais</span>
+                        <Link  to="/pour-le-canton/fleury-les-aubrais">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de fleury-les-aubrais</span>
                         </Link>
-                        <Link to="/pour-le-canton/gien">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de gien</span>
+                        <Link  to="/pour-le-canton/gien">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de gien</span>
                         </Link>
-                        <Link to="/pour-le-canton/lorris">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de lorris</span>
+                        <Link  to="/pour-le-canton/lorris">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de lorris</span>
                         </Link>
-                        <Link to="/pour-le-canton/malesherbes">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de malesherbes</span>
+                        <Link  to="/pour-le-canton/malesherbes">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de malesherbes</span>
                         </Link>
-                        <Link to="/pour-le-canton/meung-sur-loire">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de meung-sur-loire</span>
+                        <Link  to="/pour-le-canton/meung-sur-loire">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de meung-sur-loire</span>
                         </Link>
-                        <Link to="/pour-le-canton/montargis">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de montargis</span>
+                        <Link  to="/pour-le-canton/montargis">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de montargis</span>
                         </Link>
-                        <Link to="/pour-le-canton/olivet">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de olivet</span>
+                        <Link  to="/pour-le-canton/olivet">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de olivet</span>
                         </Link>
-                        <Link to="/pour-le-canton/orleans-1">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 1</span>
+                        <Link  to="/pour-le-canton/orleans-1">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 1</span>
                         </Link>
-                        <Link to="/pour-le-canton/orleans-2">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans2</span>
+                        <Link  to="/pour-le-canton/orleans-2">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans2</span>
                         </Link>
-                        <Link to="/pour-le-canton/orleans-3">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 3</span>
+                        <Link  to="/pour-le-canton/orleans-3">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 3</span>
                         </Link>
-                        <Link to="/pour-le-canton/orleans-4">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 4</span>
+                        <Link  to="/pour-le-canton/orleans-4">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de orléans 4</span>
                         </Link>
-                        <Link to="/pour-le-canton/pithiviers">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de pithiviers</span>
+                        <Link  to="/pour-le-canton/pithiviers">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de pithiviers</span>
                         </Link>
-                        <Link to="/pour-le-canton/saint-jean-de-braye">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-braye</span>
+                        <Link  to="/pour-le-canton/saint-jean-de-braye">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-braye</span>
                         </Link>
-                        <Link to="/pour-le-canton/saint-jean-de-la-ruelle">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-la-ruelle</span>
+                        <Link  to="/pour-le-canton/saint-jean-de-la-ruelle">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-de-la-ruelle</span>
                         </Link>
-                        <Link to="/pour-le-canton/saint-jean-le-blanc">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-le-blanc</span>
+                        <Link  to="/pour-le-canton/saint-jean-le-blanc">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> canton de saint-jean-le-blanc</span>
                         </Link>
-                        <Link to="/pour-le-canton/sully-sur-loire">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de sully-sur-loire</span>
+                        <Link  to="/pour-le-canton/sully-sur-loire">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de sully-sur-loire</span>
                         </Link>
-                        <Link to="mailto:test@loiretavecvous.fr">
-                            <span className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nous contacter</span>
+                        <Link  to="mailto:test@loiretavecvous.fr">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nous contacter</span>
                         </Link>
-                        <Link to="/mentions">
-                            <span className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> mentions légales</span>
+                        <Link  to="/mentions">
+                            <span onClick={()=>{
+                                (document.querySelector('.menuMobile') as any).style.left = "-100%";
+                            menuOpen = false;
+                            }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> mentions légales</span>
                         </Link>
                     </div>
                     {/*-----hamburger menu pannel-----*/}
