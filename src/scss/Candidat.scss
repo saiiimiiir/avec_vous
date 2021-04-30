@@ -1,5 +1,7 @@
 @import './Setup.scss';
 
+$lineHeight : 140%;
+
 #presentationCandidat{
     margin: 20px;
     width: 100%;
@@ -12,7 +14,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
         .fiche{
             width: 50%;
@@ -39,6 +41,9 @@
                     text-transform: uppercase;
                     line-height: 120%;
                     word-spacing: 4px;
+                    em.lineHeight{
+                        line-height: $lineHeight;
+                    }
                 }
             }
         }
@@ -49,7 +54,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
         .fiche{
             width: 50%;
@@ -76,6 +81,9 @@
                     text-transform: uppercase;
                     line-height: 120%;
                     word-spacing: 4px;
+                    em.lineHeight{
+                        line-height: $lineHeight;
+                    }
                 }
             }
         }
@@ -158,7 +166,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;
+            align-items: flex-start;
             width: 100%;
             .fiche{
                 width: 50%;
@@ -185,6 +193,9 @@
                         text-transform: uppercase;
                         line-height: 120%;
                         word-spacing: 4px;
+                        em.lineHeight{
+                            line-height: $lineHeight;
+                        }
                     }
                 }
             }
@@ -195,7 +206,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;
+            align-items: flex-start;
             width: 100%;
             .fiche{
                 width: 50%;
@@ -222,6 +233,9 @@
                         text-transform: uppercase;
                         line-height: 120%;
                         word-spacing: 4px;
+                        em.lineHeight{
+                            line-height: $lineHeight;
+                        }
                     }
                 }
             }
@@ -263,7 +277,7 @@
                 @include flexCenter(row);
                 svg{
                     width: 30px;
-                    margin-right: 15px;
+                    margin-right: 0px;
                     .cls-1 {
                         fill: #b5a269;
                     }
@@ -334,6 +348,9 @@
                         text-transform: uppercase;
                         line-height: 120%;
                         word-spacing: 4px;
+                        em.lineHeight{
+                            line-height: $lineHeight;
+                        }
                     }
                 }
             }
@@ -371,6 +388,9 @@
                         text-transform: uppercase;
                         line-height: 120%;
                         word-spacing: 4px;
+                        em.lineHeight{
+                            line-height: $lineHeight;
+                        }
                     }
                 }
             }

@@ -33,9 +33,9 @@ const Canton = () => {
                         <span className="yellowText">vous aussi, soutenez-nous !</span>
                     </div>
                     <p>
-                        le mandataire financier est seul habilité à recueillir des dons en faveur de la campagne<br />
-                        de pauline partin et thierrybracquemond, dans les limites précisées à l'article L52-8<br />
-                        du code électoral.<br />
+                        le mandataire financier est seul habilité à recueillir des dons en faveur de la campagne 
+                        de pauline partin et thierrybracquemond, dans les limites précisées à l'article L52-8
+                        du code électoral.<br /><br/>
                         vous pouvez nous transmettre vos dons par chèque bancaire libellé à l'ordre de :<br />
                         <span className="bluetext">[....] - 2 rue des rordeliers - 45130 - meung-sur-Loire.</span><br />
                         par avance nous remercions nos généreux donateurs. ces dons étant déductibles de vos impôts,<br />

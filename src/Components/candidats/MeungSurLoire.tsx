@@ -19,7 +19,9 @@ export default class MeungSurLoire extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Maire de Meung-sur-Loire depuis 2008 – 6 500 habitants<br /><br/>
+                                    Maire de Meung-sur-Loire depuis 2008 <br/> – 6 500 habitants<br /><br />
+                                </em>
+                                <em className="lineHeight">
                                     Présidente de la Communauté de Communes des Terres du Val de Loire<br />
                                     Vice-Présidente du Conseil départemental<br />
                                     Présidente de l'Association des Maires du Loiret<br />
@@ -39,8 +41,11 @@ export default class MeungSurLoire extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Agriculteur<br/><br/>
-                                    Maire de Huêtre depuis 2008 – 292 habitants<br />
+                                    Agriculteur<br />
+                                    Maire de Huêtre depuis 2008 <br />– 292 habitants<br /><br />
+                                </em>
+                                <em className="lineHeight">
+                                    
                                     Président de la Communauté de Communes de la Beauce Loirétaine<br />
                                 </em>
                             </p>
@@ -63,7 +68,9 @@ export default class MeungSurLoire extends Component {
                             <p>
                                 <em>
                                     Retraitée secteur de l’industrie<br /><br />
-                                    Maire de Coulmiers depuis 2008 - 560 habitants
+                                </em>
+                                <em className="lineHeight">
+                                    Maire de Coulmiers depuis 2008 <br/>- 560 habitants
                                 </em>
                             </p>
                         </div>
@@ -75,13 +82,15 @@ export default class MeungSurLoire extends Component {
                         </div>
                         <div className="text">
                             <h3 className="titre">
-                                titulaire<br />
+                                supléant<br />
                                 Patrice Voisin
                             </h3>
                             <p>
                                 <em>
                                     Responsable d’affaires dans le BTP<br /><br />
-                                    Maire de Patay depuis 2020 – 2 250 habitants<br />
+                                </em>
+                                <em className="lineHeight">
+                                    Maire de Patay depuis 2020 <br/>– 2 250 habitants<br />
                                     Vice-Président de la Communauté de Communes de la Beauce Loirétaine<br />
                                 </em>
                             </p>
