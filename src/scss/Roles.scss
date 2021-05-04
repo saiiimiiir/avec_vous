@@ -41,6 +41,9 @@
             .strong{
                 font-weight: 800;
             }
+            .fillet{
+                @include fillet(100%,black,1px)
+            }
             ul{
                 li{
                     margin: 10px;

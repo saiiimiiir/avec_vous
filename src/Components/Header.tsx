@@ -179,12 +179,12 @@ export default class Header extends Component {
                             menuOpen = false;
                             }} className="bluetext"> <i className="fas fa-long-arrow-alt-right"></i> canton de sully-sur-loire</li>
                         </Link>
-                        <Link  to="mailto:test@loiretavecvous.fr">
+                        <a  href="mailto:test@loiretavecvous.fr">
                             <li onClick={()=>{
                                 (document.querySelector('.menuMobile') as any).style.left = "-100%";
                             menuOpen = false;
                             }} className="yellowText"> <i className="fas fa-long-arrow-alt-right"></i> nous contacter</li>
-                        </Link>
+                        </a>
                         <Link  to="/mentions">
                             <li onClick={()=>{
                                 (document.querySelector('.menuMobile') as any).style.left = "-100%";

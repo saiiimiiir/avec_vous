@@ -103,6 +103,16 @@ $hoverBlue : #0076BD;
     
 }
 
+@mixin fillet($width,$color,$height){
+    width: $width;
+    background-color: $color;
+    height: $height;
+}
+
+.fillet{
+    @include fillet(100%, grey, 0.5px)
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

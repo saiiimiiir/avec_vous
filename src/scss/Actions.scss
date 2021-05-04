@@ -67,16 +67,23 @@
     }
     .textAction{
         border-top: 1px solid $yellow;
-        margin: 30px auto;
         padding-top: 30px;
         @include flexCenter(column);
         .center{
                 text-align: center;
+                font-size: 22px;
+                font-weight: 800;
             }
         p{
             width: 80%;
             word-spacing: 4px;
             margin: 0px auto;
+            .grosTitre{
+                font-size: 20px;
+            }
+            i{
+                margin-right: 5px;
+            }
             .strong{
                 font-weight: 800;
             }
@@ -160,15 +167,21 @@
         .textAction{
             @include flexCenter(column);
             border-top: 1px solid $yellow;
-            margin: 30px auto;
             padding-top: 30px;
             .center{
                     text-align: center;
+                    font-weight: 900;
                 }
             p{
                 width: 80%;
                 word-spacing: 4px;
                 margin: 0px auto;
+                .grosTitre{
+                    font-size: 20px;
+                }
+                i{
+                    margin-right: 5px;
+                }
                 .strong{
                     font-weight: 800;
                 }
@@ -278,6 +291,12 @@
                 width: 100%;
                 word-spacing: 4px;
                 margin: 0px auto;
+                .grosTitre{
+                    font-size: 20px;
+                }
+                i{
+                    margin-right: 5px;
+                }
                 .strong{
                     font-weight: 800;
                 }

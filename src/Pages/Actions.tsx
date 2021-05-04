@@ -15,7 +15,7 @@ export default function Actions() {
                     <i className="fas fa-long-arrow-alt-right"></i> <span className="yellowText">nos principales actions</span>
                 </div>
             </div>
-            <div className="rubriques">
+            {/*<div className="rubriques">
                 <table>
                     <tbody>
                         <tr>
@@ -84,14 +84,14 @@ export default function Actions() {
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </div> */}
             <div className="textAction">
                 <span className="center">ECOUTE, PROXIMITE, CONFIANCE, SIMPLIFICATION ET EFFICACITE</span>
                 <p>
                     <br/>
                     <br/>
                     <ul>
-                        <span className="strong">dans le Loiret, c’est fait !</span>
+                        <i className="fas fa-long-arrow-alt-right"></i> <span className="strong grosTitre">dans le Loiret, c’est fait !</span>
                         <br/><br/>
                         <li><span className="strong">sécurité routière</span> : zéro point noir routier </li>
                         <li><span className="strong">deux ponts restaurés</span>, deux déviations, une passerelle piétons vélos </li>
@@ -117,12 +117,11 @@ export default function Actions() {
                         <li>centre de vaccination itinérant</li>
                         <li>prêt d'ordinateur aux collégiens</li>
                     </ul>
-
-                    <br/><br/>
-                    <span className="strong">Et pour demain !</span>
-                    <br/><br/>
-                    
+                    <br/>
                     <ul>
+                        <i className="fas fa-long-arrow-alt-right"></i> <span className="strong grosTitre">Et pour demain !</span>
+                        <br/>
+                        <br/>
                         <span className="strong">ACCÉLÉRONS NOTRE DÉMARCHE DE TRANSITION ENVIRONNEMENTALE</span>
                         <br/><br/>
                         <li><span className="strong">réduire nos émissions de gaz à effet de serre</span> de 25% d’ici 2030 </li>
@@ -133,7 +132,9 @@ export default function Actions() {
                         <li>valoriser les <span className="strong">parcs départementaux</span> en partenariat avec les acteurs de l’environnement </li>
                         <li>aménager encore plus d’<span className="strong">itinéraires de randonnées</span> </li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">DONNONS À NOS JEUNES UN AVENIR SEREIN</span>
                         <br/><br/>
@@ -144,7 +145,9 @@ export default function Actions() {
                         <li>favoriser <span className="strong">les initiatives environnementales des collégiens</span> avec un budget participatif annuel </li>
                         <li>aider les jeunes à trouver des stages avec <span className="strong">« décroche ton stage »</span> …</li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">RESPECTONS NOS AINéS</span>
                         <br/><br/>
@@ -153,7 +156,9 @@ export default function Actions() {
                         <li>développer les petites <span className="strong">unités de vie et pensions de famille</span> </li>
                         <li><span className="strong">renforcer les liens avec nos ainés</span> (aides, attention, solidarité intergénérationnelle…) …</li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">SOYONS FIERS D’ETRE SOLIDAIRES</span>
                         <br/><br/>
@@ -167,7 +172,9 @@ export default function Actions() {
                         <li>maintenir une politique volontariste dans les <span className="strong">programmes de logements</span> </li>
                         <li>accentuer le déploiement des <span className="strong">espaces services publics</span> en maillant le territoire </li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">DEFENDONS L’ACCES AUX SOINS POUR TOUS</span>
                         <br/><br/>
@@ -175,7 +182,9 @@ export default function Actions() {
                         <li>aider au déploiement de la <span className="strong">télé-médecine</span> </li>
                         <li>soutenir la mise en place d’un <span className="strong">centre médical itinérant</span> …</li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">STRUCTURONS NOS MOYENS DE COMMUNICATION</span>
                         <br/><br/>
@@ -183,7 +192,9 @@ export default function Actions() {
                         <li><span className="strong">téléphonie mobile</span> : identifier les zones blanches et agir auprès des opérateurs pour une meilleure couverture </li>
                         <li>soutenir les communes et intercommunalités dans leurs <span className="strong">projets numériques</span> via l’agence loiret numérique …</li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">SOUTENONS LES PROJETS SPORTIFS, CULTURELS ET ASSOCIATIFS</span>
                         <br/><br/>
@@ -191,7 +202,9 @@ export default function Actions() {
                         <li>accompagner le <span className="strong">mouvement sportif</span>, en valorisant le label « terres de jeux 2024 » </li>
                         <li>poursuivre nos efforts pour une vraie <span className="strong">politique culturelle locale</span> …</li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">VALORISONS NOS CANTONS</span>
                         <br/><br/>
@@ -202,7 +215,9 @@ export default function Actions() {
                         <li><span className="strong">valoriser les programmes touristiques</span> tels que la route de la rose ou loiret au fil de l’eau avec tourisme loiret </li>
                         <li><span className="strong">encourager l’animation touristique</span> locale …</li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">AMENAGEONS NOS TERRITOIRES</span>
                         <br/><br/>
@@ -212,7 +227,9 @@ export default function Actions() {
                         <li><span className="strong">créer un nouvel axe structurant nord-sud</span> avec un franchissement de la Loire, à l’est de la Métropole </li>
                         <li><span className="strong">restaurer le canal d’orléans</span> dans ses différentes fonctions (gestion des eaux et développement touristique) …</li>
                     </ul>
-                    <br/><br/>
+                    <br/>
+                    <div className="fillet"></div>
+                    <br/>
                     <ul>
                         <span className="strong">ENCOURAGEONS NOS SAPEURS POMPIERS</span>
                         <br/><br/>

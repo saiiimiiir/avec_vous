@@ -40,6 +40,7 @@ export default class Roles extends Component {
                                 <li className="listeRole">Le déploiement de <span className="strong">l’internet haut débit</span> </li>
                                 <li className="listeRole">Le financement de <span className="strong">projets agricoles</span> …</li>
                             </ul>
+                            <div className="fillet"></div>
                             <ul>
                                 <br />
                                 <span className="strong">Notre département c’est :</span>

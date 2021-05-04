@@ -55,14 +55,14 @@
     position: relative;
     @include flexCenter(column);
     #svgMap{
-        width: 70%;
+        width: 50%;
         margin: 0px auto;
     }
     #votez{
         position: absolute;
         left: 0;
         top : 0;
-        width: 18%;
+        width: 15%;
         .cls-1 {
             fill: #bda563;
         }

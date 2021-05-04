@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useRef, useState } from 'react'
 import { useParams } from 'react-router'
 import triangle from '../asset/acceuil/traingle_titre.png'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
@@ -9,8 +9,9 @@ import '../scss/Canton.scss'
 
 const Canton = () => {
     var params = useParams()
-    var canton = (params as any).canton;
+    var canton : string = (params as any).canton;
     var ficheCandidat;
+    const [zoom, setzoom] = useState(false)
 
     // AFICHAGE DE LA FICHE CANDIDAT EN FONCTION DU CANTON
 
@@ -88,6 +89,21 @@ const Canton = () => {
                 </div>
                 <div className="carteCanton">
                     <img src={process.env.PUBLIC_URL + '/carte_canton/' + canton + '.jpg'} alt={"carte " + canton} />
+                    <div className="iconeMap">
+                        <i className={zoom == false ? "fas fa-search-plus" : "fas fa-search-minus"} onClick={()=>{
+                            if(zoom == false){
+                                (document.querySelector('.carteCanton img') as any).style.width = "70%";
+                                setzoom(true);
+                            } else {
+                                (document.querySelector('.carteCanton img') as any).style.width = "40%";
+                                setzoom(false);
+                            }
+                            console.log((document.querySelector('.carteCanton img') as any))
+                        }} ></i>
+                        <a href={(canton as any).indexOf("orleans") != -1 ? "https://www.google.fr/maps/place/Orléans" : "https://www.google.fr/maps/place/"+canton} target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-map-marker-alt"></i>
+                        </a>
+                    </div>
                 </div>
                 <div className="candidats">
 
@@ -97,7 +113,7 @@ const Canton = () => {
     
                 <div className="dons">
                     <div className="titreDons">
-                        <i className="fas fa-users"></i>
+                        <i className="fas fa-users" ></i>
                         <span className="yellowText">vous aussi, soutenez-nous !</span>
                     </div>
                     <p>

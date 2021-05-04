@@ -326,13 +326,17 @@ $lineHeight : 140%;
             .fiche{
                 width: 90%;
                 margin: 20px;
-                @include flexStart(column);
+                @include flexCenter(column);
                 .image{
+                    width: 100%;
+                    @include flexCenter(row);
                     img{
                         width: 180px;
+                        margin: 10px;
                     }
                 }
                 .text{
+                    text-align: center;
                     margin-left: 0px;
                     margin-bottom: auto;
                     h3{
@@ -366,13 +370,17 @@ $lineHeight : 140%;
             .fiche{
                 width: 90%;
                 margin: 20px;
-                @include flexStart(column);
+                @include flexCenter(column);
                 .image{
+                    width: 100%;
+                    @include flexCenter(row);
                     img{
                         width: 180px;
+                        margin: 10px;
                     }
                 }
                 .text{
+                    text-align: center;
                     margin-left: 0px;
                     margin-bottom: auto;
                     h3{
