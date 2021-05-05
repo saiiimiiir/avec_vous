@@ -1,5 +1,6 @@
 import React, { Component, useRef, useState } from 'react'
 import { useParams } from 'react-router'
+import { Link } from 'react-router-dom'
 import triangle from '../asset/acceuil/traingle_titre.png'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
 import Footer from '../Components/Footer'
@@ -86,6 +87,9 @@ const Canton = () => {
                 <div className="titreCanton">
                     <img src={triangle} />
                     <h3>pour le canton de {canton == "la-ferte-saint-aubin" ? "la ferte-saint-aubin" : canton}</h3>
+                    <Link to="/home">
+                        <button>RETOUR À LA LISTE <br/> DES CANTONS</button>
+                    </Link>
                 </div>
                 <div className="carteCanton">
                     <img src={process.env.PUBLIC_URL + '/carte_canton/' + canton + '.jpg'} alt={"carte " + canton} />

@@ -268,12 +268,13 @@ export default class Header extends Component {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/" >
+                                    <Link to="/home" >
                                         <span className="textMenu">
                                             Nos 21 cantons
                                         </span>
                                     </Link>
                                 </li>
+                                <div className="filletHeader"></div>
                                 <li>
                                     <Link to="/role" >
                                         <span className="textMenu">
@@ -282,6 +283,7 @@ export default class Header extends Component {
                                         </span>
                                     </Link>
                                 </li>
+                                <div className="filletHeader"></div>
                                 <li>
                                     <Link to="/actions" >
                                         <span className="textMenu">

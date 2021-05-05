@@ -43,7 +43,7 @@ export default class Roles extends Component {
                             <div className="fillet"></div>
                             <ul>
                                 <br />
-                                <span className="strong">Notre département c’est :</span>
+                                <span className="strong big">Notre département c’est :</span>
                                 <br />
                                 <li><span className="strong">682 845</span> habitants (2020)</li>
                                 <li><span className="strong">21</span> cantons</li>

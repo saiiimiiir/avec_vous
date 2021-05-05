@@ -7,11 +7,10 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         div{
             position: relative;
-            margin-left: 20%;
             @include flexCenter(row);
             i {
                 position: relative;
@@ -34,46 +33,17 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        table {
-            a{
-                text-decoration: none;
-            }
-            margin-left: 26%;
-            td{
-                padding: 0px;
-                i {
-                    font-family: "Wingdings 3";
-                    color: $blue;
-                    margin-right: 30px;
-                }
-                .text {
-                    font-family: 'Biryani', sans-serif;
-                    text-transform: uppercase;
-                    cursor: pointer;
-                }
-                .text:hover {
-                    font-family: 'Biryani', sans-serif;
-                    text-transform: uppercase;
-                    cursor: pointer;
-                    color: $yellow;
-                }
-                .textSelected{
-                    font-family: 'Biryani', sans-serif;
-                    text-transform: uppercase;
-                    color : $yellow;
-                }
-            }
-        }
     }
     .textAction{
         border-top: 1px solid $yellow;
         padding-top: 30px;
         @include flexCenter(column);
         .center{
-                text-align: center;
-                font-size: 22px;
-                font-weight: 800;
-            }
+            text-align: center;
+            font-size: 22px;
+            font-weight: 800;
+            color: $blue;
+        }
         p{
             width: 80%;
             word-spacing: 4px;
@@ -136,33 +106,6 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
-            table {
-                margin-left: 26%;
-                td{
-                    padding: 0px;
-                    i {
-                        font-family: "Wingdings 3";
-                        color: $blue;
-                        margin-right: 30px;
-                    }
-                    .text {
-                        font-family: 'Biryani', sans-serif;
-                        text-transform: uppercase;
-                        cursor: pointer;
-                    }
-                    .text:hover {
-                        font-family: 'Biryani', sans-serif;
-                        text-transform: uppercase;
-                        cursor: pointer;
-                        color: $yellow;
-                    }
-                    .textSelected{
-                        font-family: 'Biryani', sans-serif;
-                        text-transform: uppercase;
-                        color : $yellow;
-                    }
-                }
-            }
         }
         .textAction{
             @include flexCenter(column);
@@ -245,35 +188,6 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
-            table {
-                margin: 20px;
-                td{
-                    border-bottom: 1px $yellow solid ;
-                    padding: 0px;
-                    i {
-                        font-family: "Wingdings 3";
-                        color: $blue;
-                        margin-right: 30px;
-                    }
-                    .text {
-                        font-family: 'Biryani', sans-serif;
-                        text-transform: uppercase;
-                        cursor: pointer;
-                        font-size: 14px;
-                    }
-                    .text:hover {
-                        font-family: 'Biryani', sans-serif;
-                        text-transform: uppercase;
-                        cursor: pointer;
-                        color: $yellow;
-                    }
-                    .textSelected{
-                        font-family: 'Biryani', sans-serif;
-                        text-transform: uppercase;
-                        color : $yellow;
-                    }
-                }
-            }
         }
         .textAction{
             border-top: none;

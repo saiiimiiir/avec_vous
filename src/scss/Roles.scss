@@ -41,8 +41,12 @@
             .strong{
                 font-weight: 800;
             }
+            .big{
+                font-size: 20px;
+                color: $yellow;
+            }
             .fillet{
-                @include fillet(100%,black,1px)
+                @include fillet(100%,rgba(128, 128, 128, 0.411),0.5px)
             }
             ul{
                 li{

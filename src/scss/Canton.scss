@@ -6,9 +6,12 @@ $taillerCarte : 70%;
     @include pannelCenter();
     @include flexCenter(column);
     .titreCanton{
+        width: 100%;
         margin: 10px auto;
         @include flexCenter(row);
+        position: relative;
         img{
+            margin-left: auto;
             width: 35px;
         }
         h3{
@@ -17,6 +20,25 @@ $taillerCarte : 70%;
             @include typoSemiBold;
             font-size: 35px;
             text-transform: uppercase;
+            position: relative;
+            top: 7px;
+        }
+        a{
+            margin-left: auto;
+            button{
+                background-color: $blue;
+                color: white;
+                height: 100%;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 10px;
+                @include typoSemiBold;
+                font-size: 10px;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: $yellow;
+            }
         }
     }
     .carteCanton{
