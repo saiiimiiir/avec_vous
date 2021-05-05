@@ -268,6 +268,13 @@ export default class Header extends Component {
                         <nav>
                             <ul>
                                 <li>
+                                    <Link to="/" >
+                                        <span className="textMenu">
+                                            Nos 21 cantons
+                                        </span>
+                                    </Link>
+                                </li>
+                                <li>
                                     <Link to="/role" >
                                         <span className="textMenu">
                                             Les rôles du <br />

@@ -82,7 +82,7 @@ const Canton = () => {
     return (
         <>
             <div id="canton">
-                <Header></Header>
+                <Header/>
                 <div className="titreCanton">
                     <img src={triangle} />
                     <h3>pour le canton de {canton == "la-ferte-saint-aubin" ? "la ferte-saint-aubin" : canton}</h3>
