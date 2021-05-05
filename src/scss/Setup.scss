@@ -99,8 +99,6 @@ $hoverBlue : #0076BD;
     .displayOnPC{
         display: block;
     }
-    
-    
 }
 
 @mixin fillet($width,$color,$height){
@@ -111,6 +109,10 @@ $hoverBlue : #0076BD;
 
 .fillet{
     @include fillet(100%, grey, 0.5px)
+}
+
+.filletLeger{
+    @include fillet(100%, rgba(128, 128, 128, 0.137), 0.5px)
 }
 
 /* width */

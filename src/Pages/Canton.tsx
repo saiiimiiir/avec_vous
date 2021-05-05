@@ -85,11 +85,11 @@ const Canton = () => {
             <div id="canton">
                 <Header/>
                 <div className="titreCanton">
-                    <img src={triangle} />
-                    <h3>pour le canton de {canton == "la-ferte-saint-aubin" ? "la ferte-saint-aubin" : canton}</h3>
                     <Link to="/home">
                         <button>RETOUR À LA LISTE <br/> DES CANTONS</button>
                     </Link>
+                    <img src={triangle} />
+                    <h3>pour le canton de {canton == "la-ferte-saint-aubin" ? "la ferte-saint-aubin" : canton}</h3>
                 </div>
                 <div className="carteCanton">
                     <img src={process.env.PUBLIC_URL + '/carte_canton/' + canton + '.jpg'} alt={"carte " + canton} />

@@ -51,6 +51,12 @@
             .grosTitre{
                 font-size: 20px;
             }
+            .yellowText{
+                font-size: 25px !important;
+            }
+            .sousTitre{
+                color: $blue;
+            }
             i{
                 margin-right: 5px;
             }
@@ -205,6 +211,7 @@
                 width: 100%;
                 word-spacing: 4px;
                 margin: 0px auto;
+                text-transform: uppercase;
                 .grosTitre{
                     font-size: 20px;
                 }
@@ -214,7 +221,7 @@
                 .strong{
                     font-weight: 800;
                 }
-                text-transform: uppercase;
+                
                 ul{
                     li{
                         margin: 5px auto;

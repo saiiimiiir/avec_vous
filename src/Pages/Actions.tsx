@@ -22,7 +22,7 @@ export default function Actions() {
                     <br/>
                     <br/>
                     <ul>
-                        <i className="fas fa-long-arrow-alt-right"></i> <span className="strong grosTitre">dans le Loiret, c’est fait !</span>
+                        <i className="fas fa-long-arrow-alt-right"></i> <span className="strong grosTitre yellowText">dans le Loiret, c’est fait !</span>
                         <br/><br/>
                         <li><span className="strong">sécurité routière</span> : zéro point noir routier </li>
                         <li><span className="strong">deux ponts restaurés</span>, deux déviations, une passerelle piétons vélos </li>
@@ -39,7 +39,7 @@ export default function Actions() {
                     </ul>
                     <ul>
                         <br/>
-                        <span className="strong">COVID, engagés pour vous protéger !</span>
+                        <span className="strong sousTitre">COVID, engagés pour vous protéger !</span>
                         <br/><br/>
                         <li>opération 1 masque pour chaque Loirétain</li>
                         <li>distribution de deux masques par collégien</li>
@@ -49,11 +49,13 @@ export default function Actions() {
                         <li>prêt d'ordinateur aux collégiens</li>
                     </ul>
                     <br/>
+                    <div className="filletLeger"></div>
+                    <br/>
                     <ul>
-                        <i className="fas fa-long-arrow-alt-right"></i> <span className="strong grosTitre">Et pour demain !</span>
+                        <i className="fas fa-long-arrow-alt-right"></i> <span className="strong grosTitre yellowText">Et pour demain !</span>
                         <br/>
                         <br/>
-                        <span className="strong">ACCÉLÉRONS NOTRE DÉMARCHE DE TRANSITION ENVIRONNEMENTALE</span>
+                        <span className="strong sousTitre">ACCÉLÉRONS NOTRE DÉMARCHE DE TRANSITION ENVIRONNEMENTALE</span>
                         <br/><br/>
                         <li><span className="strong">réduire nos émissions de gaz à effet de serre</span> de 25% d’ici 2030 </li>
                         <li>développer de nouvelles énergies vertes et des <span className="strong">filières d’emplois « durables »</span> (hydrogène, bois, paille, …) </li>
@@ -67,7 +69,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">DONNONS À NOS JEUNES UN AVENIR SEREIN</span>
+                        <span className="strong sousTitre">DONNONS À NOS JEUNES UN AVENIR SEREIN</span>
                         <br/><br/>
                         <li>poursuivre la rénovation et la construction de <span className="strong">nouveaux collèges</span> </li>
                         <li>soutenir à hauteur de 20 M€ <span className="strong">la création du campus madeleine</span> au Coeur d’Orléans afin de conforter son statut de ville Universitaire </li>
@@ -80,7 +82,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">RESPECTONS NOS AINéS</span>
+                        <span className="strong sousTitre">RESPECTONS NOS AINéS</span>
                         <br/><br/>
                         <li>poursuivre les réhabilitations ou reconstructions des <span className="strong">ehpad</span> </li>
                         <li>privilégier le <span className="strong">maintien « à la maison »</span> chaque fois que c’est possible et soutenir les premières lignes comme les services d’aide à domicile </li>
@@ -91,7 +93,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">SOYONS FIERS D’ETRE SOLIDAIRES</span>
+                        <span className="strong sousTitre">SOYONS FIERS D’ETRE SOLIDAIRES</span>
                         <br/><br/>
                         <li><span className="strong">réorganiser l’action sociale</span> en territoire afin de faciliter le parcours de l’usager </li>
                         <li>améliorer l’aide sociale à l’enfance par des <span className="strong">recrutements d’agents spécialisés</span> </li>
@@ -107,7 +109,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">DEFENDONS L’ACCES AUX SOINS POUR TOUS</span>
+                        <span className="strong sousTitre">DEFENDONS L’ACCES AUX SOINS POUR TOUS</span>
                         <br/><br/>
                         <li>poursuivre les aides à l’installation de <span className="strong">personnels médicaux</span> </li>
                         <li>aider au déploiement de la <span className="strong">télé-médecine</span> </li>
@@ -117,7 +119,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">STRUCTURONS NOS MOYENS DE COMMUNICATION</span>
+                        <span className="strong sousTitre">STRUCTURONS NOS MOYENS DE COMMUNICATION</span>
                         <br/><br/>
                         <li>finaliser le déploiement total de la <span className="strong">fibre à l’abonné</span> pour 2023 </li>
                         <li><span className="strong">téléphonie mobile</span> : identifier les zones blanches et agir auprès des opérateurs pour une meilleure couverture </li>
@@ -127,7 +129,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">SOUTENONS LES PROJETS SPORTIFS, CULTURELS ET ASSOCIATIFS</span>
+                        <span className="strong sousTitre">SOUTENONS LES PROJETS SPORTIFS, CULTURELS ET ASSOCIATIFS</span>
                         <br/><br/>
                         <li>donner les moyens au <span className="strong">monde associatif</span> de faire vivre nos territoires </li>
                         <li>accompagner le <span className="strong">mouvement sportif</span>, en valorisant le label « terres de jeux 2024 » </li>
@@ -137,7 +139,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">VALORISONS NOS CANTONS</span>
+                        <span className="strong sousTitre">VALORISONS NOS CANTONS</span>
                         <br/><br/>
                         <li>continuer à soutenir les communes et intercommunalités sur leurs projets d’investissements et au quotidien avec <span className="strong">cap loiret</span> </li>
                         <li>amplifier le soutien aux projets patrimoniaux bâtis ou naturels visant à <span className="strong">sauvegarder l’identité de notre territoire </span></li>
@@ -150,7 +152,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">AMENAGEONS NOS TERRITOIRES</span>
+                        <span className="strong sousTitre">AMENAGEONS NOS TERRITOIRES</span>
                         <br/><br/>
                         <li><span className="strong">améliorer le cadre de vie des loirétains</span> grâce à des aménagements et infrastructures performants en participant à la relance de l’économie locale </li>
                         <li><span className="strong">maintenir un réseau routier départemental sécurisé</span>, de qualité et adapté </li>
@@ -162,7 +164,7 @@ export default function Actions() {
                     <div className="fillet"></div>
                     <br/>
                     <ul>
-                        <span className="strong">ENCOURAGEONS NOS SAPEURS POMPIERS</span>
+                        <span className="strong sousTitre">ENCOURAGEONS NOS SAPEURS POMPIERS</span>
                         <br/><br/>
                         <li><span className="strong">veiller à la qualité</span> de l’exercice de leur activité au service de la population </li>
                         <li><span className="strong">les soutenir dans leurs missions</span>, qu’ils soient professionnels ou volontaires ainsi que les personnels administratifs et techniques …</li>

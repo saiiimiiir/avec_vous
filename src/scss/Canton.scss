@@ -11,7 +11,7 @@ $taillerCarte : 70%;
         @include flexCenter(row);
         position: relative;
         img{
-            margin-left: auto;
+            margin-left: 15px;
             width: 35px;
         }
         h3{
@@ -24,11 +24,9 @@ $taillerCarte : 70%;
             top: 7px;
         }
         a{
-            margin-left: auto;
             button{
                 background-color: $blue;
                 color: white;
-                height: 100%;
                 border: none;
                 padding: 10px 15px;
                 border-radius: 10px;
@@ -113,8 +111,27 @@ $taillerCarte : 70%;
             margin-left: 10px;
             color : $blue;
             @include typoSemiBold;
-            font-size: 30px;
+            font-size: 25px;
             text-transform: uppercase;
+        }
+        a{
+            button{
+                background-color: $blue;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 10px;
+                @include typoSemiBold;
+                font-size: 10px;
+                cursor: pointer;
+                br{
+                    display: none;
+                }
+            }
+            button:hover{
+                background-color: $yellow;
+            }
+
         }
     }
     .carteCanton{
@@ -187,7 +204,7 @@ $taillerCarte : 70%;
         }
         .titreCanton{
             margin-bottom: 20px;
-            @include flexCenter(row);
+            @include flexCenter(column);
             img{
                 display: none;
             }
@@ -199,11 +216,30 @@ $taillerCarte : 70%;
                 text-transform: uppercase;
                 text-align: center;
             }
+            a{
+                margin-bottom: 10px;
+                button{
+                    background-color: $blue;
+                    color: white;
+                    border: none;
+                    padding: 10px 15px;
+                    border-radius: 10px;
+                    @include typoSemiBold;
+                    font-size: 10px;
+                    cursor: pointer;
+                    br{
+                        display: none;
+                    }
+                }
+                button:hover{
+                    background-color: $yellow;
+                }
+            }
         }
         .carteCanton{
-            width: 90%;
+            width: 100%;
             img{
-                width: 100%;
+                width: 40%;
             }
             .iconeMap{
             @include flexCenter(row);
