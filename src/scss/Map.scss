@@ -57,6 +57,9 @@
     #svgMap{
         width: 50%;
         margin: 0px auto;
+        polygon,path{
+            transition: ease 0.5s fill;
+        }
     }
     #votez{
         position: absolute;
