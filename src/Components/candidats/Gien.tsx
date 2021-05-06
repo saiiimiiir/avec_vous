@@ -19,11 +19,11 @@ export default class Gien extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Mariée, 2 enfants, assistante de direction retraitée<br /><br />
+                                    Mariée, 2 enfants, assistante de direction retraitée<br />
                                 </em>
                                 <em className="lineHeight">
-                                    Vice-Présidente du Conseil départemental sortante<br/>
-                                    Conseillère communautaire de la Communauté de Communes Giennoise <br/>
+                                    Vice-Présidente du Conseil départemental sortante, 
+                                    Conseillère communautaire de la Communauté de Communes Giennoise, 
                                     Conseillère municipale de Gien<br />
                                 </em>
                             </p>
@@ -41,7 +41,7 @@ export default class Gien extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Marié, 3 enfants,  agriculteur retraité<br /><br />
+                                    Marié, 3 enfants,  agriculteur retraité, <br />
                                 </em>
                                 <em className="lineHeight">
                                     Conseiller départemental sortant, Vice-Président de la Communauté de Communes Berry-Loire-Puisaye<br/>
@@ -67,7 +67,7 @@ export default class Gien extends Component {
                             <p>
                                 <em>
                                     Infirmière, 2 enfants, <br/>
-                                    Conseillère communautaire de la Communauté de Communes Giennoise<br /><br />
+                                    Conseillère communautaire de la Communauté de Communes Giennoise<br />
                                 </em>
                                 <em className="lineHeight">
                                     1ère Adjointe au Maire de Boismorand<br/>
@@ -87,10 +87,8 @@ export default class Gien extends Component {
                                 EMMANUEL RAT
                             </h3>
                             <p>
-                                <em>
-                                    Marié, 3 enfants, artisan commerçant retraité<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    Marié, 3 enfants, artisan commerçant retraité, 
                                     Président de la Communauté de Communes Berry Loire Puisaye<br/>
                                     Maire de Chatillon sur Loire<br />
                                 </em>

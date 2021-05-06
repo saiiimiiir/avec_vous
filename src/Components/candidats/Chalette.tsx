@@ -19,7 +19,7 @@ export default class Chalette extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    « Citoyenne engagée »<br /><br />
+                                    « Citoyenne engagée »<br />
                                 </em>
                                 <em className="lineHeight">
                                     48 ans, 3 enfants, coordinatrice jeunesse Communauté de Communes, Conseillère municipale à Chalette-sur-Loing <br/>
@@ -40,7 +40,7 @@ export default class Chalette extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    « Dirigeant territorial »<br /><br />
+                                    « Dirigeant territorial »<br />
                                 </em>
                                 <em className="lineHeight">
                                     46 ans, marié, 2 enfants, Directeur Général des Services, <br/> 
@@ -65,7 +65,7 @@ export default class Chalette extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    63 ans, 4 enfants et 5 petits enfants, artisan taxi retraitée <br /><br />
+                                    63 ans, 4 enfants et 5 petits enfants, artisan taxi retraitée <br />
                                 </em>
                                 <em className="lineHeight">
                                     5ème Adjointe au Maire de Corquilleroy Animation, vie culturelle, sport, loisirs, élue depuis 2008 <br/>
@@ -85,7 +85,7 @@ export default class Chalette extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    59 ans, Marié, 3 enfants, Directeur commercial Rungis<br /><br />
+                                    59 ans, Marié, 3 enfants, Directeur commercial Rungis<br />
                                 </em>
                                 <em className="lineHeight">
                                     1er Adjoint au Maire de Cepoy Travaux et Urbanisme, élu depuis 1995<br />

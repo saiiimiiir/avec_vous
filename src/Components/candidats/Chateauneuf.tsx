@@ -19,7 +19,7 @@ export default class Chateauneuf extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    52 ans, mariée, 2 filles, <br/> fonctionnaire territorial en disponibilité<br /><br />
+                                    52 ans, mariée, 2 filles, <br/> fonctionnaire territorial en disponibilité, <br />
                                 </em>
                                 <em className="lineHeight">
                                     Maire de Châteauneuf-Sur-Loire<br/>
@@ -41,11 +41,11 @@ export default class Chateauneuf extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    58 ans, 2 filles, agriculteur, <br/> Maire de Seichebrières<br /><br />
+                                    58 ans, 2 filles, agriculteur, <br/> Maire de Seichebrières<br />
                                 </em>
                                 <em className="lineHeight">
                                     Président du Pôle d’Equilibre Territorial Rural forêt d’Orléans Loire Sologne. <br/>
-                                     Conseiller départemental sortant<br />
+                                    Conseiller départemental sortant<br />
                                 </em>
                             </p>
                         </div>
@@ -66,7 +66,7 @@ export default class Chateauneuf extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    67 ans, mariée, 3 enfants, <br/> exploitante agricole <br /><br />
+                                    67 ans, mariée, 3 enfants, exploitante agricole, <br />
                                 </em>
                                 <em className="lineHeight">
                                     ancien maire de Sully-La-Chapelle - 19 ans de mandat d’élue locale<br />
@@ -86,7 +86,7 @@ export default class Chateauneuf extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    41 ans, marié, 2 enfants, <br/> professeur de l’enseignement secondaire et supérieur<br /><br />
+                                    41 ans, marié, 2 enfants, <br/> professeur de l’enseignement secondaire et supérieur.<br />
                                 </em>
                                 <em className="lineHeight">
                                     1er Adjoint au Maire de Vitry-aux-Loges en charge des travaux, de la voirie et des services techniques<br />

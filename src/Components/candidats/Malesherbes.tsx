@@ -39,8 +39,8 @@ export default class Malesherbes extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Elu depuis 13 ans <br/>
-                                    Maire de LE MALESHERBOIS et Vice-Président de la CCPG<br /><br />
+                                    Elu depuis 13 ans, 
+                                    Maire de LE MALESHERBOIS et Vice-Président de la CCPG<br />
                                 </em>
                                 <em className="lineHeight">
                                     à l’écoute de mes concitoyens pour concrétiser de nouveaux projets<br />
@@ -63,11 +63,8 @@ export default class Malesherbes extends Component {
                                 MARIE-CLAUDE HERBLOT
                             </h3>
                             <p>
-                                <em>
-                                    Retraitée du secteur agricole <br/>
-                                    élue depuis 20 ans<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    Retraitée du secteur agricole, élue depuis 20 ans, 
                                     Trésorière de L’association des Maires du LOIRET<br />
                                 </em>
                             </p>
@@ -85,8 +82,7 @@ export default class Malesherbes extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Maire de BOYNES <br/>
-                                    Vice-Président de la CCDP<br /><br />
+                                    Maire de BOYNES, Vice-Président de la CCDP<br />
                                 </em>
                                 <em className="lineHeight">
                                     engagé contre la désertification médicale et l'amélioration de la qualité de vie des seniors sur notre territoire<br />

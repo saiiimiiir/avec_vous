@@ -18,10 +18,8 @@ export default class Beaugency extends Component {
                                 Ludivine Raveleau
                             </h3>
                             <p>
-                                <em>
-                                    42 ans, mariée, 3 enfants, salariée d'une société d’assurance<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    42 ans, mariée, 3 enfants, salariée d'une société d’assurance, <br />
                                     Adjointe au Maire de Cléry-Saint-André aux commissions Urbanisme et Sécurité des Biens et des Personnes, Responsable administrative d’une association sportive<br />
                                 </em>
                             </p>
@@ -38,10 +36,8 @@ export default class Beaugency extends Component {
                                 JACQUES MESAS
                             </h3>
                             <p>
-                                <em>
-                                    67 ans, père de 2 enfants, Maire de Beaugency<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    67 ans, père de 2 enfants, Maire de Beaugency<br />
                                     Vice-Président de la CCTVL (sport et vie associative), Président du Conseil de surveillance de l’hôpital Lour Picou de Beaugency. <br/>
                                     Président de la Communauté de Communes de la Beauce Loirétaine<br />
                                 </em>
@@ -63,10 +59,8 @@ export default class Beaugency extends Component {
                                 ANITA BENIER
                             </h3>
                             <p>
-                                <em>
-                                    66 ans, retraitée, mariée, 2 enfants, Maire de Baccon depuis 2014<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    66 ans, retraitée, mariée, 2 enfants, Maire de Baccon depuis 2014, <br/>
                                     Vice-Présidente de la Communauté de Commune des Terre-du-Val-de-Loire en charge de l’environnement.
                                 </em>
                             </p>
@@ -83,10 +77,8 @@ export default class Beaugency extends Component {
                                 GILLES BILLIOT
                             </h3>
                             <p>
-                                <em>
-                                    62 ans, marié, 5 enfants, agriculteur biologique, Maire de Jouy-le-Potier depuis 2001<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    62 ans, marié, 5 enfants, agriculteur biologique, Maire de Jouy-le-Potier depuis 2001, <br />
                                     Vice-Président de la Communauté de Communes des Portes de Sologne en charge de l’aménagement de l’espace<br />
                                 </em>
                             </p>

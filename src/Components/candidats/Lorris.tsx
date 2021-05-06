@@ -19,11 +19,11 @@ export default class Lorris extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Retraitée de la fonction publique<br/>
-                                    Conseillère départementale<br /><br />
+                                    Retraitée de la fonction publique, 
+                                    Conseillère départementale<br />
                                 </em>
                                 <em className="lineHeight">
-                                    Membre de la commission du logement et de l’insertion<br/>
+                                    Membre de la commission du logement et de l’insertion, 
                                     Conseillère municipale de Coudroy (ancien Maire)<br />
                                 </em>
                             </p>
@@ -40,11 +40,9 @@ export default class Lorris extends Component {
                                 ALAIN GRANDPIERRE
                             </h3>
                             <p>
-                                <em>
-                                    Retraité de l’agriculture, Vice-Président du Département<br /><br />
-                                </em>
                                 <em className="lineHeight">
-                                    Vice-Président de la commission des finances<br/>
+                                    Retraité de l’agriculture, Vice-Président du Département, 
+                                    Vice-Président de la commission des finances, 
                                     Maire honoraire de La Chapelle-sur-Aveyron<br />
                                 </em>
                             </p>
@@ -66,8 +64,7 @@ export default class Lorris extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Maire de Lorris <br/>
-                                    Vice-Présidente de la Communauté de Communes Canaux et Forêts<br /><br />
+                                    Maire de Lorris, Vice-Présidente de la Communauté de Communes Canaux et Forêts<br />
                                 </em>
                                 <em className="lineHeight">
                                     Trésorière de L’association des Maires du LOIRET<br />
@@ -86,11 +83,8 @@ export default class Lorris extends Component {
                                 YOHAN JOBET
                             </h3>
                             <p>
-                                <em>
-                                    Gestionnaire financier budgétaire<br/>
-                                    Maire de Quiers-sur-Bezondee<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    Gestionnaire financier budgétaire, Maire de Quiers-sur-Bezondee, 
                                     Conseiller délégué à la Communauté de Communes Canaux et Forêts<br />
                                 </em>
                             </p>
@@ -134,7 +128,6 @@ export default class Lorris extends Component {
                         </span></a>
                     </div>
                 </div>
-
             </div>
         )
     }

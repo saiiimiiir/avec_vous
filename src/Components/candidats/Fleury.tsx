@@ -18,11 +18,8 @@ export default class Fleury extends Component {
                                 MARIE-CLAUDE DONNAT
                             </h3>
                             <p>
-                                <em>
-                                    62 ans, habitante de Loury et élue de 1995 à 2020<br /><br />
-                                </em>
                                 <em className="lineHeight">
-                                    dont 6 ans Présidente de la Communauté de Communes de la Forêt <br/>
+                                    62 ans, habitante de Loury et élue de 1995 à 2020, dont 6 ans Présidente de la Communauté de Communes de la Forêt <br/>
                                     greffière à la Cour d’Appel d’Orléans<br />
                                 </em>
                             </p>
@@ -40,7 +37,7 @@ export default class Fleury extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    28 ans, né à Pithiviers, <br/> Élu Municipal depuis 2014 à Fleury-les-Aubrais (Adjoint et Conseiller Municipal)<br /><br />
+                                    28 ans, né à Pithiviers, Élu Municipal depuis 2014 à Fleury-les-Aubrais (Adjoint et Conseiller Municipal)<br />
                                 </em>
                                 <em className="lineHeight">
                                     cadre dans l’enseignement supérieur<br />
@@ -63,11 +60,9 @@ export default class Fleury extends Component {
                                 SANDRA DINIZ SALGADO
                             </h3>
                             <p>
-                                <em>
-                                    51 ans, élue municipale depuis 2020 à Fleury-les- Aubrais<br /><br />
-                                </em>
                                 <em className="lineHeight">
-                                    commerçante aux Andrillons depuis 7 ans <br/>
+                                    51 ans, élue municipale depuis 2020 à Fleury-les- Aubrais,
+                                    commerçante aux Andrillons depuis 7 ans, 
                                     Présidente des buralistes du Loiret<br />
                                 </em>
                             </p>
@@ -84,11 +79,9 @@ export default class Fleury extends Component {
                                 GIORGIO VENTOLINI
                             </h3>
                             <p>
-                                <em>
-                                    53 ans, Trianien depuis 1980<br /><br />
-                                </em>
                                 <em className="lineHeight">
-                                    élu municipal depuis 2008 à Trainou (Adjoint et Conseiller municipal), <br/> chef d’entreprise<br />
+                                    53 ans, Trianien depuis 1980,
+                                    élu municipal depuis 2008 à Trainou (Adjoint et Conseiller municipal), chef d’entreprise<br />
                                 </em>
                             </p>
                         </div>

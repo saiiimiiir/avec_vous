@@ -19,7 +19,7 @@ export default class Orleans1 extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    58 ans, née à Orléans, maman de 2 garçons et formatrice dans un C.F.A<br /><br />
+                                    58 ans, née à Orléans, maman de 2 garçons et formatrice dans un C.F.A<br />
                                 </em>
                                 <em className="lineHeight">
                                     Femme de terrain, sportive, humaine et proche des Orléanais, je suis profondément attachée à ma ville dans laquelle je suis investie depuis 20 ans au côté de Serge Grouard. <br/>
@@ -40,7 +40,7 @@ export default class Orleans1 extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    69 ans, 3 enfants, retraité du secteur bancaire<br /><br />
+                                    69 ans, 3 enfants, retraité du secteur bancaire<br />
                                 </em>
                                 <em className="lineHeight">
                                     Elu Conseiller Général en 2008 et Conseiller départemental en 2015 à la ville d’Orléans aux côtés de Serge Grouard depuis 2001. <br/>
@@ -65,7 +65,7 @@ export default class Orleans1 extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    32 ans, commerçante orléanaise, membre du comité de pilotage Orléans Proximité Centre ville<br /><br />
+                                    32 ans, commerçante orléanaise, membre du comité de pilotage Orléans Proximité Centre ville<br />
                                 </em>
                                 <em className="lineHeight">
                                     Je souhaite contribuer au dynamisme du département.
@@ -85,7 +85,7 @@ export default class Orleans1 extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    47 ans, 1 enfant, Courtier en Assurances, Membre du Comité de pilotage Proximité quartier Orléans Ouest, et membre du Rotary Val de Loire<br /><br />
+                                    47 ans, 1 enfant, Courtier en Assurances, Membre du Comité de pilotage Proximité quartier Orléans Ouest, et membre du Rotary Val de Loire<br />
                                 </em>
                                 <em className="lineHeight">
                                     Natif d’Orléans, j’ai fait le choix de rester dans cette ville pour m’impliquer dans la vie locale et contribuer à l’activité économique du Loiret.<br />

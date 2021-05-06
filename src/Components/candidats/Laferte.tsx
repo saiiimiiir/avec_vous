@@ -18,12 +18,10 @@ export default class Laferte extends Component {
                                 ANNE GABORIT
                             </h3>
                             <p>
-                                <em>
-                                    54 ans, mariée, 2 enfants <br/>
-                                    Conseillère départementale <br/>
-                                    Maire de Ligny-le-Ribault (SE)<br /><br />
-                                </em>
                                 <em className="lineHeight">
+                                    54 ans, mariée, 2 enfants,
+                                    Conseillère départementale,
+                                    Maire de Ligny-le-Ribault (SE),
                                     Présidente de la communauté de Communes des Portes de Sologne, <br/>
                                     Membre du comité directeur de l’Association des Maires du Loiret<br />
                                 </em>
@@ -42,11 +40,11 @@ export default class Laferte extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    66 ans marié, 2 enfants, géologue retraité, Conseiller départemental, Délégué au handicap<br /><br />
+                                    66 ans marié, 2 enfants, géologue retraité, Conseiller départemental, Délégué au handicap<br />
                                 </em>
                                 <em className="lineHeight">
-                                    Président de la commission départementale de l’autonomie et handicap <br/>
-                                    Ancien Maire (SE) de Saint-Cyr-en-Val, <br/>
+                                    Président de la commission départementale de l’autonomie et handicap, 
+                                    Ancien Maire (SE) de Saint-Cyr-en-Val, 
                                     Fondateur d'un établissement pour autistes à La Ferté-Saint-Aubin<br />
                                 </em>
                             </p>
@@ -68,8 +66,8 @@ export default class Laferte extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    54 ans, mariée, une fille, sourcienne depuis 52 ans<br/>
-                                    enseigne l’éco-gestion en lycée professionnel<br /><br />
+                                    54 ans, mariée, une fille, sourcienne depuis 52 ans, 
+                                    enseigne l’éco-gestion en lycée professionnel<br />
                                 </em>
                                 <em className="lineHeight">
                                     Adjointe au Maire Orléans et VP Métropole en charge des ressources humaines,<br/>
@@ -90,7 +88,7 @@ export default class Laferte extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    55 ans, marié, un garçon, une petite fille, contrôleur technique<br /><br />
+                                    55 ans, marié, un garçon, une petite fille, contrôleur technique, <br />
                                 </em>
                                 <em className="lineHeight">
                                     conseiller Municipal La-Ferté-Saint- Aubin – ancien Président de Parents d'élèves<br/>
