@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../../scss/Candidat.scss'
 
-export default class MeungSurLoire extends Component {
+export default class Beaugency extends Component {
     render() {
         return (
             <div id="presentationCandidat">
@@ -19,7 +19,7 @@ export default class MeungSurLoire extends Component {
                             </h3>
                             <p>
                                 <em>
-                                    Maire de Meung-sur-Loire depuis 2008 <br/>6 500 habitants<br /><br />
+                                    Maire de Meung-sur-Loire depuis 2008 <br />6 500 habitants<br /><br />
                                 </em>
                                 <em className="lineHeight">
                                     Présidente de la Communauté de Communes des Terres du Val de Loire<br />
@@ -45,7 +45,7 @@ export default class MeungSurLoire extends Component {
                                     Maire de Huêtre depuis 2008 <br />292 habitants<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    
+
                                     Président de la Communauté de Communes de la Beauce Loirétaine<br />
                                 </em>
                             </p>
@@ -70,7 +70,7 @@ export default class MeungSurLoire extends Component {
                                     Retraitée secteur de l’industrie<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Maire de Coulmiers depuis 2008 <br/>560 habitants
+                                    Maire de Coulmiers depuis 2008 <br />560 habitants
                                 </em>
                             </p>
                         </div>
@@ -90,7 +90,7 @@ export default class MeungSurLoire extends Component {
                                     Responsable d’affaires dans le BTP<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Maire de Patay depuis 2020 <br/>2 250 habitants<br /><br/>
+                                    Maire de Patay depuis 2020 <br />2 250 habitants<br /><br />
                                     Vice-Président de la Communauté de Communes de la Beauce Loirétaine<br />
                                 </em>
                             </p>
