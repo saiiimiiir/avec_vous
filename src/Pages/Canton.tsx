@@ -11,6 +11,13 @@ import Laferte from '../Components/candidats/Laferte'
 import Lorris from '../Components/candidats/Lorris'
 import Malesherbes from '../Components/candidats/Malesherbes'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
+import Orleans1 from '../Components/candidats/Orleans1'
+import Orleans2 from '../Components/candidats/Orleans2'
+import Orleans3 from '../Components/candidats/Orleans3'
+import Orleans4 from '../Components/candidats/Orleans4'
+import Pithiviers from '../Components/candidats/Pithiviers'
+import SaintJeanLeBlanc from '../Components/candidats/SaintJeanLeBlanc'
+import Sully from '../Components/candidats/Sully'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 import '../scss/Canton.scss'
@@ -44,16 +51,16 @@ const Canton = () => {
         ficheCandidat = <Fleury/>
     }
     if(canton == "orleans-4"){
-        ficheCandidat = null
+        ficheCandidat = <Orleans4/>
     }
     if(canton == "orleans-3"){
-        ficheCandidat = null
+        ficheCandidat = <Orleans3/>
     }
     if(canton == "orleans-1"){
-        ficheCandidat = null
+        ficheCandidat = <Orleans1/>
     }
     if(canton == "orleans-2"){
-        ficheCandidat = null
+        ficheCandidat = <Orleans2/>
     }
     if(canton == "saint-jean-de-la-ruelle"){
         ficheCandidat = null
@@ -80,16 +87,16 @@ const Canton = () => {
         }
     }
     if(canton == "saint-jean-le-blanc"){
-        ficheCandidat = null
+        ficheCandidat = <SaintJeanLeBlanc />
     }
     if(canton == "sully-sur-loire"){
-        ficheCandidat = null
+        ficheCandidat = <Sully/>
     }
     if(canton == "la-ferte-saint-aubin"){
         ficheCandidat = <Laferte/>
     }
     if(canton == "pithiviers"){
-        ficheCandidat = null
+        ficheCandidat = <Pithiviers/>
     }
     console.log(canton)
     return (
