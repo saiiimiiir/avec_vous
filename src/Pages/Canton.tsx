@@ -7,6 +7,7 @@ import Chalette from '../Components/candidats/Chalette'
 import Chateauneuf from '../Components/candidats/Chateauneuf'
 import Fleury from '../Components/candidats/Fleury'
 import Gien from '../Components/candidats/Gien'
+import Laferte from '../Components/candidats/Laferte'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
@@ -79,7 +80,7 @@ const Canton = () => {
         ficheCandidat = null
     }
     if(canton == "la-ferte-saint-aubin"){
-        ficheCandidat = null
+        ficheCandidat = <Laferte/>
     }
     if(canton == "pithiviers"){
         ficheCandidat = null
