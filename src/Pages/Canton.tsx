@@ -5,6 +5,7 @@ import triangle from '../asset/acceuil/traingle_titre.png'
 import Beaugency from '../Components/candidats/Beaugency'
 import Chalette from '../Components/candidats/Chalette'
 import Chateauneuf from '../Components/candidats/Chateauneuf'
+import Fleury from '../Components/candidats/Fleury'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
@@ -35,7 +36,7 @@ const Canton = () => {
         ficheCandidat = null
     }
     if(canton == "fleury-les-aubrais"){
-        ficheCandidat = null
+        ficheCandidat = <Fleury/>
     }
     if(canton == "orleans-4"){
         ficheCandidat = null

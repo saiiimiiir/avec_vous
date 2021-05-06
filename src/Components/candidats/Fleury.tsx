@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../../scss/Candidat.scss'
 
-export default class Chateauneuf extends Component {
+export default class Fleury extends Component {
     render() {
         return (
             <div id="presentationCandidat">
@@ -10,21 +10,20 @@ export default class Chateauneuf extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Florence-GALZIN--.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/fleury/Marie-Claude-Donnat-.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                FLORENCE GALZIN
+                                MARIE-CLAUDE DONNAT
                             </h3>
                             <p>
                                 <em>
-                                    52 ans, mariée, 2 filles, <br/> fonctionnaire territorial en disponibilité<br /><br />
+                                    62 ans, habitante de Loury et élue de 1995 à 2020<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Maire de Châteauneuf-Sur-Loire<br/>
-                                    Vice-Présidente de la Communauté de Communes des Loges chargée du développement économique.
-                                    Vice-présidente du Conseil départemental sortante<br />
+                                    dont 6 ans Présidente de la Communauté de Communes de la Forêt, <br/>
+                                    greffière à la Cour d’Appel d’Orléans<br />
                                 </em>
                             </p>
                         </div>
@@ -32,20 +31,19 @@ export default class Chateauneuf extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Philippe-VACHER-.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/fleury/Anthony-Domingues.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                PHILIPPE VACHER
+                                ANTHONY DOMINGUES
                             </h3>
                             <p>
                                 <em>
-                                    58 ans, 2 filles, agriculteur, <br/> Maire de Seichebrières<br /><br />
+                                    28 ans, né à Pithiviers, <br/> Élu Municipal depuis 2014 à Fleury-les-Aubrais (Adjoint et Conseiller Municipal)<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Président du Pôle d’Equilibre Territorial Rural forêt d’Orléans Loire Sologne. <br/>
-                                     Conseiller départemental sortant<br />
+                                    cadre dans l’enseignement supérieur<br />
                                 </em>
                             </p>
                         </div>
@@ -57,19 +55,20 @@ export default class Chateauneuf extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Odile-de-COURCY.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/fleury/Sandra-Diniz-Salgado-.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                ODILE DE COURCY
+                                SANDRA DINIZ SALGADO
                             </h3>
                             <p>
                                 <em>
-                                    67 ans, mariée, 3 enfants, <br/> exploitante agricole <br /><br />
+                                    51 ans, élue municipale depuis 2020 à Fleury-les- Aubrais<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    ancien maire de Sully-La-Chapelle - 19 ans de mandat d’élue locale<br />
+                                    commerçante aux Andrillons depuis 7 ans <br/>
+                                    Présidente des buralistes du Loiret<br />
                                 </em>
                             </p>
                         </div>
@@ -77,19 +76,19 @@ export default class Chateauneuf extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Christophe-BOURILLON.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/fleury/Giorgio-Ventolini.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                CHRISTOPHE BOURILLON
+                                GIORGIO VENTOLINI
                             </h3>
                             <p>
                                 <em>
-                                    41 ans, marié, 2 enfants, <br/> professeur de l’enseignement secondaire et supérieur<br /><br />
+                                    53 ans, Trianien depuis 1980<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    1er Adjoint au Maire de Vitry-aux-Loges en charge des travaux, de la voirie et des services techniques<br />
+                                    élu municipal depuis 2008 à Trainou (Adjoint et Conseiller municipal), <br/> chef d’entreprise<br />
                                 </em>
                             </p>
                         </div>
@@ -104,7 +103,7 @@ export default class Chateauneuf extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="mailto:galzinvacher2021@gmail.com"><i className="fas fa-envelope"></i></a>
+                            <a href="mailto:donnatdomingues2021@gmail.com"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.facebook.com/DonnatDomingues2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-twitter"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>

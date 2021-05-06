@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../../scss/Candidat.scss'
 
-export default class MeungSurLoire extends Component {
+export default class Chalette extends Component {
     render() {
         return (
             <div id="presentationCandidat">
