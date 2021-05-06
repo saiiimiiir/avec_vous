@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../../scss/Candidat.scss'
 
-export default class Beaugency extends Component {
+export default class MeungSurLoire extends Component {
     render() {
         return (
             <div id="presentationCandidat">
@@ -10,19 +10,20 @@ export default class Beaugency extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/Beaugency/LUDIVINE-RAVELEAU.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Farah-Loiseau.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                Ludivine Raveleau
+                                FARAH LOISEAU
                             </h3>
                             <p>
                                 <em>
-                                    42 ans, mariée, 3 enfants, salariée d'une société d’assurance<br /><br />
+                                    « Citoyenne engagée »<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Adjointe au Maire de Cléry-Saint-André aux commissions Urbanisme et Sécurité des Biens et des Personnes, Responsable administrative d’une association sportive<br />
+                                    48 ans, 3 enfants, coordinatrice jeunesse Communauté de Communes, Conseillère municipale à Chalette-sur-Loing <br/>
+                                    Conseillère communautaire – Agglomération Montargoise, élue depuis 2020 <br />
                                 </em>
                             </p>
                         </div>
@@ -30,20 +31,20 @@ export default class Beaugency extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/Beaugency/JACQUES-MESAS.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Christophe-Bouquet.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                JACQUES MESAS
+                                CHRISTOPHE BOUQUET
                             </h3>
                             <p>
                                 <em>
-                                    67 ans, père de 2 enfants, Maire de Beaugency<br /><br />
+                                    « Dirigeant territorial »<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Vice-Président de la CCTVL (sport et vie associative), Président du Conseil de surveillance de l’hôpital Lour Picou de Beaugency. <br/>
-                                    Président de la Communauté de Communes de la Beauce Loirétaine<br />
+                                    46 ans, marié, 2 enfants, Directeur Général des Services, <br/> 
+                                    Juriste en droit public, 1er Adjoint au Maire d’Amilly Finances, élu depuis 2014<br />
                                 </em>
                             </p>
                         </div>
@@ -55,19 +56,19 @@ export default class Beaugency extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/Beaugency/Anita-Benier.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Catherine-Bironneau.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                ANITA BENIER
+                                CATHERINE BIRONNEAU
                             </h3>
                             <p>
                                 <em>
-                                    66 ans, retraitée, mariée, 2 enfants, Maire de Baccon depuis 2014<br /><br />
+                                    63 ans, 4 enfants et 5 petits enfants, artisan taxi retraitée <br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Vice-Présidente de la Communauté de Commune des Terre-du-Val-de-Loire en charge de l’environnement.
+                                    5ème Adjointe au Maire de Corquilleroy Animation, vie culturelle, sport, loisirs, élue depuis 2008 <br/>
                                 </em>
                             </p>
                         </div>
@@ -75,19 +76,19 @@ export default class Beaugency extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/Beaugency/Gilles-Billiot.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Denis-Cheron.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                GILLES BILLIOT
+                                DENIS CHERON
                             </h3>
                             <p>
                                 <em>
-                                    62 ans, marié, 5 enfants, agriculteur biologique, Maire de Jouy-le-Potier depuis 2001<br /><br />
+                                    59 ans, Marié, 3 enfants, Directeur commercial Rungis<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Vice-Président de la Communauté de Communes des Portes de Sologne en charge de l’aménagement de l’espace<br />
+                                    1er Adjoint au Maire de Cepoy Travaux et Urbanisme, élu depuis 1995<br />
                                 </em>
                             </p>
                         </div>
@@ -102,8 +103,8 @@ export default class Beaugency extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="#"><i className="fas fa-envelope"></i></a>
-                            <a href="https://www.facebook.com/DonnatDomingues2021/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="mailto:floiseau.cbouquet2021@gmail.com"><i className="fas fa-envelope"></i></a>
+                            <a href="https://www.facebook.com/departementales2021.farahloiseauchristophebouquet/" target="_blank"><i className="fab fa-facebook-f"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-twitter"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>
@@ -125,7 +126,7 @@ export default class Beaugency extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="#" target="_blank"><span >
+                        <a href="https://fr.calameo.com/read/001161664ea8b1ae9b4cc?authid=jnlYjrRNh7bR" target="_blank"><span >
                             VOIR ET TÉLÉCHARGER NOTRE PROGRAMME
                         </span></a>
                     </div>

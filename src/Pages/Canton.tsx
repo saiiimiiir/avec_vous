@@ -2,6 +2,8 @@ import React, { Component, useRef, useState } from 'react'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import triangle from '../asset/acceuil/traingle_titre.png'
+import Beaugency from '../Components/candidats/Beaugency'
+import Chalette from '../Components/candidats/Chalette'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
@@ -10,14 +12,14 @@ import '../scss/Canton.scss'
 
 const Canton = () => {
     var params = useParams()
-    var canton : string = (params as any).canton;
+    var canton : string = (params as any).canton.toLowerCase();
     var ficheCandidat;
     const [zoom, setzoom] = useState(false)
 
     // AFICHAGE DE LA FICHE CANDIDAT EN FONCTION DU CANTON
 
     if(canton == "chalette-sur-loing"){
-        ficheCandidat = null
+        ficheCandidat = <Chalette/>
     }
     if(canton == "courtenay"){
         ficheCandidat = null
@@ -56,7 +58,7 @@ const Canton = () => {
         ficheCandidat = <MeungSurLoire />
     }
     if(canton == "beaugency"){
-        ficheCandidat = null
+        ficheCandidat = <Beaugency/>
     }
     if(canton == "lorris"){
         ficheCandidat = null
