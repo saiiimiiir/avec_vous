@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+i.fab,i.fas{
+    transition: color ease 0.5s;
+}
+
+span{
+    transition: color ease 0.5s;
+}
+
 $blue : #004a8f;
 $yellow : #b5a26a;
 $hoverBlue : #0076BD;

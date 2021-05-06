@@ -183,7 +183,7 @@ export default class Home extends Component<{},HomeState> {
                             }}
                             onMouseLeave={()=>this.setState({idCantonSelected : 0})}
                             >17 . Pithiviers</span></a>
-                            <a href="/pour-le-canton/saint-jean-de-braye"><span className="cantonText"
+                            <a ><span className="cantonText"
                             onMouseOver={(e : any)=>{
                                 this.setState({
                                     idCantonSelected : parseInt(e.target.innerHTML.split(' ')[0])

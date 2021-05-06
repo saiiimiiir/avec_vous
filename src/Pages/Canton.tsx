@@ -134,7 +134,7 @@ const Canton = () => {
 
                 {ficheCandidat}
     
-                {dons == true && <div className="dons">
+                {/*dons == true && <div className="dons">
                     <div className="titreDons">
                         <i className="fas fa-users" ></i>
                         <span className="yellowText">vous aussi, soutenez-nous !</span>
@@ -148,7 +148,7 @@ const Canton = () => {
                         par avance nous remercions nos généreux donateurs. ces dons étant déductibles de vos impôts,<br />
                         nous vous adresserons en retour un reçu fiscal.<br />
                     </p>
-                </div>}
+                    </div>*/}
             </div>
             <div className="constrain">
                 <Footer />
