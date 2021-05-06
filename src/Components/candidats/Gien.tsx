@@ -23,7 +23,7 @@ export default class Gien extends Component {
                                 </em>
                                 <em className="lineHeight">
                                     Vice-Présidente du Conseil départemental sortante<br/>
-                                    Conseillère communautaire de la Communauté de Communes Giennoise,
+                                    Conseillère communautaire de la Communauté de Communes Giennoise <br/>
                                     Conseillère municipale de Gien<br />
                                 </em>
                             </p>
@@ -44,7 +44,7 @@ export default class Gien extends Component {
                                     Marié, 3 enfants,  agriculteur retraité<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Conseiller départemental sortant, Vice-Président de la Communauté de Communes Berry-Loire-Puisaye, <br/>
+                                    Conseiller départemental sortant, Vice-Président de la Communauté de Communes Berry-Loire-Puisaye<br/>
                                     Conseiller municipal et Maire honoraire de Bonny-Sur-Loire<br />
                                 </em>
                             </p>

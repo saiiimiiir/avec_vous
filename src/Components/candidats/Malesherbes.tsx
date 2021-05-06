@@ -10,21 +10,19 @@ export default class Malesherbes extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/MARIE-LAURE--BEAUDOIN.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/malesherbes/Sophie-PELHATE-.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                MARIE-LAURE BEAUDOIN
+                                SOPHIE PELHÂTE
                             </h3>
                             <p>
                                 <em>
-                                    Retraitée de la fonction publique<br />
-                                    Conseillère départementale<br /><br />
+                                    Maire d’AUXY<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Membre de la commission du logement et de l’insertion<br />
-                                    Conseillère municipale de Coudroy (ancien Maire)<br />
+                                    désireuse de porter mon énergie et mes efforts sur les besoins et le développement des communes rurales afin de créer une unité cantonale<br />
                                 </em>
                             </p>
                         </div>
@@ -32,20 +30,20 @@ export default class Malesherbes extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/ALAIN-GRANDPIERRE--.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/malesherbes/Herve-GAURAT-.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                ALAIN GRANDPIERRE
+                                HERVÉ GAURAT
                             </h3>
                             <p>
                                 <em>
-                                    Retraité de l’agriculture, Vice-Président du Département<br /><br />
+                                    Elu depuis 13 ans <br/>
+                                    Maire de LE MALESHERBOIS et Vice-Président de la CCPG<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Vice-Président de la commission des finances<br />
-                                    Maire honoraire de La Chapelle-sur-Aveyron<br />
+                                    à l’écoute de mes concitoyens pour concrétiser de nouveaux projets<br />
                                 </em>
                             </p>
                         </div>
@@ -57,17 +55,17 @@ export default class Malesherbes extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/VALERIE--MARTIN.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/malesherbes/Marie-Claude-HERBLOT.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                VALERIE MARTIN
+                                MARIE-CLAUDE HERBLOT
                             </h3>
                             <p>
                                 <em>
-                                    Maire de Lorris <br />
-                                    Vice-Présidente de la Communauté de Communes Canaux et Forêts<br /><br />
+                                    Retraitée du secteur agricole <br/>
+                                    élue depuis 20 ans<br /><br />
                                 </em>
                                 <em className="lineHeight">
                                     Trésorière de L’association des Maires du LOIRET<br />
@@ -78,20 +76,20 @@ export default class Malesherbes extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/YOHAN-JOBET.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/malesherbes/Thierry-BARJONET.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                YOHAN JOBET
+                                THIERRY BARJONET
                             </h3>
                             <p>
                                 <em>
-                                    Gestionnaire financier budgétaire<br />
-                                    Maire de Quiers-sur-Bezondee<br /><br />
+                                    Maire de BOYNES <br/>
+                                    Vice-Président de la CCDP<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Conseiller délégué à la Communauté de Communes Canaux et Forêts<br />
+                                    engagé contre la désertification médicale et l'amélioration de la qualité de vie des seniors sur notre territoire<br />
                                 </em>
                             </p>
                         </div>
@@ -107,7 +105,7 @@ export default class Malesherbes extends Component {
                         </span>
                         <div className="socialIcon">
                             <a href="#"><i className="fas fa-envelope"></i></a>
-                            <a href="https://www.facebook.com/DonnatDomingues2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"><i className="fab fa-facebook-f"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-twitter"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>

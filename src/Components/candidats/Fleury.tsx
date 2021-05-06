@@ -22,7 +22,7 @@ export default class Fleury extends Component {
                                     62 ans, habitante de Loury et élue de 1995 à 2020<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    dont 6 ans Présidente de la Communauté de Communes de la Forêt, <br/>
+                                    dont 6 ans Présidente de la Communauté de Communes de la Forêt <br/>
                                     greffière à la Cour d’Appel d’Orléans<br />
                                 </em>
                             </p>

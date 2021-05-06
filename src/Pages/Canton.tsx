@@ -9,6 +9,7 @@ import Fleury from '../Components/candidats/Fleury'
 import Gien from '../Components/candidats/Gien'
 import Laferte from '../Components/candidats/Laferte'
 import Lorris from '../Components/candidats/Lorris'
+import Malesherbes from '../Components/candidats/Malesherbes'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
@@ -17,6 +18,7 @@ import '../scss/Canton.scss'
 
 const Canton = () => {
     var params = useParams()
+    const [dons, setdons] = useState(true)
     var canton : string = (params as any).canton.toLowerCase();
     var ficheCandidat;
     const [zoom, setzoom] = useState(false)
@@ -36,7 +38,7 @@ const Canton = () => {
         ficheCandidat = <Gien/>
     }
     if(canton == "malesherbes"){
-        ficheCandidat = null
+        ficheCandidat = <Malesherbes/>
     }
     if(canton == "fleury-les-aubrais"){
         ficheCandidat = <Fleury/>
@@ -73,6 +75,9 @@ const Canton = () => {
     }
     if(canton == "chateauneuf-sur-loire"){
         ficheCandidat = <Chateauneuf/>
+        if(dons == true){
+            setdons(false)
+        }
     }
     if(canton == "saint-jean-le-blanc"){
         ficheCandidat = null
@@ -122,21 +127,21 @@ const Canton = () => {
 
                 {ficheCandidat}
     
-                <div className="dons">
+                {dons == true && <div className="dons">
                     <div className="titreDons">
                         <i className="fas fa-users" ></i>
                         <span className="yellowText">vous aussi, soutenez-nous !</span>
                     </div>
                     <p>
-                        le mandataire financier est seul habilité à recueillir des dons en faveur de la campagne 
+                        le mandataire financier est seul habilité à recueillir des dons en faveur de la campagne
                         de pauline partin et thierrybracquemond, dans les limites précisées à l'article L52-8
-                        du code électoral.<br /><br/>
+                        du code électoral.<br /><br />
                         vous pouvez nous transmettre vos dons par chèque bancaire libellé à l'ordre de :<br />
                         <span className="bluetext">[....] - 2 rue des rordeliers - 45130 - meung-sur-Loire.</span><br />
                         par avance nous remercions nos généreux donateurs. ces dons étant déductibles de vos impôts,<br />
                         nous vous adresserons en retour un reçu fiscal.<br />
                     </p>
-                </div>
+                </div>}
             </div>
             <div className="constrain">
                 <Footer />
