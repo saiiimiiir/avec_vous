@@ -109,7 +109,7 @@ export default class Laferte extends Component {
                         <div className="socialIcon">
                             <a href="mailto:gaborit.braux.2021@gmail.com"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.facebook.com/DonnatDomingues2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#" target="_blank"><i className="fab fa-twitter"></i></a>
+                            
                             <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>

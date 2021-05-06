@@ -198,7 +198,6 @@ export default class Header extends Component {
                 <div className="imageContainer">
                     <div className="socialIcon">
                         <a target="_blank" href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
-                        <a target="_blank" href="https://twitter.com"><i className="fab fa-twitter"></i></a>
                         <a target="_blank" href="https://instagram.com"><i className="fab fa-instagram"></i></a>
                     </div>
                     <Link to="/home">

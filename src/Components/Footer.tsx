@@ -23,7 +23,6 @@ export default class Footer extends Component {
                 </div>
                 <div className="socialIcon">
                     <a target="_blank" href="facebook.com"><i className="fab fa-facebook-f"></i></a>
-                    <a target="_blank" href="twitter.com"><i className="fab fa-twitter"></i></a>
                     <a target="_blank" href="instagram.com"><i className="fab fa-instagram"></i></a>
                 </div>
             </div>

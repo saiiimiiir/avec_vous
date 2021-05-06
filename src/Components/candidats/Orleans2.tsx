@@ -91,7 +91,7 @@ export default class Orleans2 extends Component {
                         <div className="socialIcon">
                             <a href="#"><i className="fas fa-envelope"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                            {/*<a href="#" target="_blank"><i className="fab fa-twitter"></i></a>
+                            {/*
                             <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>*/}
                         </div>
                     </div>
