@@ -108,7 +108,6 @@ export default class MeungSurLoire extends Component {
                         <div className="socialIcon">
                             <a href="mailto:pauline.thierry@loiretavecvous.fr"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.facebook.com/MARTINBRACQUEMOND2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                            <a href="twitter.com" target="_blank"></a>
                             <a href="https://www.instagram.com/martinbracquemond2021/" target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
