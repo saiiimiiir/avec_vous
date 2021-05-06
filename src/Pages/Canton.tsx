@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import triangle from '../asset/acceuil/traingle_titre.png'
 import Beaugency from '../Components/candidats/Beaugency'
 import Chalette from '../Components/candidats/Chalette'
+import Chateauneuf from '../Components/candidats/Chateauneuf'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
@@ -67,7 +68,7 @@ const Canton = () => {
         ficheCandidat = null
     }
     if(canton == "chateauneuf-sur-loire"){
-        ficheCandidat = null
+        ficheCandidat = <Chateauneuf/>
     }
     if(canton == "saint-jean-le-blanc"){
         ficheCandidat = null

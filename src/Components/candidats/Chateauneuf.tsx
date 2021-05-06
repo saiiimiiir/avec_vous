@@ -10,20 +10,21 @@ export default class MeungSurLoire extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Farah-Loiseau.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Florence-GALZIN--.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                FARAH LOISEAU
+                                FLORENCE GALZIN
                             </h3>
                             <p>
                                 <em>
-                                    « Citoyenne engagée »<br /><br />
+                                    52 ans, mariée, 2 filles, <br/> fonctionnaire territorial en disponibilité<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    48 ans, 3 enfants, coordinatrice jeunesse Communauté de Communes, Conseillère municipale à Chalette-sur-Loing <br/>
-                                    Conseillère communautaire – Agglomération Montargoise, élue depuis 2020 <br />
+                                    Maire de Châteauneuf-Sur-Loire<br/>
+                                    Vice-Présidente de la Communauté de Communes des Loges chargée du développement économique.
+                                    Vice-présidente du Conseil départemental sortante<br />
                                 </em>
                             </p>
                         </div>
@@ -31,20 +32,20 @@ export default class MeungSurLoire extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Christophe-Bouquet.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Philippe-VACHER-.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                CHRISTOPHE BOUQUET
+                                PHILIPPE VACHER
                             </h3>
                             <p>
                                 <em>
-                                    « Dirigeant territorial »<br /><br />
+                                    58 ans, 2 filles, agriculteur, <br/> Maire de Seichebrières<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    46 ans, marié, 2 enfants, Directeur Général des Services, <br/> 
-                                    Juriste en droit public, 1er Adjoint au Maire d’Amilly Finances, élu depuis 2014<br />
+                                    Président du Pôle d’Equilibre Territorial Rural forêt d’Orléans Loire Sologne. <br/>
+                                     Conseiller départemental sortant<br />
                                 </em>
                             </p>
                         </div>
@@ -56,19 +57,19 @@ export default class MeungSurLoire extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Catherine-Bironneau.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Odile-de-COURCY.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                CATHERINE BIRONNEAU
+                                ODILE DE COURCY
                             </h3>
                             <p>
                                 <em>
-                                    63 ans, 4 enfants et 5 petits enfants, artisan taxi retraitée <br /><br />
+                                    67 ans, mariée, 3 enfants, <br/> exploitante agricole <br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    5ème Adjointe au Maire de Corquilleroy Animation, vie culturelle, sport, loisirs, élue depuis 2008 <br/>
+                                    ancien maire de Sully-La-Chapelle - 19 ans de mandat d’élue locale<br />
                                 </em>
                             </p>
                         </div>
@@ -76,19 +77,19 @@ export default class MeungSurLoire extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chalette/Denis-Cheron.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/Christophe-BOURILLON.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                DENIS CHERON
+                                CHRISTOPHE BOURILLON
                             </h3>
                             <p>
                                 <em>
-                                    59 ans, Marié, 3 enfants, Directeur commercial Rungis<br /><br />
+                                    41 ans, marié, 2 enfants, <br/> professeur de l’enseignement secondaire et supérieur<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    1er Adjoint au Maire de Cepoy Travaux et Urbanisme, élu depuis 1995<br />
+                                    1er Adjoint au Maire de Vitry-aux-Loges en charge des travaux, de la voirie et des services techniques<br />
                                 </em>
                             </p>
                         </div>
@@ -103,8 +104,8 @@ export default class MeungSurLoire extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="mailto:floiseau.cbouquet2021@gmail.com"><i className="fas fa-envelope"></i></a>
-                            <a href="https://www.facebook.com/departementales2021.farahloiseauchristophebouquet/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="mailto:galzinvacher2021@gmail.com"><i className="fas fa-envelope"></i></a>
+                            <a href="https://www.facebook.com/DonnatDomingues2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-twitter"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>
