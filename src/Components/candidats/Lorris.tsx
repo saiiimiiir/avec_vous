@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../../scss/Candidat.scss'
 
-export default class Laferte extends Component {
+export default class Lorris extends Component {
     render() {
         return (
             <div id="presentationCandidat">
@@ -10,22 +10,21 @@ export default class Laferte extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/la-ferte/Anne-GABORIT.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/MARIE-LAURE--BEAUDOIN.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                ANNE GABORIT
+                                MARIE-LAURE BEAUDOIN
                             </h3>
                             <p>
                                 <em>
-                                    54 ans, mariée, 2 enfants <br/>
-                                    Conseillère départementale <br/>
-                                    Maire de Ligny-le-Ribault (SE)<br /><br />
+                                    Retraitée de la fonction publique<br/>
+                                    Conseillère départementale<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Présidente de la communauté de Communes des Portes de Sologne, <br/>
-                                    Membre du comité directeur de l’Association des Maires du Loiret<br />
+                                    Membre de la commission du logement et de l’insertion<br/>
+                                    Conseillère municipale de Coudroy (ancien Maire)<br />
                                 </em>
                             </p>
                         </div>
@@ -33,21 +32,20 @@ export default class Laferte extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/la-ferte/Christian-BRAUX.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/ALAIN-GRANDPIERRE--.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                CHRISTIAN BRAUX
+                                ALAIN GRANDPIERRE
                             </h3>
                             <p>
                                 <em>
-                                    66 ans marié, 2 enfants, géologue retraité, Conseiller départemental, Délégué au handicap<br /><br />
+                                    Retraité de l’agriculture, Vice-Président du Département<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Président de la commission départementale de l’autonomie et handicap <br/>
-                                    Ancien Maire (SE) de Saint-Cyr-en-Val, <br/>
-                                    Fondateur d'un établissement pour autistes à La Ferté-Saint-Aubin<br />
+                                    Vice-Président de la commission des finances<br/>
+                                    Maire honoraire de La Chapelle-sur-Aveyron<br />
                                 </em>
                             </p>
                         </div>
@@ -59,21 +57,20 @@ export default class Laferte extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/la-ferte/Isabelle-RASTOUL.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/VALERIE--MARTIN.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                ISABELLE RASTOUL
+                                VALERIE MARTIN
                             </h3>
                             <p>
                                 <em>
-                                    54 ans, mariée, une fille, sourcienne depuis 52 ans<br/>
-                                    enseigne l’éco-gestion en lycée professionnel<br /><br />
+                                    Maire de Lorris <br/>
+                                    Vice-Présidente de la Communauté de Communes Canaux et Forêts<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    Adjointe au Maire Orléans et VP Métropole en charge des ressources humaines,<br/>
-                                    engagée pour l’inclusion du handicap mental<br />
+                                    Trésorière de L’association des Maires du LOIRET<br />
                                 </em>
                             </p>
                         </div>
@@ -81,20 +78,20 @@ export default class Laferte extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/la-ferte/Thierry-DELHOMME.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/lorris/YOHAN-JOBET.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                THIERRY DELHOMME
+                                YOHAN JOBET
                             </h3>
                             <p>
                                 <em>
-                                    55 ans, marié, un garçon, une petite fille, contrôleur technique<br /><br />
+                                    Gestionnaire financier budgétaire<br/>
+                                    Maire de Quiers-sur-Bezondee<br /><br />
                                 </em>
                                 <em className="lineHeight">
-                                    conseiller Municipal La-Ferté-Saint- Aubin – ancien Président de Parents d'élèves<br/>
-                                    ancien Président et judoka d'un club de Judo, sportif (VTT, Triathlon)<br />
+                                    Conseiller délégué à la Communauté de Communes Canaux et Forêts<br />
                                 </em>
                             </p>
                         </div>
@@ -109,7 +106,7 @@ export default class Laferte extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="mailto:gaborit.braux.2021@gmail.com"><i className="fas fa-envelope"></i></a>
+                            <a href="#"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.facebook.com/DonnatDomingues2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-twitter"></i></a>
                             <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>

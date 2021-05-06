@@ -8,6 +8,7 @@ import Chateauneuf from '../Components/candidats/Chateauneuf'
 import Fleury from '../Components/candidats/Fleury'
 import Gien from '../Components/candidats/Gien'
 import Laferte from '../Components/candidats/Laferte'
+import Lorris from '../Components/candidats/Lorris'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
@@ -65,7 +66,7 @@ const Canton = () => {
         ficheCandidat = <Beaugency/>
     }
     if(canton == "lorris"){
-        ficheCandidat = null
+        ficheCandidat = <Lorris/>
     }
     if(canton == "saint-jean-de-braye"){
         ficheCandidat = null
