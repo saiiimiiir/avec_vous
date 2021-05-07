@@ -4,6 +4,7 @@ import logo_long from '../asset/logo_long.png'
 import triangle from '../asset/acceuil/traingles.png'
 import '../scss/Header.scss'
 import { Link } from 'react-router-dom'
+import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
 
 export default class Header extends Component {
     render() {
@@ -11,12 +12,12 @@ export default class Header extends Component {
         var menuOpen = false;
         return (
             <div id="header">
-                <div className="ancre" onClick={()=>{
-                    window.location.href = "#header"
-                }}>
-                    <i className="fas fa-chevron-up"></i>
-                    <span>haut de page</span>
-                </div>
+                <LinkScroll to="header" smooth={true} offset={-70} duration={700}>
+                    <div className="ancre" >
+                        <i className="fas fa-chevron-up"></i>
+                        <span>haut de page</span>
+                    </div>
+                </LinkScroll>
                 <div className="titre">
                     <h1 className="titreText">
                         <span>LOIRET</span> éLECTIONS DéPARTEMENTALES<br/>
