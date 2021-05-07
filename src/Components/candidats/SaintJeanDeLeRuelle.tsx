@@ -45,47 +45,6 @@ export default class SaintJeanDeLeRuelle extends Component {
                             </p>
                         </div>
                     </div>
-
-                </div>
-
-                <div className="supleant">
-
-                    <div className="fiche">
-                        <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/nathalie-lucas.jpg"} />
-                        </div>
-                        <div className="text">
-                            <h3 className="titre">
-                                Remplaçante<br />
-                                Nathalie Lucas
-                            </h3>
-                            <p>
-                                <em className="lineHeight">
-                                    Maire de Thorailles, Vice-présidente de la Communauté de communes de la Cléry,
-                                    du Betz et de l’Ouanne<br />
-                                </em>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="fiche">
-                        <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/stephane-hamon.jpg"} />
-                        </div>
-                        <div className="text">
-                            <h3 className="titre">
-                                Remplaçant<br />
-                                Stéphane Hamon
-                            </h3>
-                            <p>
-                                <em className="lineHeight">
-                                    Maire de Chuelles, Vice-président de la Communauté de communes de la Cléry,
-                                    du Betz et de l’Ouanne, Membre du comité directeur de l’Association des Maires du Loiret<br />
-                                </em>
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
 
 

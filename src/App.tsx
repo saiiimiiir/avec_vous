@@ -20,11 +20,7 @@ function App() {
   <Router>
 
       <Switch>
-        <Route exact path="/" children={<Construction />} />
-      </Switch>
-
-      <Switch>
-        <Route exact path="/home" children={<Home />} />
+        <Route exact path="/" children={<Home />} />
       </Switch>
 
       <Switch>

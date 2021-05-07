@@ -203,7 +203,7 @@ export default class Header extends Component<{},{menuOpen : boolean}> {
                 </div>
                 <div className="imageContainer">
                    
-                    <Link to="/home">
+                    <Link to="/">
                         {/*<img id="logoImg" src={logo} alt="Logo avec vous !" />*/}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424.48 136.92">
                             <g id="Calque_2" data-name="Calque 2">
@@ -220,7 +220,7 @@ export default class Header extends Component<{},{menuOpen : boolean}> {
                         </svg>
 
                     </Link>
-                    <Link to="/home">
+                    <Link to="/">
                         {/*<img src={logo_long} alt="logo loiret avec vous" className="displayOnMobile logoLong" />*/}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.79 314.69" className="logoLong displayOnMobile">
                             <g id="Calque_2" data-name="Calque 2">
@@ -270,7 +270,7 @@ export default class Header extends Component<{},{menuOpen : boolean}> {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/home" >
+                                    <Link to="/" >
                                         <span className="textMenu">
                                             Nos 21 cantons
                                         </span>

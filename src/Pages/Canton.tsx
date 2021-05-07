@@ -108,7 +108,7 @@ const Canton = () => {
             <div id="canton">
                 <Header/>
                 <div className="titreCanton">
-                    <Link to="/home">
+                    <Link to="/">
                         <button>RETOUR À LA LISTE <br/> DES CANTONS</button>
                     </Link>
                     <img src={triangle} />

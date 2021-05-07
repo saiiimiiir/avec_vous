@@ -109,7 +109,7 @@ export default class Pithiviers extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="#" target="_blank"><span >
+                        <a target="_blank"><span >
                             VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
                         </span></a>
                     </div>
