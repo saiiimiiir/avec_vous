@@ -105,7 +105,7 @@ export default class Chateauneuf extends Component {
                         </span>
                         <div className="socialIcon">
                             <a href="mailto:galzinvacher2021@gmail.com"><i className="fas fa-envelope"></i></a>
-                            <a href="https://www.facebook.com/DonnatDomingues2021" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

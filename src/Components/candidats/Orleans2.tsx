@@ -84,16 +84,6 @@ export default class Orleans2 extends Component {
 
 
                 <div className="contact">
-                    <div className="contactIcon">
-                        <span>
-                            NOUS CONTACTER
-                        </span>
-                        <div className="socialIcon">
-                            <a href="#"><i className="fas fa-envelope"></i></a>
-                            <a href="#" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-
                     <div className="programLink">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.36 13.14">
                             <g id="Calque_2" data-name="Calque 2">

@@ -94,7 +94,7 @@ export default class Beaugency extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="https://www.facebook.com/DonnatDomingues2021/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

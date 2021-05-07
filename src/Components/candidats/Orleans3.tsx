@@ -92,7 +92,7 @@ export default class Orleans3 extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="#" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 
