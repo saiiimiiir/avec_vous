@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../../scss/Candidat.scss'
 
-export default class Orleans2 extends Component {
+export default class SaintJeanDeLeRuelle extends Component {
     render() {
         return (
             <div id="presentationCandidat">
@@ -10,16 +10,18 @@ export default class Orleans2 extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/orleans2/Nathalie-KERRIEN.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/Kadejat-Dahou.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                NATHALIE KERRIEN
+                                Kadéjat Dahou
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    56 ans. Conseillère départementale sortante, exerce des missions à la Ville d’Orléans : vie des quartiers, culture, centre de vaccination<br />
+                                    Née à Orléans, mère de famille, ingénieur de formation, 
+                                    a exercé toute sa carrière professionnelle au service de l’éducation dans le Loiret, 
+                                    élue municipale à Saint-Jean-de-la-Ruelle, très investie dans le monde associatif.<br />
                                 </em>
                             </p>
                         </div>
@@ -27,16 +29,18 @@ export default class Orleans2 extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/orleans2/Jean-Paul-IMBAULT-.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/Guillem-Leroux.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                JEAN-PAUL IMBAULT
+                                Guillem Leroux
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    72 ans. Conseiller départemental sortant, Adjoint au Maire d’Orléans chargé de la ville, des Jardins, de la biodiversité et des manifestations horticoles, conseiller métropolitain, chroniqueur radio, passionné d’histoire locale et de voitures anciennes.<br />
+                                    Agé de 26 ans, diplômé de Sciences Po Paris et travaillant actuellement dans une startup française de vélos partagés. 
+                                    Conseiller municipal d'Ingré et Conseiller métropolitain d'Orléans métropole, 
+                                    engagé dans la vie citoyenne de notre territoire depuis 2017.<br />
                                 </em>
                             </p>
                         </div>
@@ -48,16 +52,17 @@ export default class Orleans2 extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/orleans2/Virginie-MARCHAND.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/nathalie-lucas.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                VIRGINIE MARCHAND
+                                Nathalie Lucas
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    48 ans. Adjointe au Maire d’Orléans en charge du quartier St Marceau, assistante à la Ligue de judo, engagée dans le monde associatif, défend l’environnement naturel et la qualité de vie du quartier. <br/>
+                                    Maire de Thorailles, Vice-présidente de la Communauté de communes de la Cléry,
+                                    du Betz et de l’Ouanne<br />
                                 </em>
                             </p>
                         </div>
@@ -65,16 +70,17 @@ export default class Orleans2 extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/orleans2/Thomas-RENAULT.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/stephane-hamon.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                THOMAS RENAULT
+                                Stéphane Hamon
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    37 ans. Adjoint au Maire d’Orléans chargé des sports, Conseiller métropolitain délégué aux clubs sportifs de haut niveau, ancien footballeur professionnel, enfant de Saint-Marceau.<br />
+                                    Maire de Chuelles, Vice-président de la Communauté de communes de la Cléry,
+                                    du Betz et de l’Ouanne, Membre du comité directeur de l’Association des Maires du Loiret<br />
                                 </em>
                             </p>
                         </div>
@@ -84,6 +90,15 @@ export default class Orleans2 extends Component {
 
 
                 <div className="contact">
+                    <div className="contactIcon">
+                        <span>
+                            NOUS CONTACTER
+                        </span>
+                        <div className="socialIcon">
+                            <a href="https://www.dahou-leroux.fr/" target="_blank"><i className="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+
                     <div className="programLink">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.36 13.14">
                             <g id="Calque_2" data-name="Calque 2">
@@ -100,8 +115,8 @@ export default class Orleans2 extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="#" target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
+                        <a target="_blank"><span >
+                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible) 
                         </span></a>
                     </div>
                 </div>

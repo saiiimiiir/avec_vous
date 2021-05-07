@@ -19,6 +19,7 @@ import Orleans2 from '../Components/candidats/Orleans2'
 import Orleans3 from '../Components/candidats/Orleans3'
 import Orleans4 from '../Components/candidats/Orleans4'
 import Pithiviers from '../Components/candidats/Pithiviers'
+import SaintJeanDeLeRuelle from '../Components/candidats/SaintJeanDeLeRuelle'
 import SaintJeanLeBlanc from '../Components/candidats/SaintJeanLeBlanc'
 import Sully from '../Components/candidats/Sully'
 import Footer from '../Components/Footer'
@@ -66,7 +67,7 @@ const Canton = () => {
         ficheCandidat = <Orleans2/>
     }
     if(canton == "saint-jean-de-la-ruelle"){
-        ficheCandidat = null
+        ficheCandidat = <SaintJeanDeLeRuelle/>
     }
     if(canton == "olivet"){
         ficheCandidat = <Olivet/>

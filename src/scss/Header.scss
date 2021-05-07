@@ -404,6 +404,9 @@
             .menuMobile{
                 width: 100%;
                 @include flexStart(column);
+                box-shadow: grey 0px 15px 30px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
                 position: absolute;
                 z-index: 10;
                 top: 100%;
@@ -413,9 +416,19 @@
                 transition: left 0.5s ease;
                 a{
                     text-decoration: none;
+                    margin: 7px 0;
                     li{
                         list-style: none;
                     }
+                }
+                button{
+                    background-color: $blue;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    @include typoSemiBold();
+                    margin: 10px auto;
                 }
             }
             .textMajorite{
