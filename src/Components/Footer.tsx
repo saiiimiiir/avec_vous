@@ -17,7 +17,7 @@ export default class Footer extends Component {
                     </a>
                 </div>
                 <div className="mention">
-                    <Link to="/mention">
+                    <Link to="/mentions">
                         <span className="bluetext">mentions légales</span>
                     </Link>
                 </div>

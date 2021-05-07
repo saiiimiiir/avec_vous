@@ -18,8 +18,13 @@ import Mentions from './Pages/Mentions';
 function App() {
   return (
   <Router>
+
       <Switch>
-        <Route exact path="/" children={<Home />} />
+        <Route exact path="/" children={<Construction />} />
+      </Switch>
+
+      <Switch>
+        <Route exact path="/home" children={<Home />} />
       </Switch>
 
       <Switch>
@@ -35,7 +40,7 @@ function App() {
       </Switch>
 
       <Switch>
-        <Route exact path="/mention" children={<Mentions />} />
+        <Route exact path="/mentions" children={<Mentions />} />
       </Switch>
       
     </Router>
