@@ -19,8 +19,8 @@ export default class Olivet extends Component {
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil in eaque commodi magni cupiditate consequatur ratione? 
-                                    Quos dolorem nam ea labore veritatis. Temporibus doloremque perferendis corrupti id laborum dolorum.<br />
+                                    Hilairoise, responsable administrative, mariée, deux enfants, 
+                                    Première adjointe au Maire de Saint-Hilaire-Saint-Mesmin et Conseillère départementale sortante.<br />
                                 </em>
                             </p>
                         </div>
@@ -28,18 +28,16 @@ export default class Olivet extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/olivet/Thierry .Cousin.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/olivet/Hugues.saury.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 titulaire<br />
-                                THIERRY COUSIN
+                                HUGUES SAURY
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quas reprehenderit voluptatem 
-                                    voluptatum dolorem cumque ratione nemo provident explicabo officia, 
-                                    repudiandae voluptas laboriosam corporis consectetur et quaerat. Officiis, consequuntur iure?<br />
+                                    Olivetain, pharmacien, marié,un enfant, Sénateur du Loiret et Conseiller départemental sortant<br />
                                 </em>
                             </p>
                         </div>
@@ -56,13 +54,11 @@ export default class Olivet extends Component {
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                CECILE ADELE
+                                CÉCILE ADELLE
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A pariatur nesciunt corrupti. 
-                                    Adipisci obcaecati possimus temporibus expedita, 
-                                    sunt non amet illum officia minima in dicta exercitationem quas, dignissimos alias porro? <br />
+                                    Olivetaine, chargée de mission, mariée, trois enfants, Première Maire-adjointe d’Olivet<br />
                                 </em>
                             </p>
                         </div>
@@ -70,18 +66,16 @@ export default class Olivet extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/olivet/Hugues.saury.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/olivet/Thierry .Cousin.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                HUGUES SAURY
+                                THIERRY COUSIN
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
-                                    porro aliquam obcaecati, quos adipisci rem eligendi natus aperiam aut quae ullam voluptatibus nostrum dolorum error exercitationem itaque. 
-                                    Cum, animi magnam. <br />
+                                    Pryvatain, aménageur foncier, marié, deux enfants, Maire de Saint-Pryvé-Saint-Mesmin<br />
                                 </em>
                             </p>
                         </div>
@@ -96,8 +90,8 @@ export default class Olivet extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="mailto:olivierflorence2021@gmail.com"><i className="fas fa-envelope"></i></a>
-                            <a href="#" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="mailto:isabellehugues2021@gmail.com"><i className="fas fa-envelope"></i></a>
+                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 
