@@ -176,6 +176,26 @@
         @include flexCenter(column);
         width: 100%;
         margin: 0px auto 0px auto;
+        .ancre{
+            position: fixed;
+            top : 80vh;
+            right: 5px;
+            cursor: pointer;
+            padding: 10px;
+            @include flexCenter(column);
+            background-color: rgba(0, 0, 0, 0.027);
+            border-radius: 5px;
+            i{
+                color : $yellow;
+            }
+            span{
+                display: block;
+                font-family: 'Biryani', sans-serif;
+                font-size: 10px;
+                text-transform: uppercase;
+                margin: 0px 5px;
+            }
+        }
         .titre{
             text-transform: uppercase;
             color: $blue;
@@ -327,7 +347,24 @@
         width: 100%;
         margin: 15px auto;
         .ancre{
-            display: none;
+            position: fixed;
+            top : 80vh;
+            right: 5px;
+            cursor: pointer;
+            padding: 10px;
+            @include flexCenter(column);
+            background-color: rgba(0, 0, 0, 0.027);
+            border-radius: 5px;
+            i{
+                color : $yellow;
+            }
+            span{
+                display: none;
+                font-family: 'Biryani', sans-serif;
+                font-size: 10px;
+                text-transform: uppercase;
+                margin: 0px 5px;
+            }
         }
         .titre{
             width: 100%;
