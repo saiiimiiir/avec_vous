@@ -5,12 +5,14 @@ import triangle from '../asset/acceuil/traingle_titre.png'
 import Beaugency from '../Components/candidats/Beaugency'
 import Chalette from '../Components/candidats/Chalette'
 import Chateauneuf from '../Components/candidats/Chateauneuf'
+import Courtenay from '../Components/candidats/Courtenay'
 import Fleury from '../Components/candidats/Fleury'
 import Gien from '../Components/candidats/Gien'
 import Laferte from '../Components/candidats/Laferte'
 import Lorris from '../Components/candidats/Lorris'
 import Malesherbes from '../Components/candidats/Malesherbes'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
+import Montargis from '../Components/candidats/Montargis'
 import Olivet from '../Components/candidats/Olivet'
 import Orleans1 from '../Components/candidats/Orleans1'
 import Orleans2 from '../Components/candidats/Orleans2'
@@ -37,10 +39,10 @@ const Canton = () => {
         ficheCandidat = <Chalette/>
     }
     if(canton == "courtenay"){
-        ficheCandidat = null
+        ficheCandidat = <Courtenay/>
     }
     if(canton == "montargis"){
-        ficheCandidat = null
+        ficheCandidat = <Montargis/>
     }
     if(canton == "gien"){
         ficheCandidat = <Gien/>
