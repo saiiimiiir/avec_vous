@@ -196,11 +196,8 @@ export default class Header extends Component {
                     <div className="textMajorite"><h2 ><span className="whiteText">majorité</span> <span className="bluetext">départementale</span> </h2></div>
                 </div>
                 <div className="imageContainer">
-                    <div className="socialIcon">
-                        <a target="_blank" href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
-                        <a target="_blank" href="https://instagram.com"><i className="fab fa-instagram"></i></a>
-                    </div>
-                    <Link to="/home">
+                   
+                    <Link to="/">
                         {/*<img id="logoImg" src={logo} alt="Logo avec vous !" />*/}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424.48 136.92">
                             <g id="Calque_2" data-name="Calque 2">
@@ -217,7 +214,7 @@ export default class Header extends Component {
                         </svg>
 
                     </Link>
-                    <Link to="/home">
+                    <Link to="/">
                         {/*<img src={logo_long} alt="logo loiret avec vous" className="displayOnMobile logoLong" />*/}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.79 314.69" className="logoLong displayOnMobile">
                             <g id="Calque_2" data-name="Calque 2">
@@ -267,7 +264,7 @@ export default class Header extends Component {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/home" >
+                                    <Link to="/" >
                                         <span className="textMenu">
                                             Nos 21 cantons
                                         </span>

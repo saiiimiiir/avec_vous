@@ -21,10 +21,7 @@ export default class Footer extends Component {
                         <span className="bluetext">mentions légales</span>
                     </Link>
                 </div>
-                <div className="socialIcon">
-                    <a target="_blank" href="facebook.com"><i className="fab fa-facebook-f"></i></a>
-                    <a target="_blank" href="instagram.com"><i className="fab fa-instagram"></i></a>
-                </div>
+                
             </div>
         )
     }

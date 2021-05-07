@@ -13,17 +13,13 @@ import Actions from './Pages/Actions'
 import Construction from './Pages/Construction';
 import Canton from './Pages/Canton';
 import Roles from './Pages/Roles';
+import Mentions from './Pages/Mentions';
 
 function App() {
   return (
   <Router>
-
       <Switch>
-        <Route exact path="/" children={<Construction />} />
-      </Switch>
-
-      <Switch>
-        <Route exact path="/home" children={<Home />} />
+        <Route exact path="/" children={<Home />} />
       </Switch>
 
       <Switch>
@@ -36,6 +32,10 @@ function App() {
 
       <Switch>
         <Route exact path="/pour-le-canton/:canton" children={<Canton />}/>
+      </Switch>
+
+      <Switch>
+        <Route exact path="/mention" children={<Mentions />} />
       </Switch>
       
     </Router>

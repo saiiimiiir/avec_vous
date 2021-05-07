@@ -1,0 +1,88 @@
+@import "./Setup.scss";
+
+#mention{
+    @include pannelCenter();
+    @include flexCenter(column);
+    .titreMention{
+        @include flexCenter(row);
+        i{
+            color : $blue;
+            font-size: 40px;
+            vertical-align: center;
+            margin-right: 30px;
+            
+        }
+        span{
+            text-transform: uppercase;
+            font-size: 28px;
+            margin: 20px 0px;
+        }
+    }
+    .containerMention{
+        width: 90%;
+        margin-bottom: 30px;
+        p{
+            color: $blue;
+        }
+    }
+}
+
+/*-----------------------------*/
+/*-----------TABLETTE----------*/
+/*-----------------------------*/
+
+@media screen and (min-width: 800px) and (max-width : 1400px){
+    #mention{
+        @include pannelCenter();
+        @include flexCenter(column);
+        .titreMention{
+            @include flexCenter(row);
+            i{
+                color : $blue;
+                font-size: 40px;
+                vertical-align: center;
+                margin-right: 30px;
+                
+            }
+            span{
+                text-transform: uppercase;
+                font-size: 28px;
+                margin: 20px 0px;
+            }
+        }
+        .containerMention{
+            width: 90%;
+        }
+    }
+}
+
+/*-----------------------------*/
+/*-----------MOBILE----------*/
+/*-----------------------------*/
+
+@media screen and (max-width: 800px){
+    #mention{
+        width: 100%;
+        @include flexCenter(column);
+        .titreMention{
+            @include flexCenter(row);
+            i{
+                display: none;
+                color : $blue;
+                font-size: 40px;
+                vertical-align: center;
+                margin-right: 30px;
+                
+            }
+            span{
+                text-transform: uppercase;
+                font-size: 18px;
+                margin: 20px 0px;
+                text-align: center;
+            }
+        }
+        .containerMention{
+            width: 90%;
+        }
+    }
+}
