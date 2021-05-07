@@ -11,6 +11,7 @@ import Laferte from '../Components/candidats/Laferte'
 import Lorris from '../Components/candidats/Lorris'
 import Malesherbes from '../Components/candidats/Malesherbes'
 import MeungSurLoire from '../Components/candidats/MeungSurLoire'
+import Olivet from '../Components/candidats/Olivet'
 import Orleans1 from '../Components/candidats/Orleans1'
 import Orleans2 from '../Components/candidats/Orleans2'
 import Orleans3 from '../Components/candidats/Orleans3'
@@ -65,8 +66,8 @@ const Canton = () => {
     if(canton == "saint-jean-de-la-ruelle"){
         ficheCandidat = null
     }
-    if(canton == "oliet"){
-        ficheCandidat = null
+    if(canton == "olivet"){
+        ficheCandidat = <Olivet/>
     }
     if(canton == "meung-sur-loire"){
         ficheCandidat = <MeungSurLoire />
