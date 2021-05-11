@@ -18,7 +18,7 @@ export default class Mentions extends Component {
                         Responsable de la publication : Madame Pauline Martin <br /><br />
                         ________________________________________ <br /><br />
                         <span className="yellowText">2. Développements, crédits et hébergement</span> <br /><br />
-                        Design / Développements : © La Fabrique de Marc – ELB ( Saïmir Djoumoi) <br />
+                        Design / Développements : © La Fabrique de Marc – éditions Lebakh <br />
                         Crédits photographiques : © Ludovic Letot (pour les communes de Beaugency, Châteauneuf-sur-Loire, Fleury-les-Aubrais, Gien, La Ferté-saint-Aubin, Olivet, Orléans 1-2-3-4, Saint-jean-le-Blanc et Sully-sur-Loire)
                         Hébergement des solutions : OVH <br />
                         ________________________________________ <br /><br />

@@ -73,7 +73,7 @@ export default class Sully extends Component {
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                HUGO PLANCHET
+                                UGO PLANCHET
                             </h3>
                             <p>
                                 <em className="lineHeight">
