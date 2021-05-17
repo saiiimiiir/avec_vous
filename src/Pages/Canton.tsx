@@ -112,7 +112,7 @@ const Canton = () => {
                         <button>RETOUR À LA LISTE <br/> DES CANTONS</button>
                     </Link>
                     <img src={triangle} />
-                    <h3>pour le canton de {canton == "la-ferte-saint-aubin" ? "la ferte-saint-aubin" : canton}</h3>
+                    <h3>pour le canton {(canton == "olivet" || canton == "orleans-1" || canton == "orleans-2" || canton == "orleans-3" || canton == "orleans-4") ? "d\'" : "de"} {canton == "la-ferte-saint-aubin" ? "la ferte-saint-aubin" : canton}</h3>
                 </div>
                 <div className="carteCanton">
                     <img src={process.env.PUBLIC_URL + '/carte_canton/' + canton + '.jpg'} alt={"carte " + canton} />
