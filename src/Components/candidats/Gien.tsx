@@ -23,7 +23,7 @@ export default class Gien extends Component {
                                 </em>
                                 <em className="lineHeight">
                                     Vice-Présidente du Conseil départemental sortante, 
-                                    Conseillère communautaire de la Communauté de Communes Giennoise, 
+                                    Conseillère communautaire de la Communauté des Communes Giennoises,
                                     Conseillère municipale de Gien<br />
                                 </em>
                             </p>
@@ -67,7 +67,7 @@ export default class Gien extends Component {
                             <p>
                                 <em>
                                     Infirmière, 2 enfants, <br/>
-                                    Conseillère communautaire de la Communauté de Communes Giennoise<br />
+                                    Conseillère communautaire de la Communauté des Communes Giennoises<br />
                                 </em>
                                 <em className="lineHeight">
                                     1ère Adjointe au Maire de Boismorand<br/>
@@ -89,7 +89,7 @@ export default class Gien extends Component {
                             <p>
                                 <em className="lineHeight">
                                     Marié, 3 enfants, artisan commerçant retraité, 
-                                    Président de la Communauté de Communes Berry Loire Puisaye<br/>
+                                    Président de la Communauté de Communes Berry-Loire-Puisaye<br/>
                                     Maire de Chatillon sur Loire<br />
                                 </em>
                             </p>

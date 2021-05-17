@@ -22,7 +22,7 @@ export default class Laferte extends Component {
                                     54 ans, mariée, 2 enfants,
                                     Conseillère départementale,
                                     Maire de Ligny-le-Ribault (SE),
-                                    Présidente de la communauté de Communes des Portes de Sologne, <br/>
+                                    Vice-Présidente de la communauté de Communes des Portes de Sologne, <br/>
                                     Membre du comité directeur de l’Association des Maires du Loiret<br />
                                 </em>
                             </p>

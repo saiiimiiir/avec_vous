@@ -64,8 +64,9 @@ export default class Malesherbes extends Component {
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Retraitée du secteur agricole, élue depuis 20 ans, 
-                                    Trésorière de L’association des Maires du LOIRET<br />
+                                    Retraitée du secteur agricole, élue depuis 20 ans,<br />
+                                    élue depuis 20 ans, Maire de PUISEAUX et Vice-Présidente de la CCPG,
+                                    particulièrement attachée aux solidarités et aux actions sociales sur notre territoire
                                 </em>
                             </p>
                         </div>

@@ -39,7 +39,6 @@ export default class Beaugency extends Component {
                                 <em className="lineHeight">
                                     67 ans, père de 2 enfants, Maire de Beaugency<br />
                                     Vice-Président de la CCTVL (sport et vie associative), Président du Conseil de surveillance de l’hôpital Lour Picou de Beaugency. <br/>
-                                    Président de la Communauté de Communes de la Beauce Loirétaine<br />
                                 </em>
                             </p>
                         </div>

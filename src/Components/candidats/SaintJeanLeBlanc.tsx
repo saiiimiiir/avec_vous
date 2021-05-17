@@ -19,7 +19,7 @@ export default class SaintJeanLeBlanc extends Component {
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    57ans 2 enfants, gérante de société, Adjointe au Maire de Saint-Denis-en-Val en charge de la culture, et de la communication, Vice-Présidente du Département, Présidente de la Commission
+                                    57 ans 2 enfants, gérante de société, Adjointe au Maire de Saint-Denis-en-Val en charge de la culture, et de la communication, Vice-Présidente du Département, Présidente de la Commission
                                     Développement des Territoires, Culture et Patrimoine<br />
                                 </em>
                             </p>

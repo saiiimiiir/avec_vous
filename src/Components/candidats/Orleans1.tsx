@@ -23,7 +23,7 @@ export default class Orleans1 extends Component {
                                 </em>
                                 <em className="lineHeight">
                                     Femme de terrain, sportive, humaine et proche des Orléanais, je suis profondément attachée à ma ville dans laquelle je suis investie depuis 20 ans au côté de Serge Grouard. <br/>
-                                    Engagée dans la vie locale comme Adjointe au Maire d’Orléans et Conseillère départementale sortante.e<br />
+                                    Engagée dans la vie locale comme Adjointe au Maire d’Orléans et Conseillère départementale sortante<br />
                                 </em>
                             </p>
                         </div>
