@@ -19,9 +19,8 @@ export default class SaintJeanDeLeRuelle extends Component {
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Née à Orléans, mère de famille, ingénieur de formation, 
-                                    a exercé toute sa carrière professionnelle au service de l’éducation dans le Loiret, 
-                                    élue municipale à Saint-Jean-de-la-Ruelle, très investie dans le monde associatif.<br />
+                                    48 ans, 4 enfants, ingénieur de formation au sein de l’Éducation Nationale, 
+                                    Présidente d’association, Conseillère municipale de Saint-Jean-de-la-Ruelle<br />
                                 </em>
                             </p>
                         </div>
@@ -29,7 +28,7 @@ export default class SaintJeanDeLeRuelle extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/Guillem-Leroux.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/Guillen-Leroux.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
@@ -38,13 +37,51 @@ export default class SaintJeanDeLeRuelle extends Component {
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Agé de 26 ans, diplômé de Sciences Po Paris et travaillant actuellement dans une startup française de vélos partagés. 
-                                    Conseiller municipal d'Ingré et Conseiller métropolitain d'Orléans métropole, 
-                                    engagé dans la vie citoyenne de notre territoire depuis 2017.<br />
+                                    26 ans, responsable des relations publiques d’une startup française, 
+                                    Conseiller municipal d’Ingré et métropolitain d’Orléans Métropole<br />
                                 </em>
                             </p>
                         </div>
                     </div>
+                </div>
+
+                <div className="supleant">
+
+                    <div className="fiche">
+                        <div className="image">
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/Isabel-Vieira.jpg"} />
+                        </div>
+                        <div className="text">
+                            <h3 className="titre">
+                                Remplaçante<br />
+                                Isabel vieira
+                            </h3>
+                            <p>
+                                <em className="lineHeight">
+                                    56 ans, 4 enfants, adjointe technique de recherche et de formation de l’Éducation nationale, 
+                                    engagée dans la vie associative <br />
+                                </em>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="fiche">
+                        <div className="image">
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/saintjeandelaruelle/Bernard-Houzeau.jpg"} />
+                        </div>
+                        <div className="text">
+                            <h3 className="titre">
+                                Remplaçant<br />
+                                Bernard Houzeau
+                            </h3>
+                            <p>
+                                <em className="lineHeight">
+                                    70 ans, retraité, ancien responsable des services techniques d’Ingré, ancien Conseiller municipal d’Ingré <br />
+                                </em>
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
 
