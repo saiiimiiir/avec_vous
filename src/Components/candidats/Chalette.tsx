@@ -124,7 +124,7 @@ export default class Chalette extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="https://fr.calameo.com/read/00116166414f100cd9897?authid=090IF4C2jKNE" target="_blank"><span >
+                        <a href="https://fr.calameo.com/read/001161664c5888398071f?authid=KUB4fSClKmLF" target="_blank"><span >
                             VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
                         </span></a>
                     </div>

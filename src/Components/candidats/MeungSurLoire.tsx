@@ -128,7 +128,7 @@ export default class MeungSurLoire extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="https://fr.calameo.com/read/001161664ea8b1ae9b4cc?authid=jnlYjrRNh7bR" target="_blank"><span >
+                        <a href="https://fr.calameo.com/read/00116166476da7ea72dff?authid=DY6BR3ZZAflz" target="_blank"><span >
                             VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
                         </span></a>
                     </div>
