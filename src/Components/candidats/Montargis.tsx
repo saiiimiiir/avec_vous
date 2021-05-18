@@ -113,7 +113,7 @@ export default class Montargis extends Component {
                             </g>
                         </svg>
                         <a target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
+                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Disponible)
                         </span></a>
                     </div>
                 </div>

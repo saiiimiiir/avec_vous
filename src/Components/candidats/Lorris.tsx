@@ -120,8 +120,8 @@ export default class Lorris extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
+                        <a href="https://fr.calameo.com/read/001161664186c12163005?authid=6hvMwWfEUuDJ" target="_blank"><span >
+                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
                         </span></a>
                     </div>
                 </div>

@@ -128,8 +128,8 @@ export default class Laferte extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
+                        <a href="https://fr.calameo.com/read/001161664257aafa46fa7?authid=RJibsZJ4zaml" target="_blank"><span >
+                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
                         </span></a>
                     </div>
                 </div>

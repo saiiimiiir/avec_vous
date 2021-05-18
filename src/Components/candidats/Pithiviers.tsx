@@ -109,8 +109,8 @@ export default class Pithiviers extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
+                        <a href="https://fr.calameo.com/read/0011616645376437cdef5?authid=3YkHhYL1DQ9M" target="_blank"><span >
+                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> 
                         </span></a>
                     </div>
                 </div>

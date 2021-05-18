@@ -113,8 +113,8 @@ export default class Sully extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
+                        <a href="https://fr.calameo.com/read/001161664aeae0bad4dfd?authid=tUhFXXl4yM6W" target="_blank"><span >
+                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
                         </span></a>
                     </div>
                 </div>

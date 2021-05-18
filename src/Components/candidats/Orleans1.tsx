@@ -123,8 +123,8 @@ export default class Orleans1 extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
+                        <a href="https://fr.calameo.com/read/0011616642da5b166eb1c" target="_blank"><span >
+                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
                         </span></a>
                     </div>
                 </div>

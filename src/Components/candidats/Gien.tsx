@@ -126,9 +126,14 @@ export default class Gien extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br /> (Bientôt Dsiponible)
-                        </span></a>
+                        <div className="column" style={{display : 'flex',flexDirection : 'column'}}>
+                            <a href="https://fr.calameo.com/read/00116166400db4fedc153?authid=u78kbOS3fb0V" target="_blank"><span >
+                                VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
+                            </span></a>
+                            <a href="https://fr.calameo.com/read/001161664a68e062d40c1?authid=OEsZjtcZNbeu" target="_blank"><span >
+                                VOIR ET TÉLÉCHARGER NOTRE BILAN <br />
+                            </span></a>
+                        </div>
                     </div>
                 </div>
 

@@ -3,11 +3,12 @@
 $taillerCarte : 70%;
 
 #canton{
+    margin: 10px auto 0px auto !important;
     @include pannelCenter();
     @include flexCenter(column);
     .titreCanton{
         width: 100%;
-        margin: 10px auto;
+        margin: 10px auto 0px auto;
         @include flexCenter(row);
         position: relative;
         img{

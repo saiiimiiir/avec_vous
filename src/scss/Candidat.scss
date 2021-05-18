@@ -3,7 +3,7 @@
 $lineHeight : 140%;
 
 #presentationCandidat{
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,6 @@ $lineHeight : 140%;
     }
     .contact{
         border-top: #b5a269 1px solid;
-        border-bottom: #b5a269 1px solid;
         padding: 30px;
         width: 100%;
         display: flex;
@@ -242,7 +241,6 @@ $lineHeight : 140%;
         }
         .contact{
             border-top: #b5a269 1px solid;
-            border-bottom: #b5a269 1px solid;
             padding: 30px;
             width: 100%;
             display: flex;
@@ -405,9 +403,8 @@ $lineHeight : 140%;
         }
         .contact{
             border-top: #b5a269 1px solid;
-            border-bottom: #b5a269 1px solid;
             padding: 10px;
-            width: 100%;
+            width: 90%;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
