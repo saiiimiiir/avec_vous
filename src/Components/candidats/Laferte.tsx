@@ -108,7 +108,7 @@ export default class Laferte extends Component {
                         </span>
                         <div className="socialIcon">
                             <a href="mailto:gaborit.braux.2021@gmail.com"><i className="fas fa-envelope"></i></a>
-                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/Au-d%C3%A9partement-pour-vous-%C3%A0-100-La-Fert%C3%A9-Saint-Aubin-Gaborit-Braux-103314138617515" target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

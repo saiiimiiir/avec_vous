@@ -101,7 +101,7 @@ export default class Malesherbes extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a href="#" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/Pelh%C3%A2te-Gaurat-Canton-Le-Malsherbois-110380087897134/?ref=pages_you_manage" target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

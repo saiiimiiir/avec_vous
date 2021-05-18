@@ -89,7 +89,7 @@ export default class Pithiviers extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/Duboisgaudet2021/?ref=pages_you_manage" target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

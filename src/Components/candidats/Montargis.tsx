@@ -44,21 +44,21 @@ export default class Montargis extends Component {
 
                 </div>
 
-                {/*
-                    <div className="supleant">
+                
+                <div className="supleant">
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/montargis/Cecile Adele.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/montargis/He le ne De Laporte.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçante<br />
-                                CÉCILE ADELLE
+                                Hélène De Laporte
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Olivetaine, chargée de mission, mariée, trois enfants, Première Maire-adjointe d’Olivet<br />
+                                    <br />
                                 </em>
                             </p>
                         </div>
@@ -66,23 +66,22 @@ export default class Montargis extends Component {
 
                     <div className="fiche">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL + "/candidat_canton/montargis/Thierry .Cousin.jpg"} />
+                            <img src={process.env.PUBLIC_URL + "/candidat_canton/montargis/Patrice Simon.jpg"} />
                         </div>
                         <div className="text">
                             <h3 className="titre">
                                 Remplaçant<br />
-                                THIERRY COUSIN
+                                Patrice Simon
                             </h3>
                             <p>
                                 <em className="lineHeight">
-                                    Pryvatain, aménageur foncier, marié, deux enfants, Maire de Saint-Pryvé-Saint-Mesmin<br />
+                                    <br />
                                 </em>
                             </p>
                         </div>
                     </div>
 
                 </div>
-                */}
 
 
                 <div className="contact">

@@ -106,7 +106,7 @@ export default class Gien extends Component {
                         </span>
                         <div className="socialIcon">
                             <a href="mailto:nadinemichel2021@gmail.com"><i className="fas fa-envelope"></i></a>
-                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/Nadine-Michel-2021-Canton-de-Gien-104454918499072/?ref=pages_you_manage" target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

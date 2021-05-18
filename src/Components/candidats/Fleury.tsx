@@ -117,9 +117,15 @@ export default class Fleury extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="https://fr.calameo.com/read/0011616643afa37214460?authid=2aBVGGkZlNbI" target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
-                        </span></a>
+                        
+                        <div className="column" style={{ display: 'flex', flexDirection: 'column' }}>
+                            <a href="https://fr.calameo.com/read/0011616643afa37214460?authid=2aBVGGkZlNbI" target="_blank"><span >
+                                VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
+                            </span></a>
+                            <a href="https://fr.calameo.com/read/0011616646287f1e7bd49" target="_blank"><span >
+                                MIEUX NOUS CONNAITRE <br />
+                            </span></a>
+                        </div>
                     </div>
                 </div>
 

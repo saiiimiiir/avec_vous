@@ -100,7 +100,7 @@ export default class Lorris extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/Au-d%C3%A9partement-pour-vous-%C3%A0-100-Lorris-Beaudoin-Grandpierre-103558458592977" target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

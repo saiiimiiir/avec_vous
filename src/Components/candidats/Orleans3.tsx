@@ -92,7 +92,7 @@ export default class Orleans3 extends Component {
                             NOUS CONTACTER
                         </span>
                         <div className="socialIcon">
-                            <a target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/Canton-Orl%C3%A9ans-3-Barruel-Touchard-109823864618040/?ref=pages_you_manage" target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 

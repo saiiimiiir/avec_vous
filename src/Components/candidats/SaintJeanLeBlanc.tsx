@@ -94,8 +94,7 @@ export default class SaintJeanLeBlanc extends Component {
                         </span>
                         <div className="socialIcon">
                             <a href="mailto:laurencebellais@gmail.com,malbo.gerard@gmail.com"><i className="fas fa-envelope"></i></a>
-                            {/*
-                            <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>*/}
+                            <a href="https://www.facebook.com/Canton-de-Saint-Jean-le-Blanc-Bellais-Malbo-104441655165001/?ref=pages_you_manage" target="_blank"><i className="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
 
