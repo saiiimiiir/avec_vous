@@ -111,9 +111,14 @@ export default class Olivet extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="https://fr.calameo.com/read/00116166421e73a2672fe?authid=nGfs1cksNjGM" target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
-                        </span></a>
+                        <div className="column" style={{ display: 'flex', flexDirection: 'column' }}>
+                            <a href="https://fr.calameo.com/read/001161664ad4fc32a1eb6" target="_blank"><span >
+                                VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
+                            </span></a>
+                            <a href="https://fr.calameo.com/read/00116166421e73a2672fe?authid=nGfs1cksNjGM" target="_blank"><span >
+                                VOIR ET TÉLÉCHARGER NOTRE BILAN <br />
+                            </span></a>
+                        </div>
                     </div>
                 </div>
 
