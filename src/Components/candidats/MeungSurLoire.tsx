@@ -133,7 +133,11 @@ export default class MeungSurLoire extends Component {
                         </span></a>
                     </div>
                 </div>
-
+                <div className="imageLienVimeo">
+                    <a href="https://vimeo.com/552736271" target="_blank" ><img src={process.env.PUBLIC_URL + "/candidat_canton/meung-sur-loire/imageFooter/Presentationdescandidats.jpg"} /></a>
+                    <a href="https://vimeo.com/552734756" target="_blank" ><img src={process.env.PUBLIC_URL + "/candidat_canton/meung-sur-loire/imageFooter/Notreprogrammedansleloiret.jpg"} /></a>
+                    <a href="https://vimeo.com/557090430" target="_blank" ><img src={process.env.PUBLIC_URL + "/candidat_canton/meung-sur-loire/imageFooter/ProgrammeMeung-sur-Loire.jpg"} /></a>
+                </div>
             </div>
         )
     }
