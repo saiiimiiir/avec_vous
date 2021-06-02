@@ -4,6 +4,7 @@ import Header from '../Components/Header'
 import triangle from '../asset/acceuil/traingle_titre.png'
 import Map from '../Components/Map'
 import '../scss/Home.scss'
+import baniere from '../asset/acceuil/Loiretavecvous.jpg'
 
 interface HomeState{
     idCantonSelected : number,
@@ -19,6 +20,9 @@ export default class Home extends Component<{},HomeState> {
         return (
             <div id="home">
                 <Header/>
+                <div className="baniere">
+                    <img src={baniere} alt="photo loiret avec vous" />
+                </div>
                 <div className="cantons">
                     <div className="titreCantons">
                         <img src={triangle}/>

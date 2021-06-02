@@ -3,6 +3,12 @@
 #home{
     @include pannelCenter();
     min-width: 380px;
+    .baniere{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
     .cantons{
         .titreCantons{
             margin-bottom: 0px;
