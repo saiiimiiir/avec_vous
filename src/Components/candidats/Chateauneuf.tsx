@@ -130,6 +130,9 @@ export default class Chateauneuf extends Component {
                         </span></a>
                     </div>
                 </div>
+                <div className="imageLienVimeo">
+                    <a href="https://drive.google.com/file/d/1dxqaSKTSii_zP5DGeerOzsXqhBjagM_R/view" target="_blank" ><img src={process.env.PUBLIC_URL + "/candidat_canton/chateauneuf/imageFooter/Vignette 1 Chateauneuf-sur-Loire.jpg"} /></a>
+                </div>
 
             </div>
         )

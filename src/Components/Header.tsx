@@ -199,7 +199,7 @@ export default class Header extends Component<{},{menuOpen : boolean}> {
                         </Link>
                     </div>
                     {/*-----hamburger menu pannel-----*/}
-                    <div className="textMajorite"><h2 ><span className="whiteText">majorité</span> <span className="bluetext">départementale</span> </h2></div>
+                    <div className="textMajorite"><h2 onClick={()=>window.location.href ="/" }><span className="whiteText">majorité</span> <span className="bluetext">départementale</span> </h2></div>
                 </div>
                 <div className="imageContainer">
                    
