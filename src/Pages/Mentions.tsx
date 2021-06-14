@@ -18,8 +18,8 @@ export default class Mentions extends Component {
                         Responsable de la publication : Madame Pauline Martin <br /><br />
                         ________________________________________ <br /><br />
                         <span className="yellowText">2. Développements, crédits et hébergement</span> <br /><br />
-                        Design : © La Fabrique de Marc <br />
-                        Développements : © Éditions Lebakh <br />
+                        Design : © <a href="#">La Fabrique de Marc</a> <br />
+                        Développements : © <a href="http://editions-lebakh.fr" target="_blank">Éditions Lebakh, Oriflam Medias - 45160 Olivet</a> <br />
                         Crédits photographiques : © Ludovic Letot (pour les communes de Beaugency, Châteauneuf-sur-Loire, Fleury-les-Aubrais, Gien, La Ferté-saint-Aubin, Olivet, Orléans 1-2-3-4, Saint-jean-le-Blanc et Sully-sur-Loire)
                         Hébergement des solutions : OVH <br />
                         ________________________________________ <br /><br />

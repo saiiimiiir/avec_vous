@@ -125,9 +125,12 @@ export default class Chateauneuf extends Component {
                                 </g>
                             </g>
                         </svg>
-                        <a href="https://fr.calameo.com/read/00116166414f100cd9897?authid=090IF4C2jKNE" target="_blank"><span >
-                            VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
-                        </span></a>
+                        <div className="column" style={{ display: 'flex', flexDirection: 'column' }}>
+                            <a href="https://fr.calameo.com/read/00116166414f100cd9897?authid=090IF4C2jKNE" target="_blank"><span >
+                                VOIR ET TÉLÉCHARGER NOTRE PROGRAMME <br />
+                            </span></a>
+                            <a href={process.env.PUBLIC_URL + '/candidat_canton/chateauneuf/pdf/Bilan projet transition écologique.pdf'} target="_blank" rel="noopener noreferrer"><span>Transition environnementale</span></a>
+                        </div>
                     </div>
                 </div>
                 <div className="imageLienVimeo">
